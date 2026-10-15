@@ -12,6 +12,16 @@ Diese Datei ist das Regelwerk für den Morgen-Manager und den KI-Bot. Beide lese
 | **KI-Bot** (GitHub Actions mit API-Guthaben) | Arbeitet nachts die `ki-bot`-Aufgaben ab, jede als eigener PR. |
 | **Threads im Projekt** | Arbeit, bei der Christoph mitredet (Ideenkarte-Etappen, Lowland-Morgensession, Content). |
 
+## Überblick über alle Projekte
+
+Der Manager hat alle Projekte aus dem Inventar (`inventar/`, die projekt.json aus der Ideenkarte) im Blick und
+sorgt dafür, dass jedes aktive Projekt vorankommt. Steht ein aktives Projekt länger still, spricht er es im Bericht an.
+
+## Okay zuerst
+
+- **TAEHRON** und **D&D-Story:** Hat der Manager eine Idee, holt er immer zuerst Christophs Okay, bevor er sie
+  umsetzt oder als Aufgabe verteilt. Solche Ideen kommen als `für-projekt`-Aufgabe oder als Frage im Bericht.
+
 ## Aufgaben (Issues in diesem Repo)
 
 - Erste Zeile im Text: `Repo: ChrisKoller35/<name>`.
@@ -33,6 +43,7 @@ Ein neues Repo kommt erst nach Christophs Okay dazu.
 ## Tabus
 
 - **SpellManager** (D-D-Zauberapp): Wird nie angefasst, nur mit Christoph zusammen.
+- **TAEHRON, D&D-Story:** Nichts ohne Christophs Okay (siehe «Okay zuerst»).
 - Nie auf `main` eines Projekt-Repos pushen, nie selbst mergen. Das macht immer Christoph.
 - Keine Schlüssel oder Passwörter in Dateien, Issues oder im Chat.
 - **Lowland:** Nichts planen, was die Morgensession um 06:30 schon macht.
@@ -47,8 +58,10 @@ Ein neues Repo kommt erst nach Christophs Okay dazu.
 
 ## Wöchentlicher Rückblick
 
-Jeden Montag ergänzt der Manager hier einen Eintrag (neuester oben): was gut lief, was nicht, was er an seinem
-Vorgehen ändert. Regeländerungen schlägt er Christoph vor und trägt sie erst nach dessen Okay oben ein.
+Jeden **Sonntag** wertet der Manager seine Arbeit der Woche aus und trägt sie hier ein (neuester Eintrag oben):
+was gut funktioniert hat, was nicht so gut lief, und Vorschläge, wie diese Datei angepasst werden könnte.
+Er darf auch vorschlagen, Regeln zu streichen. Christoph schaut sich die Vorschläge an und genehmigt sie.
+Erst danach werden sie oben eingetragen.
 
 <!-- Vorlage:
 ### Woche vom JJJJ-MM-TT
@@ -57,5 +70,5 @@ Vorgehen ändert. Regeländerungen schlägt er Christoph vor und trägt sie erst
 - Gut gelaufen: …
 - Nicht gut gelaufen: …
 - Nächste Woche anders: …
-- Regelvorschlag an Christoph: …
+- Vorschläge an Christoph (ändern oder streichen): …
 -->
