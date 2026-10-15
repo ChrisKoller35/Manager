@@ -23,11 +23,11 @@ jobs:
       # Nur diese Repos darf der Bot anfassen. Neue Repos erst nach Christophs Freigabe eintragen.
       ERLAUBTE_REPOS: "chriskoller35/trailmate chriskoller35/lowland chriskoller35/moneyprojekttry" # klein geschrieben
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
         with:
           token: ${{ secrets.BOT_GITHUB_TOKEN }}
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v5
         with:
           node-version: 22
 
@@ -38,20 +38,24 @@ jobs:
         run: |
           git config --global user.name "ki-bot"
           git config --global user.email "ki-bot@users.noreply.github.com"
+          erledigt=" "
           for i in $(seq 1 "$MAX_AUFGABEN"); do
             frei=$(python3 scripts/budget.py frei)
             echo "Frei heute: $frei USD"
             if awk "BEGIN{exit !($frei < 1)}"; then echo "Tagesbudget erreicht."; break; fi
 
-            issue=$(gh issue list -R "$GITHUB_REPOSITORY" --label ki-bot --state open \
-                     --json number,title,body --jq 'sort_by(.number) | .[0] // empty')
+            # REST statt «gh issue list»: die Suche hinkt nach und lieferte dasselbe Issue zweimal.
+            issue=$(gh api "repos/${GITHUB_REPOSITORY}/issues?labels=ki-bot&state=open&sort=created&direction=asc&per_page=50" \
+                     --jq "[.[] | select(.pull_request == null) | select(\" \(.number) \" | inside(\"${erledigt}\") | not)] | .[0] // empty")
             [ -z "$issue" ] && { echo "Keine offenen Aufgaben."; break; }
             nr=$(jq -r .number <<<"$issue")
+            erledigt="${erledigt}${nr} "
             titel=$(jq -r .title <<<"$issue")
             text=$(jq -r .body <<<"$issue")
-            repo=$(grep -oP '^Repo:\s*\K\S+' <<<"$text" | head -1 | tr '[:upper:]' '[:lower:]' || true)
+            repo=$(grep -oP '^Repo:\s*\K\S+' <<<"$text" | head -1 || true)
+            repo_klein=$(tr '[:upper:]' '[:lower:]' <<<"$repo")
 
-            if [ -z "$repo" ] || [[ " $ERLAUBTE_REPOS " != *" $repo "* ]]; then
+            if [ -z "$repo" ] || [[ " $ERLAUBTE_REPOS " != *" $repo_klein "* ]]; then
               gh issue comment "$nr" -R "$GITHUB_REPOSITORY" \
                 --body "Übersprungen: Ziel-Repo «$repo» ist nicht freigegeben. Bitte im Projekt klären."
               gh issue edit "$nr" -R "$GITHUB_REPOSITORY" --remove-label ki-bot --add-label für-projekt
@@ -84,7 +88,11 @@ jobs:
             python3 scripts/budget.py buchen "$kosten" "issue #${nr} ${repo}"
 
             if [ "$(git -C work rev-parse HEAD)" != "$basis" ]; then
-              git -C work push -u origin "$branch"
+              if ! git -C work push -u origin "$branch"; then
+                gh issue comment "$nr" -R "$GITHUB_REPOSITORY" --body "Push fehlgeschlagen, bitte im Projekt prüfen."
+                gh issue edit "$nr" -R "$GITHUB_REPOSITORY" --remove-label ki-bot --add-label für-projekt
+                continue
+              fi
               pr=$(cd work && gh pr create -R "$repo" --head "$branch" --title "$titel" \
                     --body "$(printf 'Aufgabe: %s#%s\n\n%s\n\nKosten: %s USD\n\nGemergt wird nur von Christoph.' \
                               "$GITHUB_REPOSITORY" "$nr" "$zusammenfassung" "$kosten")")
