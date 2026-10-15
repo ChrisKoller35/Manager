@@ -24,7 +24,7 @@ def speichern(d):
 
 def rechnen(d, heute):
     monat = heute.strftime("%Y-%m")
-    monats_usd = d["monatsbudget_chf"] * d["usd_pro_chf"]
+    monats_usd = d["monatsbudget_usd"]
     diesen_monat = [a for a in d["ausgaben"] if a["datum"].startswith(monat)]
     vor_heute = sum(a["usd"] for a in diesen_monat if a["datum"] < heute.isoformat())
     heute_usd = sum(a["usd"] for a in diesen_monat if a["datum"] == heute.isoformat())

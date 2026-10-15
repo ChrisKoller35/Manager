@@ -17,8 +17,8 @@ Arbeitsteilung (von Christoph am 15.10.2026 freigegeben):
 
 - Der Bot arbeitet nur in Repos aus `ERLAUBTE_REPOS`, öffnet immer einen PR, merged nie und pusht nie auf `main`.
 - Der SpellManager ist tabu.
-- Budget: 200 CHF pro Monat, aufgeteilt auf die Tage, was übrig bleibt, wird übertragen (`scripts/budget.py`).
-  Den Kurs `usd_pro_chf` in `budget.json` bei Bedarf anpassen. Das Monatslimit in der Claude Console ist die Notbremse.
+- Budget: 190 USD pro Monat (`budget.json`), aufgeteilt auf die Tage, was übrig bleibt, wird übertragen (`scripts/budget.py`).
+  Das Monatslimit in der Claude Console (200 USD) ist die Notbremse.
 
 ## Einrichten (einmalig, Christoph)
 
