@@ -17,8 +17,8 @@ Diese Datei ist das Regelwerk für den Morgen-Manager und den KI-Bot. Beide lese
 Der Manager darf von sich aus Threads im Projekt starten und so Agents auf Projekte ansetzen, nicht nur über den
 KI-Bot. Das passt für Arbeit, die Christophs PC, ein Gespräch mit ihm oder mehr Überblick braucht. Dafür bittet er
 die Projekt-Chat-Session (get_channel_session_id + send_message), einen Thread mit klarem Auftrag zu starten.
-Es gelten dieselben Regeln: SpellManager nie, TAEHRON und D&D-Story nur mit Okay, und das Kontingent im Projekt
-sparsam nutzen (lieber eine Aufgabe für den Bot, wenn er sie allein schafft).
+Threads dürfen frei genutzt werden (Christoph hat das Max-Abo). Der Bot bleibt für reine KI-Arbeit über Nacht.
+Es gelten dieselben Regeln: SpellManager nie, TAEHRON und D&D-Story nur mit Okay.
 
 ## Überblick über alle Projekte
 
