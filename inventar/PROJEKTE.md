@@ -16,7 +16,7 @@ Markierungen und Status von Christoph am 15.10. bestätigt bzw. korrigiert.
 | Rally-Kamera-Controller | tool | pausiert | gemischt | 2026-03-17 | Erster Prototyp (app.py), ein Commit | `Rallykamera` |
 | Inventory Zero-One (Artefakte) | web | pausiert | gemischt | 2026-02-11 | Website mit Artefakten und QR-Codes, Artefakt #004 zuletzt | `Inventory-Zero-One` |
 | QR-Code-Generator (KBZSG) | tool | fertig | mehr-ki | 2026-02-02 | Einfache Web-Seite, seit Feb 2026 unverändert (vermutet fertig) | `Qr Code Generator` |
-| YouTube-Geschichten | story | aktiv | mehr-ki | 2026-10-08 | Blatt B17 in Buch- und Erzählfassung, zuletzt 8.10. | `Youtub Geschichte 01` |
+| YouTube-Geschichten (Hörbuch-Videos) | story | aktiv | mehr-ki | 2026-10-15 | Zu gross geworden, neu geplant: B17 fertigstellen, dann kapitelweise als Video hochladen | `Youtub Geschichte 01` |
 | Lowland (Projekt «Third person nur mit code») | game | aktiv | mehr-ki | 2026-10-15 | Claude baut jeden Morgen um 06:30 rund 45 Minuten, Vorschlag am Abend um 21:30 (Testwoche bis 17.10.) | `Lowland Third Person Game` |
 | Ideenkarte | tool | aktiv | mehr-ki | 2026-10-14 | Etappe 1 fertig (Ordnerbaum, Markdown-Anzeige, mehrere Projekte) | `Ideenkarte` |
 | Manager-Workflow (Manager + KI-Bot) | tool | aktiv | mehr-ki | 2026-10-15 | Bot geschrieben, wartet auf die Secrets im Repo Manager | `Manager` |

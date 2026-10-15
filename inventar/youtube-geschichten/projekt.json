@@ -1,30 +1,47 @@
 {
   "schema": "ideenkarte-projekt/1",
   "id": "youtube-geschichten",
-  "name": "YouTube-Geschichten",
+  "name": "YouTube-Geschichten (Hörbuch-Videos)",
   "typ": "story",
-  "beschreibung": "Geschichten für YouTube.",
+  "beschreibung": "Geschichten als Hörbuch-Videos mit Bild und Ton auf YouTube.",
   "status": "aktiv",
-  "stand": "Blatt B17 in Buch- und Erzählfassung, zuletzt 8.10.",
+  "stand": "Zu gross geworden, neu geplant: B17 fertigstellen, dann kapitelweise als Video hochladen",
   "markierung": "mehr-ki",
   "markierungGeprueft": true,
-  "zuletztGeaendert": "2026-10-08",
+  "zuletztGeaendert": "2026-10-15",
   "ordner": {
     "haupt": "C:\\Users\\chris\\Documents\\Youtub Geschichte 01",
     "weitere": []
   },
-  "regeln": [],
+  "regeln": [
+    "Ab der nächsten Geschichte: immer nur ein Kapitel schreiben, fertig machen, als Video hochladen, erst dann das nächste",
+    "Keine Riesendateien: ein Kapitel = eine Datei = ein Video"
+  ],
   "repo": "https://github.com/ChrisKoller35/youtub-geschichten",
   "technik": [
     "Word"
   ],
   "start": null,
-  "einstiegsdateien": [],
+  "einstiegsdateien": [
+    "PLAN.md"
+  ],
   "struktur": [],
   "naechsteAufgaben": [
     {
-      "text": "Erzählfassung B17 fertigstellen",
+      "text": "Geschichte B17 fertigstellen",
       "wer": "ki"
+    },
+    {
+      "text": "B17 in Kapitel aufteilen, je eine Datei",
+      "wer": "ki"
+    },
+    {
+      "text": "Ablauf für ein Kapitel-Video festlegen (Bild, Stimme, Schnitt)",
+      "wer": "ki"
+    },
+    {
+      "text": "Erstes Kapitel-Video prüfen und hochladen",
+      "wer": "ich"
     }
   ],
   "aktualisiert": "2026-10-15",
