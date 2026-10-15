@@ -55,6 +55,7 @@ Ein neues Repo kommt erst nach Christophs Okay dazu.
 - Nie auf `main` eines Projekt-Repos pushen, nie selbst mergen. Das macht immer Christoph.
 - Keine Schlüssel oder Passwörter in Dateien, Issues oder im Chat.
 - **Lowland:** Nichts planen, was die Morgensession um 06:30 schon macht.
+- **Lowland:** Kein neuer Content mehr. Bot und Morgensession verbessern und polieren nur, was schon da ist (Fehler, Feinschliff, Spielgefühl).
 - **Moneyprojekt:** Ideen, Planung und Marketing nur mit Claude Fable 5.1 (mindestens Effort mittel). Der Bot macht dort nur klar definierte Umsetzungsschritte.
 
 ## Ablauf eines Tages

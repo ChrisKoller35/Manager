@@ -5,7 +5,7 @@
   "typ": "game",
   "beschreibung": "Third-Person-Fantasy-Game, aufgebaut auf der Vorlage Magic City.",
   "status": "aktiv",
-  "stand": "Claude baut jeden Morgen um 06:30 rund 45 Minuten, Vorschlag am Abend um 21:30 (Testwoche bis 17.10.)",
+  "stand": "Polier-Phase: kein neuer Content, nur bestehenden Content verbessern und polieren. Claude arbeitet jeden Morgen um 06:30 rund 45 Minuten, Vorschlag am Abend um 21:30 (Testwoche bis 17.10.)",
   "markierung": "mehr-ki",
   "markierungGeprueft": true,
   "zuletztGeaendert": "2026-10-15",
@@ -16,6 +16,7 @@
     ]
   },
   "regeln": [
+    "Kein neuer Content mehr: nur Bestehendes verbessern und polieren (Christoph, 15.10.2026)",
     "Christoph merged PRs selbst",
     "PC-Kopie nur mit seinem Ok anfassen",
     "KI-Bot nachts erlaubt, nicht im selben Bereich wie die Morgen-Session"
@@ -29,6 +30,10 @@
   ],
   "struktur": [],
   "naechsteAufgaben": [
+    {
+      "text": "Bestehenden Content durchgehen und eine Polier-Liste machen (Fehler, Feinschliff, Lesbarkeit, Spielgefühl), kein neuer Content",
+      "wer": "ki"
+    },
     {
       "text": "Am 17.10. Testwoche auswerten und entscheiden, ob der Morgen-Rhythmus weiterläuft",
       "wer": "ich"
