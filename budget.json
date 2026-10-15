@@ -2,5 +2,16 @@
   "monatsbudget_usd": 190,
   "hinweis": "Console-Limit 200 USD; 10 USD Puffer, weil ein laufender Auftrag das Tagesbudget leicht überschreiten kann.",
   "reserve_usd": 0.5,
-  "ausgaben": []
+  "ausgaben": [
+    {
+      "datum": "2026-10-15",
+      "usd": 0.1925,
+      "notiz": "issue #1 chriskoller35/trailmate"
+    },
+    {
+      "datum": "2026-10-15",
+      "usd": 0.1628,
+      "notiz": "issue #1 chriskoller35/trailmate"
+    }
+  ]
 }
