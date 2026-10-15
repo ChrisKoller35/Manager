@@ -1,0 +1,40 @@
+{
+  "schema": "ideenkarte-projekt/1",
+  "id": "moneyprojekt",
+  "name": "Moneyprojekt (Geld mit digitalen Produkten)",
+  "typ": "business",
+  "beschreibung": "Online Geld verdienen, nur mit digitalen Produkten, die Claude selbst herstellen kann. Zwei Projekte laufen parallel, für jedes schlägt Claude 5 Ideen vor und Christoph wählt aus.",
+  "status": "idee",
+  "stand": "Nur die Projektidee ist notiert, die Auswahl der Projekte steht noch aus",
+  "markierung": "mehr-ki",
+  "markierungGeprueft": true,
+  "zuletztGeaendert": "2026-10-15",
+  "ordner": {
+    "haupt": "C:\\Users\\chris\\Documents\\Moneyprojekttry",
+    "weitere": []
+  },
+  "regeln": [
+    "Planung und Marketing nur mit Claude Fable 5.1, mindestens Effort mittel",
+    "Umsetzung einzelner Schritte darf an Opus 5.5 gehen",
+    "Christoph entscheidet, welche Idee umgesetzt wird"
+  ],
+  "repo": "https://github.com/ChrisKoller35/MoneyProjekttry",
+  "technik": [],
+  "start": null,
+  "einstiegsdateien": [
+    "Dokument um den ordner zu erstellen.txt"
+  ],
+  "struktur": [],
+  "naechsteAufgaben": [
+    {
+      "text": "Je 5 Ideen für die 2 Projekte vorschlagen",
+      "wer": "ki"
+    },
+    {
+      "text": "Pro Projekt eine Idee auswählen",
+      "wer": "ich"
+    }
+  ],
+  "aktualisiert": "2026-10-15",
+  "aktualisiertVon": "claude"
+}

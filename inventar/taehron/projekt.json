@@ -1,0 +1,68 @@
+{
+  "schema": "ideenkarte-projekt/1",
+  "id": "taehron",
+  "name": "TAEHRON (Zauber-App)",
+  "typ": "app",
+  "beschreibung": "Zauber-App für Rollenspiele (5e, nur SRD), 12 Klassen-Apps plus Homepage, dazu Instagram/TikTok/YouTube.",
+  "status": "aktiv",
+  "stand": "Live auf taehron.netlify.app, offene PRs, Social-Media-Content läuft",
+  "markierung": "mehr-ich",
+  "markierungGeprueft": true,
+  "zuletztGeaendert": "2026-10-14",
+  "ordner": {
+    "haupt": "C:\\Users\\chris\\Documents\\Dungeon und Dragon App\\D-D-App-Alles-Zusammen",
+    "weitere": [
+      "C:\\Users\\chris\\Documents\\TAEHRON",
+      "C:\\Users\\chris\\Documents\\Claude Infos",
+      "C:\\Users\\chris\\Documents\\Dungeon und Dragon App"
+    ]
+  },
+  "regeln": [],
+  "repo": "https://github.com/ChrisKoller35/D-D-App-Alles-Zusammen",
+  "technik": [
+    "React 18",
+    "Vite 6",
+    "Netlify",
+    "localStorage"
+  ],
+  "start": "start-dev.bat",
+  "einstiegsdateien": [
+    "CLAUDE.md",
+    "..\\..\\Claude Infos\\TAEHRON-Projektstand.md",
+    "..\\..\\TAEHRON\\CONTENT-LOGBUCH.md"
+  ],
+  "struktur": [
+    {
+      "ordner": "src/",
+      "inhalt": "App-Code"
+    },
+    {
+      "ordner": "landing-page/",
+      "inhalt": "Homepage"
+    },
+    {
+      "ordner": "TAEHRON/Instagram, TikTok, YouTube",
+      "inhalt": "Social-Content"
+    },
+    {
+      "ordner": "TAEHRON/App",
+      "inhalt": "Bezahlmodell-Plan, Patches"
+    }
+  ],
+  "naechsteAufgaben": [
+    {
+      "text": "Offene Pull Requests prüfen und mergen",
+      "wer": "ich"
+    },
+    {
+      "text": "Nächsten Social-Beitrag erstellen (Logbuch beachten)",
+      "wer": "ki"
+    },
+    {
+      "text": "Tests und automatischen Build einrichten",
+      "wer": "ki"
+    }
+  ],
+  "aktualisiert": "2026-10-15",
+  "aktualisiertVon": "claude"
+}

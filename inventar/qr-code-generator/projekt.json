@@ -1,0 +1,27 @@
+{
+  "schema": "ideenkarte-projekt/1",
+  "id": "qr-code-generator",
+  "name": "QR-Code-Generator (KBZSG)",
+  "typ": "tool",
+  "beschreibung": "QR-Code-Generator für die Schule.",
+  "status": "fertig",
+  "stand": "Einfache Web-Seite, seit Feb 2026 unverändert (vermutet fertig)",
+  "markierung": "mehr-ki",
+  "markierungGeprueft": true,
+  "zuletztGeaendert": "2026-02-02",
+  "ordner": {
+    "haupt": "C:\\Users\\chris\\Documents\\Qr Code Generator",
+    "weitere": []
+  },
+  "regeln": [],
+  "repo": "https://github.com/ChrisKoller35/kbzsg-Qr-Code-Generator",
+  "technik": [
+    "HTML/CSS/JS"
+  ],
+  "start": null,
+  "einstiegsdateien": [],
+  "struktur": [],
+  "naechsteAufgaben": [],
+  "aktualisiert": "2026-10-15",
+  "aktualisiertVon": "claude"
+}

@@ -1,0 +1,58 @@
+{
+  "schema": "ideenkarte-projekt/1",
+  "id": "cashfish",
+  "name": "Cashfish (Fisch-Game)",
+  "typ": "game",
+  "beschreibung": "Browser-Game mit Dungeon-Design, Sprites per Google-API generiert.",
+  "status": "pausiert",
+  "stand": "Läuft lokal über Vite, KI-Sprite-Workflow vorhanden, seit Feb 2026 ruhig",
+  "markierung": "mehr-ki",
+  "markierungGeprueft": true,
+  "zuletztGeaendert": "2026-02-21",
+  "ordner": {
+    "haupt": "C:\\Users\\chris\\Documents\\Mein Eigenes Game Version 06.01.26\\Cashfish2-main",
+    "weitere": [
+      "C:\\Users\\chris\\Documents\\cashfisch",
+      "C:\\Users\\chris\\Documents\\Mein Game",
+      "C:\\Users\\chris\\Documents\\Engin bauen"
+    ]
+  },
+  "regeln": [],
+  "repo": "https://github.com/ChrisKoller35/Neuer-Ordner--2-",
+  "technik": [
+    "JavaScript",
+    "Vite",
+    "Netlify"
+  ],
+  "start": "start-game.ps1",
+  "einstiegsdateien": [
+    "PROJEKTSTATUS_AKTUELL.md",
+    "..\\..\\fischgame_gesamtplan_v_4.md"
+  ],
+  "struktur": [
+    {
+      "ordner": "DUNGEON_*.md",
+      "inhalt": "Dungeon-Design und Gegner"
+    },
+    {
+      "ordner": "src/",
+      "inhalt": "Spielcode"
+    },
+    {
+      "ordner": "tools/",
+      "inhalt": "Sprite-Generator"
+    }
+  ],
+  "naechsteAufgaben": [
+    {
+      "text": "Entscheiden, ob weitergeführt wird",
+      "wer": "ich"
+    },
+    {
+      "text": "Sprite-Import vereinfachen",
+      "wer": "ki"
+    }
+  ],
+  "aktualisiert": "2026-10-15",
+  "aktualisiertVon": "claude"
+}

@@ -1,0 +1,105 @@
+# KI-Bot: arbeitet offene Issues mit Label «ki-bot» ab, jedes als eigener PR im Ziel-Repo.
+# Ein Issue nennt sein Ziel-Repo in einer Zeile «Repo: ChrisKoller35/<name>».
+# Regeln (von Christoph am 15.10.2026 freigegeben): nur Repos aus ERLAUBTE_REPOS, immer PR,
+# nie mergen, nie auf main pushen, SpellManager nie, Tagesbudget mit Übertrag (scripts/budget.py).
+name: KI-Bot
+
+on:
+  schedule:
+    - cron: "0 21 * * *" # ca. 23:00 Schweizer Zeit (Sommerzeit)
+    - cron: "0 1 * * *" # ca. 03:00
+  workflow_dispatch:
+
+concurrency: ki-bot
+
+jobs:
+  arbeiten:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    env:
+      GH_TOKEN: ${{ secrets.BOT_GITHUB_TOKEN }}
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      MAX_AUFGABEN: 3
+      # Nur diese Repos darf der Bot anfassen. Neue Repos erst nach Christophs Freigabe eintragen.
+      ERLAUBTE_REPOS: "chriskoller35/trailmate chriskoller35/lowland chriskoller35/moneyprojekttry" # klein geschrieben
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.BOT_GITHUB_TOKEN }}
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Claude Code installieren
+        run: npm install -g @anthropic-ai/claude-code
+
+      - name: Aufgaben abarbeiten
+        run: |
+          git config --global user.name "ki-bot"
+          git config --global user.email "ki-bot@users.noreply.github.com"
+          for i in $(seq 1 "$MAX_AUFGABEN"); do
+            frei=$(python3 scripts/budget.py frei)
+            echo "Frei heute: $frei USD"
+            if awk "BEGIN{exit !($frei < 1)}"; then echo "Tagesbudget erreicht."; break; fi
+
+            issue=$(gh issue list -R "$GITHUB_REPOSITORY" --label ki-bot --state open \
+                     --json number,title,body --jq 'sort_by(.number) | .[0] // empty')
+            [ -z "$issue" ] && { echo "Keine offenen Aufgaben."; break; }
+            nr=$(jq -r .number <<<"$issue")
+            titel=$(jq -r .title <<<"$issue")
+            text=$(jq -r .body <<<"$issue")
+            repo=$(grep -oP '^Repo:\s*\K\S+' <<<"$text" | head -1 | tr '[:upper:]' '[:lower:]' || true)
+
+            if [ -z "$repo" ] || [[ " $ERLAUBTE_REPOS " != *" $repo "* ]]; then
+              gh issue comment "$nr" -R "$GITHUB_REPOSITORY" \
+                --body "Übersprungen: Ziel-Repo «$repo» ist nicht freigegeben. Bitte im Projekt klären."
+              gh issue edit "$nr" -R "$GITHUB_REPOSITORY" --remove-label ki-bot --add-label für-projekt
+              continue
+            fi
+
+            rm -rf work
+            git clone "https://x-access-token:${GH_TOKEN}@github.com/${repo}.git" work
+            branch="ki-bot/issue-${nr}"
+            git -C work checkout -b "$branch"
+            basis=$(git -C work rev-parse HEAD)
+
+            printf '%s\n' \
+              "Du arbeitest an genau dieser Aufgabe im Repo ${repo}:" \
+              "Titel: ${titel}" "" "${text}" "" \
+              "Regeln: Lies zuerst CLAUDE.md bzw. README. Bleib bei dieser Aufgabe." \
+              "Führe vorhandene Tests und Checks aus. Committe auf dem aktuellen Branch, pushe nicht." \
+              "Schreib am Ende eine kurze deutsche Zusammenfassung: was gemacht, was geprüft, was offen ist." \
+              > auftrag.txt
+
+            # Eingeschränkte Werkzeuge statt freier Shell: Dateien bearbeiten, npm-Skripte, git add/commit.
+            (cd work && claude -p "$(cat ../auftrag.txt)" --output-format json --max-turns 60 \
+                --model claude-opus-5-5 --permission-mode acceptEdits \
+                --allowedTools "Read" "Edit" "Write" "Glob" "Grep" \
+                  "Bash(npm install)" "Bash(npm ci)" "Bash(npm test:*)" "Bash(npm run:*)" "Bash(npx tsc:*)" \
+                  "Bash(git status)" "Bash(git diff:*)" "Bash(git add:*)" "Bash(git commit:*)" "Bash(git log:*)" \
+            ) > ergebnis.json || true
+            kosten=$(jq -r '.total_cost_usd // 0' ergebnis.json 2>/dev/null || echo 0)
+            zusammenfassung=$(jq -r '.result // "Keine Zusammenfassung."' ergebnis.json 2>/dev/null || echo "Lauf fehlgeschlagen.")
+            python3 scripts/budget.py buchen "$kosten" "issue #${nr} ${repo}"
+
+            if [ "$(git -C work rev-parse HEAD)" != "$basis" ]; then
+              git -C work push -u origin "$branch"
+              pr=$(cd work && gh pr create -R "$repo" --head "$branch" --title "$titel" \
+                    --body "$(printf 'Aufgabe: %s#%s\n\n%s\n\nKosten: %s USD\n\nGemergt wird nur von Christoph.' \
+                              "$GITHUB_REPOSITORY" "$nr" "$zusammenfassung" "$kosten")")
+              gh issue comment "$nr" -R "$GITHUB_REPOSITORY" --body "PR: $pr (Kosten ${kosten} USD)"
+              gh issue edit "$nr" -R "$GITHUB_REPOSITORY" --remove-label ki-bot --add-label in-review
+            else
+              gh issue comment "$nr" -R "$GITHUB_REPOSITORY" \
+                --body "$(printf 'Keine Änderungen entstanden (Kosten %s USD).\n\n%s' "$kosten" "$zusammenfassung")"
+              gh issue edit "$nr" -R "$GITHUB_REPOSITORY" --remove-label ki-bot --add-label für-projekt
+            fi
+          done
+          python3 scripts/budget.py stand
+
+      - name: Budget sichern
+        if: always()
+        run: |
+          git add budget.json
+          git diff --cached --quiet || { git commit -m "Budget nachführen"; git push; }

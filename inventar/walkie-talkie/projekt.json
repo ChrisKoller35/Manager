@@ -1,0 +1,41 @@
+{
+  "schema": "ideenkarte-projekt/1",
+  "id": "walkie-talkie",
+  "name": "Walkie-Talkie App",
+  "typ": "app",
+  "beschreibung": "Funk-App mit Räumen, Anmeldung und Sprachausgabe.",
+  "status": "archiviert",
+  "stand": "Wird nicht weitergeführt. Client und Server in Python, Demo-Video und Homepage vorhanden",
+  "markierung": "mehr-ki",
+  "markierungGeprueft": true,
+  "zuletztGeaendert": "2026-04-16",
+  "ordner": {
+    "haupt": "C:\\Users\\chris\\Documents\\WalkiTalki App",
+    "weitere": []
+  },
+  "regeln": [],
+  "repo": "https://github.com/ChrisKoller35/Walki-Talki-App",
+  "technik": [
+    "Python",
+    "Relay-Server"
+  ],
+  "start": null,
+  "einstiegsdateien": [],
+  "struktur": [
+    {
+      "ordner": "client/",
+      "inhalt": "Desktop-Client"
+    },
+    {
+      "ordner": "server/",
+      "inhalt": "Relay-Server"
+    },
+    {
+      "ordner": "docs/",
+      "inhalt": "Homepage"
+    }
+  ],
+  "naechsteAufgaben": [],
+  "aktualisiert": "2026-10-15",
+  "aktualisiertVon": "claude"
+}

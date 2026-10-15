@@ -1,0 +1,39 @@
+{
+  "schema": "ideenkarte-projekt/1",
+  "id": "lowland",
+  "name": "Lowland (Projekt «Third person nur mit code»)",
+  "typ": "game",
+  "beschreibung": "Third-Person-Fantasy-Game, aufgebaut auf der Vorlage Magic City.",
+  "status": "aktiv",
+  "stand": "Claude baut jeden Morgen um 06:30 rund 45 Minuten, Vorschlag am Abend um 21:30 (Testwoche bis 17.10.)",
+  "markierung": "mehr-ki",
+  "markierungGeprueft": true,
+  "zuletztGeaendert": "2026-10-15",
+  "ordner": {
+    "haupt": "C:\\Users\\chris\\Documents\\Lowland Third Person Game",
+    "weitere": [
+      "C:\\Users\\chris\\Documents\\Aufbauspiel"
+    ]
+  },
+  "regeln": [
+    "Christoph merged PRs selbst",
+    "PC-Kopie nur mit seinem Ok anfassen",
+    "KI-Bot nachts erlaubt, nicht im selben Bereich wie die Morgen-Session"
+  ],
+  "repo": "https://github.com/ChrisKoller35/lowland",
+  "technik": [],
+  "start": null,
+  "einstiegsdateien": [
+    "docs/PLAN.md",
+    "docs/FEEDBACK.md"
+  ],
+  "struktur": [],
+  "naechsteAufgaben": [
+    {
+      "text": "Am 17.10. Testwoche auswerten und entscheiden, ob der Morgen-Rhythmus weiterläuft",
+      "wer": "ich"
+    }
+  ],
+  "aktualisiert": "2026-10-15",
+  "aktualisiertVon": "claude"
+}

@@ -1,0 +1,32 @@
+{
+  "schema": "ideenkarte-projekt/1",
+  "id": "youtube-geschichten",
+  "name": "YouTube-Geschichten",
+  "typ": "story",
+  "beschreibung": "Geschichten für YouTube.",
+  "status": "aktiv",
+  "stand": "Blatt B17 in Buch- und Erzählfassung, zuletzt 8.10.",
+  "markierung": "mehr-ki",
+  "markierungGeprueft": true,
+  "zuletztGeaendert": "2026-10-08",
+  "ordner": {
+    "haupt": "C:\\Users\\chris\\Documents\\Youtub Geschichte 01",
+    "weitere": []
+  },
+  "regeln": [],
+  "repo": "https://github.com/ChrisKoller35/youtub-geschichten",
+  "technik": [
+    "Word"
+  ],
+  "start": null,
+  "einstiegsdateien": [],
+  "struktur": [],
+  "naechsteAufgaben": [
+    {
+      "text": "Erzählfassung B17 fertigstellen",
+      "wer": "ki"
+    }
+  ],
+  "aktualisiert": "2026-10-15",
+  "aktualisiertVon": "claude"
+}

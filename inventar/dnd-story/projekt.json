@@ -1,0 +1,77 @@
+{
+  "schema": "ideenkarte-projekt/1",
+  "id": "dnd-story",
+  "name": "D&D-Story: Der Spiegeldämon",
+  "typ": "story",
+  "beschreibung": "Kampagnen-Projekt für Dungeons & Dragons, über GitHub zwischen PCs synchronisiert.",
+  "status": "aktiv",
+  "stand": "Kampagne mit fertiger Ordnerstruktur, wird laufend ergänzt",
+  "markierung": "mehr-ich",
+  "markierungGeprueft": true,
+  "zuletztGeaendert": "2026-10-13",
+  "ordner": {
+    "haupt": "C:\\Users\\chris\\Documents\\D-D-Story",
+    "weitere": []
+  },
+  "regeln": [],
+  "repo": "https://github.com/ChrisKoller35/D-D-Story",
+  "technik": [
+    "Markdown",
+    "GitHub-Sync"
+  ],
+  "start": null,
+  "einstiegsdateien": [
+    "README.md",
+    "Story/Story-Gesamt.md"
+  ],
+  "struktur": [
+    {
+      "ordner": "Story/",
+      "inhalt": "Gesamtstory, Erzaehler- und Spieler-Teil"
+    },
+    {
+      "ordner": "NPC/",
+      "inhalt": "pro NPC: Stats, Faehigkeiten"
+    },
+    {
+      "ordner": "Feinde/",
+      "inhalt": "pro Feind: Stats, Faehigkeiten, Ultimative-Faehigkeiten"
+    },
+    {
+      "ordner": "Dungeon/",
+      "inhalt": "Grotte der Gezeiten mit eigenen Feinden"
+    },
+    {
+      "ordner": "Stadt/",
+      "inhalt": "Sommerhall, Salzmund mit Orten"
+    },
+    {
+      "ordner": "Quests/",
+      "inhalt": "Haupt- und Nebenquests"
+    },
+    {
+      "ordner": "Belohnungen/",
+      "inhalt": "Gegenstaende mit Effekten"
+    },
+    {
+      "ordner": "Sessions/",
+      "inhalt": "Protokolle der Spielabende"
+    },
+    {
+      "ordner": "Ideen/",
+      "inhalt": "lose Ideen"
+    }
+  ],
+  "naechsteAufgaben": [
+    {
+      "text": "Nächste Session vorbereiten",
+      "wer": "ich"
+    },
+    {
+      "text": "Lose Ideen in die Ordner einsortieren",
+      "wer": "ki"
+    }
+  ],
+  "aktualisiert": "2026-10-15",
+  "aktualisiertVon": "claude"
+}

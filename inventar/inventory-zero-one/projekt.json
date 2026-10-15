@@ -1,0 +1,30 @@
+{
+  "schema": "ideenkarte-projekt/1",
+  "id": "inventory-zero-one",
+  "name": "Inventory Zero-One (Artefakte)",
+  "typ": "web",
+  "beschreibung": "Sammlung mystischer Artefakte, jedes mit QR-Code und eigener Seite.",
+  "status": "pausiert",
+  "stand": "Website mit Artefakten und QR-Codes, Artefakt #004 zuletzt",
+  "markierung": "gemischt",
+  "markierungGeprueft": true,
+  "zuletztGeaendert": "2026-02-11",
+  "ordner": {
+    "haupt": "C:\\Users\\chris\\Documents\\Inventory-Zero-One",
+    "weitere": [
+      "C:\\Users\\chris\\Documents\\Siegel von Flamront",
+      "C:\\Users\\chris\\Documents\\Qr Code 001 Homepage"
+    ]
+  },
+  "regeln": [],
+  "repo": "https://github.com/ChrisKoller35/Inventory-Zero-One",
+  "technik": [
+    "HTML/CSS/JS"
+  ],
+  "start": null,
+  "einstiegsdateien": [],
+  "struktur": [],
+  "naechsteAufgaben": [],
+  "aktualisiert": "2026-10-15",
+  "aktualisiertVon": "claude"
+}

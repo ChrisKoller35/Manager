@@ -1,0 +1,42 @@
+{
+  "schema": "ideenkarte-projekt/1",
+  "id": "manager-workflow",
+  "name": "Manager-Workflow (Manager + KI-Bot)",
+  "typ": "tool",
+  "beschreibung": "Manager plant jeden Morgen im Claude-Projekt, der KI-Bot (GitHub Actions, API-Guthaben) arbeitet nachts Aufgaben als PRs ab.",
+  "status": "aktiv",
+  "stand": "Bot geschrieben, wartet auf die Secrets im Repo Manager",
+  "markierung": "mehr-ki",
+  "markierungGeprueft": true,
+  "zuletztGeaendert": "2026-10-15",
+  "ordner": {
+    "haupt": "C:\\Users\\chris\\Documents\\Manager",
+    "weitere": [
+      "C:\\Users\\chris\\Documents\\Claude manager"
+    ]
+  },
+  "regeln": [
+    "Budget 200 CHF pro Monat, als Tagesbudget mit Übertrag"
+  ],
+  "repo": "https://github.com/ChrisKoller35/Manager",
+  "technik": [
+    "GitHub Actions",
+    "Claude Code",
+    "Python"
+  ],
+  "start": null,
+  "einstiegsdateien": [],
+  "struktur": [],
+  "naechsteAufgaben": [
+    {
+      "text": "Secrets ANTHROPIC_API_KEY und BOT_GITHUB_TOKEN anlegen",
+      "wer": "ich"
+    },
+    {
+      "text": "Testlauf und Morgen-Manager einrichten",
+      "wer": "ki"
+    }
+  ],
+  "aktualisiert": "2026-10-15",
+  "aktualisiertVon": "claude"
+}

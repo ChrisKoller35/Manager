@@ -1,0 +1,32 @@
+{
+  "schema": "ideenkarte-projekt/1",
+  "id": "spellmanager",
+  "name": "SpellManager (persönliche D&D-App)",
+  "typ": "app",
+  "beschreibung": "Persönliche Zauber- und Charakter-App nur für Christoph.",
+  "status": "aktiv",
+  "stand": "Christophs persönliche D&D-App, sehr wichtig. Lokaler Ordner Stand März 2026, GitHub zuletzt Sept 2026",
+  "markierung": "mehr-ich",
+  "markierungGeprueft": true,
+  "zuletztGeaendert": "2026-03-10",
+  "ordner": {
+    "haupt": "C:\\Users\\chris\\Documents\\SpellManager",
+    "weitere": []
+  },
+  "regeln": [
+    "Sehr wichtig: Änderungen nur, wenn Christoph dabei ist",
+    "Kein Bot und keine Routine arbeitet hier selbständig"
+  ],
+  "repo": "https://github.com/ChrisKoller35/D-D-Zauberapp",
+  "technik": [
+    "React 18",
+    "Vite 6",
+    "Netlify"
+  ],
+  "start": "start-dev.bat",
+  "einstiegsdateien": [],
+  "struktur": [],
+  "naechsteAufgaben": [],
+  "aktualisiert": "2026-10-15",
+  "aktualisiertVon": "claude"
+}

@@ -1,0 +1,35 @@
+{
+  "schema": "ideenkarte-projekt/1",
+  "id": "rallykamera",
+  "name": "Rally-Kamera-Controller",
+  "typ": "tool",
+  "beschreibung": "Windows-Tool, das Logitech-Rally-PTZ-Kameras in Schulzimmern per Klick stoppt.",
+  "status": "pausiert",
+  "stand": "Erster Prototyp (app.py), ein Commit",
+  "markierung": "gemischt",
+  "markierungGeprueft": true,
+  "zuletztGeaendert": "2026-03-17",
+  "ordner": {
+    "haupt": "C:\\Users\\chris\\Documents\\Rallykamera",
+    "weitere": []
+  },
+  "regeln": [],
+  "repo": "https://github.com/ChrisKoller35/RallyKamera",
+  "technik": [
+    "Python",
+    "UVC"
+  ],
+  "start": null,
+  "einstiegsdateien": [
+    "Rally_Kamera_Controller_Projektbeschreibung.md"
+  ],
+  "struktur": [],
+  "naechsteAufgaben": [
+    {
+      "text": "Prototyp an einer echten Kamera testen",
+      "wer": "ich"
+    }
+  ],
+  "aktualisiert": "2026-10-15",
+  "aktualisiertVon": "claude"
+}

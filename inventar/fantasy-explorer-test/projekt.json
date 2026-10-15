@@ -1,0 +1,37 @@
+{
+  "schema": "ideenkarte-projekt/1",
+  "id": "fantasy-explorer-test",
+  "name": "Fantasy Explorer Engine-Vergleich",
+  "typ": "experiment",
+  "beschreibung": "Vergleichstest: C++/raylib, Babylon.js, Three.js und Godot für ein späteres grosses Spiel.",
+  "status": "archiviert",
+  "stand": "Abgeschlossen, wird nicht weitergeführt",
+  "markierung": "mehr-ki",
+  "markierungGeprueft": true,
+  "zuletztGeaendert": "2026-04-07",
+  "ordner": {
+    "haupt": "C:\\Users\\chris\\Documents\\Game Test 3",
+    "weitere": [
+      "C:\\Users\\chris\\Documents\\Test Game1",
+      "C:\\Users\\chris\\Documents\\Test Game 2",
+      "C:\\Users\\chris\\Documents\\Test Game 4"
+    ]
+  },
+  "regeln": [],
+  "repo": null,
+  "technik": [
+    "C++ raylib",
+    "Babylon.js",
+    "Three.js",
+    "Godot"
+  ],
+  "start": null,
+  "einstiegsdateien": [
+    "test-d-threejs.md",
+    "PROJEKTREGELN.md"
+  ],
+  "struktur": [],
+  "naechsteAufgaben": [],
+  "aktualisiert": "2026-10-15",
+  "aktualisiertVon": "claude"
+}
