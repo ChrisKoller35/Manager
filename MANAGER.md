@@ -60,7 +60,12 @@ Ein neues Repo kommt erst nach Christophs Okay dazu.
 ## Ablauf eines Tages
 
 1. **06:30** Lowland-Morgensession (eigenes Projekt).
-2. **07:12** Morgen-Manager: liest dieses Regelwerk, das Inventar, das Budget und die Issues, prüft, was über Nacht passiert ist, legt neue Aufgaben an und schickt Christoph einen kurzen Bericht.
+2. **07:12** Morgen-Manager: liest dieses Regelwerk, das Inventar, das Budget und die Issues, prüft, was über Nacht passiert ist, verteilt die Arbeit und schickt Christoph einen kurzen Bericht. Die Verteilung ist dynamisch (von Christoph so gewählt):
+   - Für die 2 bis 3 Projekte mit den dringendsten «mehr KI»-Aufgaben startet er je einen Thread hier im Projekt.
+   - Der Rest geht als `ki-bot`-Issue an den Bot.
+   - Projekte, die länger stillstehen, rutschen nach vorne.
+   - Lowland bleibt die feste Morgensession und wird hier nicht verteilt.
+   - Was Christoph braucht, kommt als kurze Frage in den Bericht.
 3. **Tagsüber:** Christoph merged PRs, beantwortet Fragen und arbeitet in den Threads.
 4. **23:00 und 03:00** KI-Bot: arbeitet die `ki-bot`-Aufgaben im Rahmen des Budgets ab.
 
