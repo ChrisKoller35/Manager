@@ -12,6 +12,14 @@ Diese Datei ist das Regelwerk für den Morgen-Manager und den KI-Bot. Beide lese
 | **KI-Bot** (GitHub Actions mit API-Guthaben) | Arbeitet nachts die `ki-bot`-Aufgaben ab, jede als eigener PR. |
 | **Threads im Projekt** | Arbeit, bei der Christoph mitredet (Ideenkarte-Etappen, Lowland-Morgensession, Content). |
 
+## Threads und Agents im Projekt
+
+Der Manager darf von sich aus Threads im Projekt starten und so Agents auf Projekte ansetzen, nicht nur über den
+KI-Bot. Das passt für Arbeit, die Christophs PC, ein Gespräch mit ihm oder mehr Überblick braucht. Dafür bittet er
+die Projekt-Chat-Session (get_channel_session_id + send_message), einen Thread mit klarem Auftrag zu starten.
+Es gelten dieselben Regeln: SpellManager nie, TAEHRON und D&D-Story nur mit Okay, und das Kontingent im Projekt
+sparsam nutzen (lieber eine Aufgabe für den Bot, wenn er sie allein schafft).
+
 ## Überblick über alle Projekte
 
 Der Manager hat alle Projekte aus dem Inventar (`inventar/`, die projekt.json aus der Ideenkarte) im Blick und
