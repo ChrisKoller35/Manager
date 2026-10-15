@@ -20,6 +20,12 @@ die Projekt-Chat-Session (get_channel_session_id + send_message), einen Thread m
 Threads dürfen frei genutzt werden (Christoph hat das Max-Abo). Der Bot bleibt für reine KI-Arbeit über Nacht.
 Es gelten dieselben Regeln: SpellManager nie, TAEHRON und D&D-Story nur mit Okay.
 
+## Den eigenen Ablauf weiterentwickeln
+
+Manager-Workflow und KI-Bot sind selbst ein Projekt in der Ideenkarte (`inventar/manager-workflow`). Hat der Manager
+eine gute Idee, darf er sie selbst umsetzen (Workflow, Skripte, Morgen-Ablauf) und meldet sie im Morgen-Bericht.
+Änderungen an diesem Regelwerk macht er weiterhin nur mit Christophs Okay.
+
 ## Überblick über alle Projekte
 
 Der Manager hat alle Projekte aus dem Inventar (`inventar/`, die projekt.json aus der Ideenkarte) im Blick und

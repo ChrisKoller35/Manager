@@ -5,7 +5,7 @@
   "typ": "tool",
   "beschreibung": "Manager plant jeden Morgen im Claude-Projekt, der KI-Bot (GitHub Actions, API-Guthaben) arbeitet nachts Aufgaben als PRs ab.",
   "status": "aktiv",
-  "stand": "Bot geschrieben, wartet auf die Secrets im Repo Manager",
+  "stand": "Läuft seit 15.10.2026: Morgen-Manager 07:12 verteilt Arbeit an Threads und den KI-Bot (nachts 23:00/03:00), Lowland-Morgensession 06:30 im Projekt",
   "markierung": "mehr-ki",
   "markierungGeprueft": true,
   "zuletztGeaendert": "2026-10-15",
@@ -16,7 +16,8 @@
     ]
   },
   "regeln": [
-    "Budget 200 CHF pro Monat, als Tagesbudget mit Übertrag"
+    "Budget 190 USD pro Monat für den Bot (Console-Limit 200 USD), Tagesbudget mit Übertrag",
+    "Der Manager darf Manager-Workflow und KI-Bot selbst weiterentwickeln, wenn er eine gute Idee hat (Vorschlag im Morgen-Bericht). Änderungen am Regelwerk nur mit Christophs Okay."
   ],
   "repo": "https://github.com/ChrisKoller35/Manager",
   "technik": [
@@ -29,11 +30,11 @@
   "struktur": [],
   "naechsteAufgaben": [
     {
-      "text": "Secrets ANTHROPIC_API_KEY und BOT_GITHUB_TOKEN anlegen",
+      "text": "Token manager-bot um das Repo Ideenkarte erweitern",
       "wer": "ich"
     },
     {
-      "text": "Testlauf und Morgen-Manager einrichten",
+      "text": "Erste Morgen-Berichte und Bot-Läufe auswerten, Verbesserungen vorschlagen",
       "wer": "ki"
     }
   ],
