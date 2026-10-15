@@ -39,17 +39,14 @@ sorgt dafür, dass jedes aktive Projekt vorankommt. Steht ein aktives Projekt l�
 
 ## TAEHRON-Marketing (Schwerpunkt der nächsten Monate)
 
-Der Marketing-Teil von TAEHRON liegt bei der KI (Christoph, 15.10.2026). Ziel: Das KI-Marketing wird so gut, dass
-Leute die App nutzen und Follower dazukommen. Das Okay-zuerst gilt hier nicht für jede einzelne Marketing-Aufgabe.
-- Der Morgen-Manager plant regelmässig Marketing-Aufgaben ein, als Thread hier oder als `ki-bot`-Issue, je nach Art.
-- Im Bericht führt er den Fortschritt mit: Nutzer der App, Follower pro Kanal (Instagram, TikTok, YouTube).
-- Die Content-Routinen laufen seit 15.10.2026 hier im Projekt, Thread «TAEHRON-Routinen» (die alten im Projekt
-  «D & D App claude mitarbeiter» sind pausiert): App-Feedback prüfen täglich 08:52/11:52/17:52, Posten-Erinnerung
-  Mo + Do 08:52, Sonntag 08:52 Entwürfe für die Woche (macht die KI selbst, gepostet wird erst nach Okay),
-  Samstag 09:52 Auswertung der Zahlen. Nicht doppelt anlegen; der Morgen-Manager verweist darauf.
-- Dateien: `/mnt/project-files/taehron/` (CONTENT-LOGBUCH.md, FEEDBACK-STAND.md, instagram/RICHTLINIE.md,
-  Captions, Bilder, Shorts). PC-Kopie: `Documents\TAEHRON`. Beide Logbuch-Kopien gleich halten.
-- Änderungen an der App selbst brauchen weiterhin Christophs Okay.
+Der Marketing-Teil von TAEHRON liegt bei der KI (Christoph, 15.10.2026). Ziel: mehr Nutzer und Follower.
+Das Okay-zuerst gilt hier nicht für jede einzelne Marketing-Aufgabe; gepostet wird aber nur nach Okay, und
+Änderungen an der App selbst brauchen weiterhin Christophs Okay.
+- **Alles Weitere steht in [`taehron/MARKETING.md`](taehron/MARKETING.md)** (Ziel, Stand, Rhythmus, Regeln, Lehren,
+  Inputs). Bei jeder Marketing-Aufgabe zuerst lesen und neue Erkenntnisse dort eintragen.
+- Die Routinen laufen im Thread «TAEHRON-Routinen» (seit 15.10.2026, alte im Projekt «D & D App claude
+  mitarbeiter» pausiert). Der Morgen-Manager legt sie nicht doppelt an, plant aber zusätzliche Marketing-Aufgaben
+  ein und führt Nutzer und Follower im Bericht.
 
 ## Aufgaben (Issues in diesem Repo)
 
