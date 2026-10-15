@@ -6,7 +6,7 @@ Markierungen und Status von Christoph am 15.10. bestätigt bzw. korrigiert.
 | Projekt | Typ | Status | Markierung | Zuletzt | Stand | Ordner |
 |---|---|---|---|---|---|---|
 | D&D-Story: Der Spiegeldämon | story | aktiv | mehr-ich | 2026-10-13 | Kampagne mit fertiger Ordnerstruktur, wird laufend ergänzt | `D-D-Story` |
-| TAEHRON (Zauber-App) | app | aktiv | mehr-ich | 2026-10-14 | Live auf taehron.netlify.app, offene PRs, Social-Media-Content läuft | `Dungeon und Dragon App\D-D-App-Alles-Zusammen` |
+| TAEHRON (Zauber-App) | app | aktiv | gemischt (App ich, Marketing KI) | 2026-10-14 | Live auf taehron.netlify.app, offene PRs, Social-Media-Content läuft | `Dungeon und Dragon App\D-D-App-Alles-Zusammen` |
 | SpellManager (persönliche D&D-App) | app | aktiv | mehr-ich | 2026-03-10 | Christophs persönliche D&D-App, sehr wichtig. Lokaler Ordner Stand März 2026, GitHub zuletzt Sept 2026 | `SpellManager` |
 | Cashfish (Fisch-Game) | game | pausiert | mehr-ki | 2026-02-21 | Läuft lokal über Vite, KI-Sprite-Workflow vorhanden, seit Feb 2026 ruhig | `Mein Eigenes Game Version 06.01.26\Cashfish2-main` |
 | Magic City (Aufbauspiel, Vorlage) | game | archiviert | mehr-ki | 2026-03-31 | Wird nicht weiterentwickelt, dient nur noch als Vorlage für Lowland | `Aufbauspiel` |

@@ -6,7 +6,7 @@
   "beschreibung": "Zauber-App für Rollenspiele (5e, nur SRD), 12 Klassen-Apps plus Homepage, dazu Instagram/TikTok/YouTube.",
   "status": "aktiv",
   "stand": "Live auf taehron.netlify.app, offene PRs, Social-Media-Content läuft",
-  "markierung": "mehr-ich",
+  "markierung": "gemischt",
   "markierungGeprueft": true,
   "zuletztGeaendert": "2026-10-14",
   "ordner": {
@@ -17,7 +17,11 @@
       "C:\\Users\\chris\\Documents\\Dungeon und Dragon App"
     ]
   },
-  "regeln": [],
+  "regeln": [
+    "App grösstenteils bei Christoph: Ideen nur als Vorschlag, Umsetzung erst nach seinem Okay",
+    "Marketing liegt bei der KI und ist Schwerpunkt der nächsten Monate: Ziel mehr Nutzer und Follower (Christoph, 15.10.2026)",
+    "Bestehende Content-Routinen (CONTENT-LOGBUCH.md, Instagram-Richtlinie) weiterführen, nicht doppelt anlegen"
+  ],
   "repo": "https://github.com/ChrisKoller35/D-D-App-Alles-Zusammen",
   "technik": [
     "React 18",
@@ -55,11 +59,15 @@
       "wer": "ich"
     },
     {
+      "text": "Marketing-Plan aufsetzen: Kanäle, Rhythmus, Ziele, aktuellen Stand Nutzer und Follower erfassen",
+      "wer": "ki"
+    },
+    {
       "text": "Nächsten Social-Beitrag erstellen (Logbuch beachten)",
       "wer": "ki"
     },
     {
-      "text": "Tests und automatischen Build einrichten",
+      "text": "Tests und automatischen Build einrichten (nur nach Okay)",
       "wer": "ki"
     }
   ],

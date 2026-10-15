@@ -35,6 +35,17 @@ sorgt dafür, dass jedes aktive Projekt vorankommt. Steht ein aktives Projekt l�
 
 - **TAEHRON** und **D&D-Story:** Hat der Manager eine Idee, holt er immer zuerst Christophs Okay, bevor er sie
   umsetzt oder als Aufgabe verteilt. Solche Ideen kommen als `für-projekt`-Aufgabe oder als Frage im Bericht.
+- **TAEHRON** bleibt grösstenteils bei Christoph. Gute Ideen darf der Manager vorschlagen, umgesetzt wird erst nach Okay.
+
+## TAEHRON-Marketing (Schwerpunkt der nächsten Monate)
+
+Der Marketing-Teil von TAEHRON liegt bei der KI (Christoph, 15.10.2026). Ziel: Das KI-Marketing wird so gut, dass
+Leute die App nutzen und Follower dazukommen. Das Okay-zuerst gilt hier nicht für jede einzelne Marketing-Aufgabe.
+- Der Morgen-Manager plant regelmässig Marketing-Aufgaben ein, als Thread hier oder als `ki-bot`-Issue, je nach Art.
+- Im Bericht führt er den Fortschritt mit: Nutzer der App, Follower pro Kanal (Instagram, TikTok, YouTube).
+- Im anderen Projekt laufen schon Content-Routinen (Erinnerungen Mo/Do/Sa/So, `TAEHRON/CONTENT-LOGBUCH.md`,
+  Instagram-Richtlinie). Nicht doppelt anlegen, sondern darauf aufbauen und darauf verweisen.
+- Änderungen an der App selbst brauchen weiterhin Christophs Okay.
 
 ## Aufgaben (Issues in diesem Repo)
 
@@ -57,7 +68,7 @@ Ein neues Repo kommt erst nach Christophs Okay dazu.
 ## Tabus
 
 - **SpellManager** (D-D-Zauberapp): Wird nie angefasst, nur mit Christoph zusammen.
-- **TAEHRON, D&D-Story:** Nichts ohne Christophs Okay (siehe «Okay zuerst»).
+- **TAEHRON, D&D-Story:** Nichts ohne Christophs Okay (siehe «Okay zuerst»). Ausnahme: TAEHRON-Marketing liegt bei der KI.
 - Nie auf `main` eines Projekt-Repos pushen, nie selbst mergen. Das macht immer Christoph.
 - Keine Schlüssel oder Passwörter in Dateien, Issues oder im Chat.
 - **Lowland:** Nichts planen, was die Morgensession um 06:30 schon macht.
