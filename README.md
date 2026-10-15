@@ -24,7 +24,7 @@ Arbeitsteilung (von Christoph am 15.10.2026 freigegeben):
 
 1. Repo `Manager` anlegen (erledigt, Dateien hat Claude hochgeladen).
 2. Secret `ANTHROPIC_API_KEY` anlegen (Claude Console, API Keys).
-3. Secret `BOT_GITHUB_TOKEN` anlegen: ein Fine-grained Token mit Zugriff nur auf `Manager`, `Trailmate`, `lowland` und `MoneyProjekttry` (die freigegebenen
+3. Secret `BOT_GITHUB_TOKEN` anlegen: ein Fine-grained Token mit Zugriff nur auf `Manager`, `Trailmate`, `lowland`, `MoneyProjekttry` und `Ideenkarte` (die freigegebenen
    Repos). Rechte: Contents (lesen und schreiben), Pull requests (lesen und schreiben), Issues (lesen und schreiben).
 4. Labels `ki-bot`, `für-projekt` und `in-review` anlegen.
 5. Unter «Actions» den KI-Bot einmal von Hand starten («Run workflow»), um ihn zu testen.
