@@ -5,10 +5,10 @@
   "typ": "tool",
   "beschreibung": "Desktop-App als visuelle Übersicht aller Projekte.",
   "status": "aktiv",
-  "stand": "Etappe 1 fertig (Ordnerbaum, Markdown-Anzeige, mehrere Projekte)",
+  "stand": "Etappe 2 fertig: Projekt-Karten aus projekt.json, Filter, Installer 0.2.1 mit Auto-Update",
   "markierung": "mehr-ki",
   "markierungGeprueft": true,
-  "zuletztGeaendert": "2026-10-14",
+  "zuletztGeaendert": "2026-10-15",
   "ordner": {
     "haupt": "C:\\Users\\chris\\Documents\\Ideenkarte",
     "weitere": []
@@ -29,14 +29,18 @@
   "struktur": [],
   "naechsteAufgaben": [
     {
-      "text": "projekt.json einlesen und anzeigen",
-      "wer": "ki"
+      "text": "Token manager-bot um das Repo Ideenkarte erweitern",
+      "wer": "ich"
     },
     {
-      "text": "Als Icon startbar machen (Installer)",
+      "text": "Entscheiden, ob Etappe 3 (Mindmap-Ansicht) startet",
+      "wer": "ich"
+    },
+    {
+      "text": "Etappe 3: Mindmap-Ansicht (React Flow)",
       "wer": "ki"
     }
   ],
-  "aktualisiert": "2026-10-15",
+  "aktualisiert": "2026-10-16",
   "aktualisiertVon": "claude"
 }

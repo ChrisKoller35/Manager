@@ -5,7 +5,7 @@
   "typ": "tool",
   "beschreibung": "Manager plant jeden Morgen im Claude-Projekt, der KI-Bot (GitHub Actions, API-Guthaben) arbeitet nachts Aufgaben als PRs ab.",
   "status": "aktiv",
-  "stand": "Läuft seit 15.10.2026: Morgen-Manager 07:12 verteilt Arbeit an Threads und den KI-Bot (nachts 23:00/03:00), Lowland-Morgensession 06:30 im Projekt",
+  "stand": "Läuft: Bot-Nacht 15./16.10. ok (PR Trailmate #2, 0.29 USD). Erster Morgen-Bericht 16.10., 3 Threads gestartet, 2 Bot-Aufgaben.",
   "markierung": "mehr-ki",
   "markierungGeprueft": true,
   "zuletztGeaendert": "2026-10-15",
@@ -38,6 +38,6 @@
       "wer": "ki"
     }
   ],
-  "aktualisiert": "2026-10-15",
+  "aktualisiert": "2026-10-16",
   "aktualisiertVon": "claude"
 }

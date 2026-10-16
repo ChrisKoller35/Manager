@@ -5,7 +5,7 @@
   "typ": "app",
   "beschreibung": "Wander-App mit Karten, GPS-Tracking, Social-Feed und Wanderpartner-Matching.",
   "status": "aktiv",
-  "stand": "8 Bau-Dokumente geplant, App-Gerüst mit Expo seit März 2026",
+  "stand": "README (PR #1) und jest-Setup (PR #2) warten auf Merge. Bot macht in der Nacht zum 17.10. den Abgleich der Bau-Dokumente (Manager #3) und behebt Lint-/Typfehler (Manager #4).",
   "markierung": "mehr-ki",
   "markierungGeprueft": true,
   "zuletztGeaendert": "2026-03-25",
@@ -30,10 +30,18 @@
   "struktur": [],
   "naechsteAufgaben": [
     {
-      "text": "Prüfen, welches der 8 Dokumente erledigt ist",
+      "text": "PR #1 und #2 prüfen und mergen",
+      "wer": "ich"
+    },
+    {
+      "text": "Bau-Dokumente mit Code abgleichen, docs/STAND.md (Manager #3)",
+      "wer": "ki"
+    },
+    {
+      "text": "Lint- und Typfehler beheben (Manager #4)",
       "wer": "ki"
     }
   ],
-  "aktualisiert": "2026-10-15",
+  "aktualisiert": "2026-10-16",
   "aktualisiertVon": "claude"
 }
