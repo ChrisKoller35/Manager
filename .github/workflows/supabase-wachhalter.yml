@@ -1,0 +1,68 @@
+name: Supabase-Wachhalter
+
+# Hält Supabase-Gratisprojekte wach. Supabase pausiert ein Free-Projekt,
+# wenn es eine Woche lang zu wenig Datenbank-Aktivität hat
+# (https://supabase.com/docs/guides/platform/free-project-pausing).
+# Darum macht dieser Lauf alle 2 Tage eine echte, harmlose Datenbank-Abfrage
+# (1 Zeile aus einer kleinen Tabelle lesen). Einrichtung: supabase/WACHHALTER.md
+
+on:
+  schedule:
+    - cron: "17 5 */2 * *" # alle 2 Tage, 05:17 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  wachhalten:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        # Neues Projekt: Eintrag ergänzen und Secret <projekt>_SUPABASE_ANON_KEY im Repo anlegen.
+        # Die Projekt-URL ist öffentlich (steht in jeder App), der anon-Key kommt aus den Secrets.
+        include:
+          - projekt: TAEHRON
+            url: https://izsrqvzitxnlxktgjzkc.supabase.co
+            tabelle: entitlements
+    steps:
+      - name: Datenbank anstupsen (${{ matrix.projekt }})
+        env:
+          SUPABASE_URL: ${{ matrix.url }}
+          TABELLE: ${{ matrix.tabelle }}
+          SUPABASE_KEY: ${{ secrets[format('{0}_SUPABASE_ANON_KEY', matrix.projekt)] }}
+        run: |
+          if [ -z "$SUPABASE_KEY" ]; then
+            echo "::error::Secret ${{ matrix.projekt }}_SUPABASE_ANON_KEY fehlt (Repo > Settings > Secrets and variables > Actions)."
+            exit 1
+          fi
+          anfrage() { # $1 = Pfad, weitere Argumente an curl
+            local pfad="$1"; shift
+            curl -sS -o antwort.txt -w '%{http_code}' --max-time 30 "${SUPABASE_URL%/}/$pfad" \
+              -H "apikey: $SUPABASE_KEY" -H "Authorization: Bearer $SUPABASE_KEY" "$@" || echo 000
+          }
+          for versuch in 1 2 3; do
+            # 1. Weg: eine Zeile aus der kleinen Tabelle lesen (echte DB-Abfrage, RLS filtert ggf. alles weg, zählt trotzdem)
+            code=$(anfrage "rest/v1/$TABELLE?select=*&limit=1")
+            if [ "$code" = "200" ]; then
+              echo "${{ matrix.projekt }} wach (Tabelle $TABELLE abgefragt)."
+              exit 0
+            fi
+            echo "Versuch $versuch, Tabelle: HTTP $code"
+            # 2. Weg: Funktion wachhalter() aus supabase/wachhalter.sql, falls eingerichtet
+            code2=$(anfrage "rest/v1/rpc/wachhalter" -X POST -H "Content-Type: application/json" -d '{}')
+            if [ "$code2" = "200" ]; then
+              echo "${{ matrix.projekt }} wach (wachhalter(), Datenbank-Zeit: $(cat antwort.txt))."
+              exit 0
+            fi
+            echo "Versuch $versuch, Funktion: HTTP $code2"
+            [ "$versuch" -lt 3 ] && sleep 20
+          done
+          case "$code" in
+            404) echo "::error::${{ matrix.projekt }}: Tabelle $TABELLE nicht gefunden und wachhalter() fehlt. supabase/wachhalter.sql einmal im SQL-Editor ausführen oder Tabelle im Workflow anpassen." ;;
+            401|403) echo "::error::${{ matrix.projekt }}: Key abgelehnt (HTTP $code). Secret ${{ matrix.projekt }}_SUPABASE_ANON_KEY prüfen (anon public Key)." ;;
+            *) echo "::error::${{ matrix.projekt }} antwortet nicht (HTTP $code). Ist das Projekt schon pausiert? Dann im Supabase-Dashboard «Restore project» klicken." ;;
+          esac
+          head -c 500 antwort.txt 2>/dev/null || true
+          exit 1
