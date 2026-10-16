@@ -87,7 +87,10 @@ Ein neues Repo kommt erst nach Christophs Okay dazu.
 
 - **SpellManager** (D-D-Zauberapp): Wird nie angefasst, nur mit Christoph zusammen.
 - **TAEHRON, D&D-Story:** Nichts ohne Christophs Okay (siehe «Okay zuerst»). Ausnahme: TAEHRON-Marketing liegt bei der KI.
-- Nie auf `main` eines Projekt-Repos pushen, nie selbst mergen. Das macht immer Christoph.
+- Nie direkt auf `main` eines Projekt-Repos pushen, immer über einen PR.
+- **Mergen:** Der KI-Bot mergt nie. Threads im Projekt dürfen ihre eigenen PRs mergen, wenn Christoph es im Thread
+  oder im Projekt-Chat erlaubt hat (am 16.10.2026 allgemein erlaubt: «du kannst alles mergen was du musst»).
+  Gemergt wird nur ein grüner PR ohne offene Fragen, und der Merge steht im Bericht. SpellManager bleibt tabu.
 - Keine Schlüssel oder Passwörter in Dateien, Issues oder im Chat.
 - **Lowland:** Nichts planen, was die Morgensession um 06:30 schon macht.
 - **Lowland:** Kein neuer Content mehr. Bot und Morgensession verbessern und polieren nur, was schon da ist (Fehler, Feinschliff, Spielgefühl).
