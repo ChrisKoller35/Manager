@@ -99,6 +99,16 @@ Ein neues Repo kommt erst nach Christophs Okay dazu.
   kann, sagt der Manager oder die Morgensession es Christoph.
 - **Moneyprojekt:** Ideen, Planung und Marketing nur mit Claude Fable 5.1 (mindestens Effort mittel). Der Bot macht dort nur klar definierte Umsetzungsschritte.
 
+## Hilfstools
+
+| Werkzeug | Was | Wo |
+|---|---|---|
+| KI-Bot | Arbeitet nachts die `ki-bot`-Aufgaben ab | `.github/workflows/ki-bot.yml`, `scripts/budget.py` |
+| Supabase-Wachhalter | Hält das kostenlose TAEHRON-Supabase-Projekt wach, damit es nicht pausiert wird (alle 2 Tage, seit 16.10.2026, Secret `TAEHRON_SUPABASE_ANON_KEY`) | `.github/workflows/supabase-wachhalter.yml`, Doku `supabase/WACHHALTER.md` |
+| GitHub-Stand holen | Klont/aktualisiert die Repos auf Christophs PC nach Dokumente\GitHub | `Documents\Manager\GitHub-Stand-holen.bat` |
+
+Der Morgen-Manager prüft die Läufe der Workflows. Ist einer rot, steht das im Bericht unter «Hängt».
+
 ## Ablauf eines Tages
 
 1. **06:30** Lowland-Morgensession (eigener Thread hier im Projekt, seit 16.10.; Schwerpunkt Aussehen, kein neuer Content).
