@@ -55,6 +55,17 @@ Das Okay-zuerst gilt hier nicht für jede einzelne Marketing-Aufgabe; gepostet w
 - Label `für-projekt`: Christoph muss entscheiden, sein PC wird gebraucht, oder ein Thread im Projekt übernimmt.
 - Label `in-review`: Der PR ist offen und wartet auf Christoph.
 
+## Arbeitsregeln (von Christoph genehmigt am 16.10.2026)
+
+- **Reihenfolge:** Zuerst was Christoph blockiert, dann Projekte, die stillstehen, dann die «mehr KI»-Projekte,
+  zuletzt Kleinkram.
+- **PR-Grösse:** Ein PR hat höchstens etwa 300 geänderte Zeilen. Grössere Arbeit wird auf mehrere PRs verteilt.
+- **Zwei Fehlschläge:** Scheitert der Bot zweimal an derselben Aufgabe (Tests rot, Build kaputt, keine Änderung),
+  bekommt sie das Label `für-projekt` und kommt in den Morgen-Bericht. Sie geht kein drittes Mal in die Nacht.
+- **Entscheidungen zuerst beim Manager:** Offene Entscheidungen prüft zuerst der Manager. Was er selbst entscheiden
+  kann, besonders bei «mehr KI»-Projekten, entscheidet er und meldet es im Bericht. Christoph bekommt nur, was
+  wirklich seins ist: Geld, Konten, sein PC, die TAEHRON-App, die D&D-Story und Richtungsentscheide.
+
 ## Budget
 
 - Monatlich 190 USD für den Bot (`budget.json`). Das Console-Limit liegt bei 200 USD, die Differenz ist der Puffer.
@@ -64,6 +75,8 @@ Das Okay-zuerst gilt hier nicht für jede einzelne Marketing-Aufgabe; gepostet w
   letzten Tage mit dem Tagesbudget. Bleibt der Bot **3 Tage in Folge unter 50 %**, gibt er ihm mehr oder grössere Aufgaben
   (mehr `ki-bot`-Issues, grössere Pakete, bei Bedarf `MAX_AUFGABEN` im Workflow erhöhen), bis das Budget genutzt wird.
 - Der Verbrauch (gestern, Monat, Tagesbudget) steht in jedem Morgen-Bericht.
+- **Kostenampel:** Ab 70 % des Monatsbudgets ist der Bericht gelb, und der Bot bekommt nur noch kleine Aufgaben.
+  Ab 90 % ist er rot, und der Bot stoppt bis zum Monatswechsel (keine neuen `ki-bot`-Issues).
 
 ## Erlaubte Repos für den Bot
 
@@ -89,6 +102,8 @@ Ein neues Repo kommt erst nach Christophs Okay dazu.
    - Projekte, die länger stillstehen, rutschen nach vorne.
    - Lowland bleibt die feste Morgensession und wird hier nicht verteilt.
    - Was Christoph braucht, kommt als kurze Frage in den Bericht.
+   - Der Bericht hat immer drei Blöcke: **Erledigt**, **Hängt**, **Nächste Entscheidung von dir** (nur was nach den
+     Arbeitsregeln wirklich Christophs ist), dazu der Verbrauch mit Kostenampel.
 3. **Tagsüber:** Christoph merged PRs, beantwortet Fragen und arbeitet in den Threads.
 4. **23:00 und 03:00** KI-Bot: arbeitet die `ki-bot`-Aufgaben im Rahmen des Budgets ab.
 
@@ -98,6 +113,9 @@ Jeden **Sonntag** wertet der Manager seine Arbeit der Woche aus und trägt sie h
 was gut funktioniert hat, was nicht so gut lief, und Vorschläge, wie diese Datei angepasst werden könnte.
 Er darf auch vorschlagen, Regeln zu streichen. Christoph schaut sich die Vorschläge an und genehmigt sie.
 Erst danach werden sie oben eingetragen.
+
+Im Sonntags-Bericht fragt der Manager Christoph auch, wann sein PC in der kommenden Woche ungefähr morgens und abends
+an ist. Die Antwort gilt für die Woche: Fragen und Arbeiten, die den PC brauchen, plant er in diese Zeiten.
 
 <!-- Vorlage:
 ### Woche vom JJJJ-MM-TT
