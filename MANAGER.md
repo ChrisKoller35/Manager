@@ -93,12 +93,15 @@ Ein neues Repo kommt erst nach Christophs Okay dazu.
   Gemergt wird nur ein grüner PR ohne offene Fragen, und der Merge steht im Bericht. SpellManager bleibt tabu.
 - Keine Schlüssel oder Passwörter in Dateien, Issues oder im Chat.
 - **Lowland:** Nichts planen, was die Morgensession um 06:30 schon macht.
-- **Lowland:** Kein neuer Content mehr. Bot und Morgensession verbessern und polieren nur, was schon da ist (Fehler, Feinschliff, Spielgefühl).
+- **Lowland:** Schwerpunkt ist jetzt das Aussehen (Christoph, 16.10.2026): Figuren, Zauber-Effekte, Animationen, Landschaft,
+  Häuser, Wiesen, Bäume. Der Plan dazu steht in `docs/GRAFIK.md` im Repo lowland. Kein neuer Content, bis Christoph mit dem
+  Aussehen zufrieden ist. Danach geht es wieder mit Content weiter. Wenn das Aussehen nicht mehr sinnvoll besser werden
+  kann, sagt der Manager oder die Morgensession es Christoph.
 - **Moneyprojekt:** Ideen, Planung und Marketing nur mit Claude Fable 5.1 (mindestens Effort mittel). Der Bot macht dort nur klar definierte Umsetzungsschritte.
 
 ## Ablauf eines Tages
 
-1. **06:30** Lowland-Morgensession (eigener Thread hier im Projekt, seit 16.10.; nur polieren).
+1. **06:30** Lowland-Morgensession (eigener Thread hier im Projekt, seit 16.10.; Schwerpunkt Aussehen, kein neuer Content).
 2. **07:12** Morgen-Manager: liest dieses Regelwerk, das Inventar, das Budget und die Issues, prüft, was über Nacht passiert ist, verteilt die Arbeit und schickt Christoph einen kurzen Bericht. Die Verteilung ist dynamisch (von Christoph so gewählt):
    - Für die 2 bis 3 Projekte mit den dringendsten «mehr KI»-Aufgaben startet er je einen Thread hier im Projekt.
    - Der Rest geht als `ki-bot`-Issue an den Bot.
