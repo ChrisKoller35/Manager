@@ -123,6 +123,16 @@ Ab 25.10. gilt Winterzeit: 18 Uhr UTC = 19 Uhr Zürich.
    wird der nächste Klassen-Short. Kommentare mit Video beantworten (TikTok-Funktion).
 5. **Karussell** «3 Klassen-Looks» (Idee im Logbuch) für den Feed.
 
+### Antwort Christoph 16.10.
+
+- Bio-Links sind umgestellt, Follower-Zahlen kommen 17.10.
+- Kein Reddit-Konto, aber TAEHRON hat einen eigenen Discord-Server. Chatten in fremden Discords ist ihm zu
+  aufwendig. Darum: kein Dauer-Mitreden in fremden Servern (ein Bot dort wäre Spam und gegen die Regeln).
+  Stattdessen nur **eine** Vorstellung im grossen deutschen Server, Text schreibt die KI, Christoph fügt ihn ein.
+  Im eigenen Server kann später ein Bot neue Shorts automatisch ankündigen (Webhook).
+- Rhythmus bleibt Mo + Do wie bisher, kein tägliches Posten. Einzige Änderung: TikTok und YouTube abends
+  19-20 Uhr statt morgens. Ein dritter Short (Wochenende) nur als Test in Woche 3, falls Christoph mag.
+
 ### Wochenziele (messbar)
 
 Ausgangswert fehlt noch (Follower). Die Ziele für Woche 2-4 werden darum am Samstag 24.10. mit dem echten
@@ -168,7 +178,7 @@ Wenn eine Idee umgesetzt ist, wandert das Ergebnis nach «Lehren».
 - Feed-Karussell mit 3 Klassen-Looks nebeneinander. (Logbuch)
 - Beitrag 1 «Kein Zettelchaos» ist noch nicht gepostet (nur HTML-Vorschau). (Logbuch)
 - Feed-Beitrag «Das sagen Tester» mit den anonymen Zitaten. (Logbuch)
-- Bio-Links auf die Kanal-Adressen umstellen (Christoph, offen seit 13.10.).
+- 16.10.: Bio-Links auf die Kanal-Adressen umgestellt (Christoph).
 - 16.10. (Christoph), **Idee, noch nicht beauftragt, Christoph entscheidet:** Eigene One-Shots erstellen und verkaufen,
   als Ergänzung zu TAEHRON. Lizenz-Stand: Inhalte aus SRD 5.1/5.2 (CC BY 4.0) frei nutzbar und überall verkaufbar
   (eigener Shop, DriveThruRPG, «kompatibel mit 5e»); Inhalte ausserhalb der SRD nur über DMs Guild (50 % Anteil,
@@ -184,8 +194,6 @@ Wenn eine Idee umgesetzt ist, wandert das Ergebnis nach «Lehren».
 ## Offene Fragen an Christoph
 
 - Aktuelle Follower pro Kanal (für den Stand oben).
-- Sind die Bio-Links schon auf `taehron.com/insta`, `/yt`, `/tiktok` umgestellt?
-- Darf TAEHRON in Discord auftreten, und mit welchem Konto (deinem oder einem eigenen TAEHRON-Konto)?
 
 ## Wo liegt was
 
