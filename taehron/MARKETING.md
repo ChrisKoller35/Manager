@@ -169,6 +169,10 @@ Wenn eine Idee umgesetzt ist, wandert das Ergebnis nach «Lehren».
 - Beitrag 1 «Kein Zettelchaos» ist noch nicht gepostet (nur HTML-Vorschau). (Logbuch)
 - Feed-Beitrag «Das sagen Tester» mit den anonymen Zitaten. (Logbuch)
 - Bio-Links auf die Kanal-Adressen umstellen (Christoph, offen seit 13.10.).
+- 16.10. (Christoph), **Idee, noch nicht beauftragt, Christoph entscheidet:** Eigene One-Shots erstellen und verkaufen,
+  als Ergänzung zu TAEHRON. Lizenz-Stand: Inhalte aus SRD 5.1/5.2 (CC BY 4.0) frei nutzbar und überall verkaufbar
+  (eigener Shop, DriveThruRPG, «kompatibel mit 5e»); Inhalte ausserhalb der SRD nur über DMs Guild (50 % Anteil,
+  exklusiv dort). Vor einem Start die Lizenz nochmals genau prüfen.
 - 16.10. (Wachstumsplan): Hashtags in `instagram/RICHTLINIE.md` von 8 auf 5 kürzen (Instagram-Limit).
 - 16.10. (Wachstumsplan): TikTok/YouTube abends 19-20 Uhr veröffentlichen, Instagram morgens.
 - 16.10. (Wachstumsplan): Neue Serie «Regel-Hilfe in 20 Sekunden» (Rast, Konzentration, Plätze pro Stufe).
