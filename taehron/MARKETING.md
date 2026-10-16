@@ -200,5 +200,6 @@ Wenn eine Idee umgesetzt ist, wandert das Ergebnis nach «Lehren».
 - Projektordner: `/mnt/project-files/taehron/` (CONTENT-LOGBUCH.md, FEEDBACK-STAND.md, instagram/, YouTube/,
   TikTok/, Bilder/). PC-Kopie: `C:\Users\chris\Documents\TAEHRON`.
 - Feedback-Quelle: Issues im Repo ChrisKoller35/D-D-App-Alles-Zusammen.
-- Die Video-Werkzeuge (Aufnahme- und Schnitt-Skripte `videos/werkzeug/`, `instagram/beitrag-2-bild.py`) liegen
-  noch im Ordner des alten Projekts «D & D App claude mitarbeiter» und sind von hier aus nicht erreichbar.
+- Video-Werkzeuge (seit 16.10. hier): `taehron/werkzeug/` im Repo Manager und `/mnt/project-files/taehron/werkzeug/`
+  (rec*.mjs nehmen die App im Handy-Format auf, compose*.py schneiden den Short mit Outro, beitrag-2-bild.py
+  macht Feed-Bilder als PNG; Anleitung in LIESMICH.md). PC-Kopie: `Documents\TAEHRON\werkzeug`.
