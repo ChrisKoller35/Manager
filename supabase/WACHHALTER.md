@@ -18,3 +18,4 @@ ist der Lauf unter Actions rot.
 4. **Actions > Supabase-Wachhalter > Run workflow** einmal von Hand starten, grün = fertig.
 
 Eingerichtet: TAEHRON (Tabelle `entitlements`, Key liegt in der TAEHRON-App in `.env.local`).
+Eingerichtet: TRAILMATE (Tabelle `badges`, Key liegt in `Documents\GitHub\Trailmate\.env`, Secret `TRAILMATE_SUPABASE_ANON_KEY`).
