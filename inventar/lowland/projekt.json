@@ -5,10 +5,10 @@
   "typ": "game",
   "beschreibung": "Third-Person-Fantasy-Game, aufgebaut auf der Vorlage Magic City.",
   "status": "aktiv",
-  "stand": "Grafik-Phase seit 16.10.2026: Figuren, Zauber-Effekte, Animationen, Landschaft verbessern. Morgensession täglich 06:30 im Projekt Manager Claude.",
+  "stand": "Grafik-Phase: seit 16.10. PR #11-#25 gemergt (Mauerwerk, Fachwerk, Licht, Wasser, Sterne, Schwert-Animation, Wegränder). Morgensession 06:30 läuft im Projekt weiter.",
   "markierung": "mehr-ki",
   "markierungGeprueft": true,
-  "zuletztGeaendert": "2026-10-15",
+  "zuletztGeaendert": "2026-10-17",
   "ordner": {
     "haupt": "C:\\Users\\chris\\Documents\\Lowland Third Person Game",
     "weitere": [
@@ -31,14 +31,14 @@
   "struktur": [],
   "naechsteAufgaben": [
     {
-      "text": "Grafik-Plan docs/GRAFIK.md: wie andere Low-Poly-Spiele aussehen, was für Lowland passt, Schritte pro Session",
+      "text": "Grafik nach docs/GRAFIK.md weiter verbessern (Figuren, Gesichter, Gegner-Lesbarkeit, Fackeln)",
       "wer": "ki"
     },
     {
-      "text": "Am 17.10. Testwoche auswerten und entscheiden, ob der Morgen-Rhythmus weiterläuft",
+      "text": "Bilder anschauen und sagen, ob Regen seltener sein soll",
       "wer": "ich"
     }
   ],
-  "aktualisiert": "2026-10-16",
+  "aktualisiert": "2026-10-17",
   "aktualisiertVon": "claude"
 }

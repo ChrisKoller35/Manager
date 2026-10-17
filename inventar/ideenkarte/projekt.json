@@ -29,18 +29,18 @@
   "struktur": [],
   "naechsteAufgaben": [
     {
-      "text": "Token manager-bot um das Repo Ideenkarte erweitern",
+      "text": "App in Ruhe anschauen und Detailwünsche sammeln",
       "wer": "ich"
     },
     {
-      "text": "App in Ruhe anschauen und Detailwünsche sammeln (Mindmap gestrichen 16.10.)",
-      "wer": "ich"
+      "text": "Tests für Ordnerbaum und Dateizugriff (Manager #8)",
+      "wer": "ki"
     },
     {
       "text": "Detailwünsche umsetzen",
       "wer": "ki"
     }
   ],
-  "aktualisiert": "2026-10-16",
+  "aktualisiert": "2026-10-17",
   "aktualisiertVon": "claude"
 }

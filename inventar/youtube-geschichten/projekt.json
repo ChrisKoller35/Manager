@@ -5,10 +5,10 @@
   "typ": "story",
   "beschreibung": "Geschichten als Hörbuch-Videos mit Bild und Ton auf YouTube.",
   "status": "aktiv",
-  "stand": "Thread «YouTube-Geschichte B17 fertigstellen» seit 16.10.: Stand von B17 feststellen und in Kapitel aufteilen",
+  "stand": "B17 in 14 Kapitel aufgeteilt (PC-Ordner Kapitel), Prolog gestrichen. Video 1 = Kapitel 1 «Die Rechnung», Stimme «Christian».",
   "markierung": "mehr-ki",
   "markierungGeprueft": true,
-  "zuletztGeaendert": "2026-10-15",
+  "zuletztGeaendert": "2026-10-16",
   "ordner": {
     "haupt": "C:\\Users\\chris\\Documents\\Youtub Geschichte 01",
     "weitere": []
@@ -28,22 +28,14 @@
   "struktur": [],
   "naechsteAufgaben": [
     {
-      "text": "Geschichte B17 fertigstellen",
+      "text": "Video 1 fertig machen (Bild, Ton, Schnitt)",
       "wer": "ki"
     },
     {
-      "text": "B17 in Kapitel aufteilen, je eine Datei",
-      "wer": "ki"
-    },
-    {
-      "text": "Ablauf für ein Kapitel-Video festlegen (Bild, Stimme, Schnitt)",
-      "wer": "ki"
-    },
-    {
-      "text": "Erstes Kapitel-Video prüfen und hochladen",
+      "text": "Video 1 prüfen und hochladen",
       "wer": "ich"
     }
   ],
-  "aktualisiert": "2026-10-16",
+  "aktualisiert": "2026-10-17",
   "aktualisiertVon": "claude"
 }

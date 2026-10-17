@@ -5,10 +5,10 @@
   "typ": "app",
   "beschreibung": "Wander-App mit Karten, GPS-Tracking, Social-Feed und Wanderpartner-Matching.",
   "status": "aktiv",
-  "stand": "README (PR #1) und jest-Setup (PR #2) warten auf Merge. Bot macht in der Nacht zum 17.10. den Abgleich der Bau-Dokumente (Manager #3) und behebt Lint-/Typfehler (Manager #4).",
+  "stand": "PR #1-#8 gemergt (README, Tests, Wetter-Fixes, docs/STAND.md, Lint/Typen, 2 Sicherheits-Fixes), main 97 Tests grün. Offen bei Christoph: Supabase-Projekt und Entwicklerkonten.",
   "markierung": "mehr-ki",
   "markierungGeprueft": true,
-  "zuletztGeaendert": "2026-03-25",
+  "zuletztGeaendert": "2026-10-16",
   "ordner": {
     "haupt": "C:\\Users\\chris\\Documents\\Trailmate start\\TrailMate",
     "weitere": [
@@ -30,18 +30,22 @@
   "struktur": [],
   "naechsteAufgaben": [
     {
-      "text": "PR #1 und #2 prüfen und mergen",
+      "text": "Kostenloses Supabase-Projekt für TrailMate anlegen",
       "wer": "ich"
     },
     {
-      "text": "Bau-Dokumente mit Code abgleichen, docs/STAND.md (Manager #3)",
+      "text": "Apple- und Google-Entwicklerkonto anlegen",
+      "wer": "ich"
+    },
+    {
+      "text": "Lint-Warnungen abbauen (Manager #6)",
       "wer": "ki"
     },
     {
-      "text": "Lint- und Typfehler beheben (Manager #4)",
+      "text": "Tests für Hilfsfunktionen (Manager #7)",
       "wer": "ki"
     }
   ],
-  "aktualisiert": "2026-10-16",
+  "aktualisiert": "2026-10-17",
   "aktualisiertVon": "claude"
 }

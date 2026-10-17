@@ -4,11 +4,11 @@
   "name": "Moneyprojekt (Geld mit digitalen Produkten)",
   "typ": "business",
   "beschreibung": "Online Geld verdienen, nur mit digitalen Produkten, die Claude selbst herstellen kann. Zwei Projekte laufen parallel, für jedes schlägt Claude 5 Ideen vor und Christoph wählt aus.",
-  "status": "idee",
-  "stand": "Thread seit 16.10. (Fable 5.1): je 5 Ideen für die 2 Projekte, dann wählt Christoph",
+  "status": "aktiv",
+  "stand": "Kinderlinie mit Figur Pino gewählt: Plan, Figurenblatt, 5 Geschichten, Referenzbild (PR #1-#4 gemergt).",
   "markierung": "mehr-ki",
   "markierungGeprueft": true,
-  "zuletztGeaendert": "2026-10-15",
+  "zuletztGeaendert": "2026-10-16",
   "ordner": {
     "haupt": "C:\\Users\\chris\\Documents\\Moneyprojekttry",
     "weitere": []
@@ -27,14 +27,14 @@
   "struktur": [],
   "naechsteAufgaben": [
     {
-      "text": "Je 5 Ideen für die 2 Projekte vorschlagen",
+      "text": "15 Geschichtenbilder mit dem Referenzbild erzeugen",
       "wer": "ki"
     },
     {
-      "text": "Pro Projekt eine Idee auswählen",
-      "wer": "ich"
+      "text": "Vertonung nach dem B17-Ablauf",
+      "wer": "ki"
     }
   ],
-  "aktualisiert": "2026-10-16",
+  "aktualisiert": "2026-10-17",
   "aktualisiertVon": "claude"
 }

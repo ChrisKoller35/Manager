@@ -5,7 +5,7 @@
   "typ": "tool",
   "beschreibung": "Manager plant jeden Morgen im Claude-Projekt, der KI-Bot (GitHub Actions, API-Guthaben) arbeitet nachts Aufgaben als PRs ab.",
   "status": "aktiv",
-  "stand": "Läuft: Bot-Nacht 15./16.10. ok (PR Trailmate #2, 0.29 USD). Erster Morgen-Bericht 16.10., 3 Threads gestartet, 2 Bot-Aufgaben.",
+  "stand": "Läuft. 16.10.: Bot-Lauf rot (Budget-Push abgelehnt, repariert 17.10.). Neu: Supabase-Wachhalter für TAEHRON. Verbrauch bis 17.10.: 2.46 von 190 USD.",
   "markierung": "mehr-ki",
   "markierungGeprueft": true,
   "zuletztGeaendert": "2026-10-15",
@@ -30,14 +30,10 @@
   "struktur": [],
   "naechsteAufgaben": [
     {
-      "text": "Token manager-bot um das Repo Ideenkarte erweitern",
-      "wer": "ich"
-    },
-    {
-      "text": "Erste Morgen-Berichte und Bot-Läufe auswerten, Verbesserungen vorschlagen",
+      "text": "Erste Woche am Sonntag 18.10. auswerten",
       "wer": "ki"
     }
   ],
-  "aktualisiert": "2026-10-16",
+  "aktualisiert": "2026-10-17",
   "aktualisiertVon": "claude"
 }
