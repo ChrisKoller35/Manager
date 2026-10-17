@@ -41,9 +41,9 @@ Das Okay-zuerst gilt hier nicht für jede einzelne Marketing-Aufgabe; gepostet w
 Änderungen an der App selbst brauchen weiterhin Christophs Okay.
 - **Alles Weitere steht in [`taehron/MARKETING.md`](taehron/MARKETING.md)** (Ziel, Stand, Rhythmus, Regeln, Lehren,
   Inputs). Bei jeder Marketing-Aufgabe zuerst lesen und neue Erkenntnisse dort eintragen.
-- Die Routinen laufen im Thread «TAEHRON-Routinen» (seit 15.10.2026, alte im Projekt «D & D App claude
-  mitarbeiter» pausiert). Der Morgen-Manager legt sie nicht doppelt an, plant aber zusätzliche Marketing-Aufgaben
-  ein und führt Nutzer und Follower im Bericht.
+- Feste TAEHRON-Routinen (Feedback, Erinnerungen, Entwürfe, Zahlen) laufen im Thread «TAEHRON-Routinen». Der
+  Morgen-Manager legt keine zweiten an. Er plant nur zusätzliche Marketing-Aufgaben ein und nennt Nutzer und
+  Follower im Bericht.
 
 ## Aufgaben (Issues in diesem Repo)
 
