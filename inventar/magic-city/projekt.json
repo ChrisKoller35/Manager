@@ -1,11 +1,11 @@
 {
   "schema": "ideenkarte-projekt/1",
   "id": "magic-city",
-  "name": "Magic City (Aufbauspiel, Vorlage)",
+  "name": "Magic City (Aufbauspiel)",
   "typ": "game",
   "beschreibung": "Fantasy-Aufbauspiel im Browser (City Builder + RPG-Expeditionen). Dient als Vorlage für das Third-Person-Game Lowland.",
-  "status": "pausiert",
-  "stand": "Letzter Stand 31.03.2026: neue HTML-Oberfläche (Phase 1 fertig, Plan für Phase 2 liegt bereit). Ruht, dient als Vorlage für Lowland.",
+  "status": "aktiv",
+  "stand": "17.10.2026: PC-Stand (April) auf GitHub übernommen, Bestandsaufnahme in docs/BESTAND.md. Läuft im Browser; Crafting hängt nicht mehr an Gebäuden, Expeditionen geben keinen Fortschritt. KI-Bot arbeitet die Fehler ab, Gebäude-Konzept wartet auf Christophs Entscheidung (docs/GEBAEUDE-IDEEN.md). Dient weiter als Vorlage für Lowland.",
   "markierung": "mehr-ki",
   "markierungGeprueft": true,
   "zuletztGeaendert": "2026-03-31",
@@ -16,13 +16,14 @@
     ]
   },
   "regeln": [
-    "Nur als Vorlage lesen, nicht weiterbauen"
+    "KI-Bot arbeitet per Issues im Repo Manager (zuerst Fehler, dann Balancing)",
+    "Grosser Umbau des Gebäude-Bereichs erst nach Christophs Entscheidung"
   ],
   "repo": "https://github.com/ChrisKoller35/Aufbauspiel-New",
   "technik": [
-    "TypeScript + Vite, HTML-Oberfläche (Phaser/Three.js im März 2026 entfernt)",
+    "TypeScript + Vite, reine HTML-Oberfläche (Phaser/Three.js im März 2026 entfernt)",
     "Sprites per Google-Bild-KI (tools/)",
-    "project.godot vorhanden (früher Versuch)"
+    "project.godot = leerer Godot-Versuch, kann weg"
   ],
   "start": "npm run dev",
   "einstiegsdateien": [
@@ -43,7 +44,28 @@
       "inhalt": "alte Version"
     }
   ],
-  "naechsteAufgaben": [],
+  "naechsteAufgaben": [
+    {
+      "text": "Crafting wieder an Gebäude koppeln (Manager #18)",
+      "wer": "ki"
+    },
+    {
+      "text": "Sackgassen im Expeditionsablauf beheben (Manager #19)",
+      "wer": "ki"
+    },
+    {
+      "text": "Speichern/Laden, Testgerüst, kleine Fehler (Manager #20)",
+      "wer": "ki"
+    },
+    {
+      "text": "Expeditionen geben Fortschritt, danach Balancing (Manager #21-#23)",
+      "wer": "ki"
+    },
+    {
+      "text": "Gebäude-Idee wählen (docs/GEBAEUDE-IDEEN.md)",
+      "wer": "ich"
+    }
+  ],
   "aktualisiert": "2026-10-17",
   "aktualisiertVon": "claude"
 }

@@ -73,7 +73,7 @@ Das Okay-zuerst gilt hier nicht für jede einzelne Marketing-Aufgabe; gepostet w
 
 ## Erlaubte Repos für den Bot
 
-Trailmate, lowland, MoneyProjekttry, Ideenkarte (Liste `ERLAUBTE_REPOS` in `.github/workflows/ki-bot.yml`).
+Trailmate, lowland, MoneyProjekttry, Ideenkarte, Aufbauspiel-New (Magic City, seit 17.10.) (Liste `ERLAUBTE_REPOS` in `.github/workflows/ki-bot.yml`).
 Ein neues Repo kommt erst nach Christophs Okay dazu.
 
 ## Tabus

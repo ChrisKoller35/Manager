@@ -9,7 +9,7 @@ Markierungen und Status von Christoph am 15.10. bestätigt bzw. korrigiert.
 | TAEHRON (Zauber-App) | app | aktiv | gemischt (App ich, Marketing KI) | 2026-10-14 | Live auf taehron.netlify.app, offene PRs, Social-Media-Content läuft | `Dungeon und Dragon App\D-D-App-Alles-Zusammen` |
 | SpellManager (persönliche D&D-App) | app | aktiv | mehr-ich | 2026-03-10 | Christophs persönliche D&D-App, sehr wichtig. Lokaler Ordner Stand März 2026, GitHub zuletzt Sept 2026 | `SpellManager` |
 | Cashfish (Fisch-Game) | game | pausiert | mehr-ki | 2026-02-21 | Läuft lokal über Vite, KI-Sprite-Workflow vorhanden, seit Feb 2026 ruhig | `Mein Eigenes Game Version 06.01.26\Cashfish2-main` |
-| Magic City (Aufbauspiel, Vorlage) | game | pausiert | mehr-ki | 2026-03-31 | Ruht seit März 2026 (neue HTML-Oberfläche), dient als Vorlage für Lowland; seit 17.10.2026 wieder in der Ideenkarte sichtbar | `Aufbauspiel` |
+| Magic City (Aufbauspiel) | game | aktiv | mehr-ki | 2026-10-17 | PC-Stand am 17.10. auf GitHub (Aufbauspiel-New), Bestandsaufnahme fertig, KI-Bot repariert Crafting und Expeditionen (Manager #18-#23); Gebäude-Idee wartet auf Christoph; Vorlage für Lowland | `Aufbauspiel` |
 | Fantasy Explorer Engine-Vergleich | experiment | archiviert | mehr-ki | 2026-04-07 | Abgeschlossen, wird nicht weitergeführt | `Game Test 3` |
 | TrailMate | app | aktiv | mehr-ki | 2026-03-25 | 8 Bau-Dokumente geplant, App-Gerüst mit Expo seit März 2026 | `Trailmate start\TrailMate` |
 | Walkie-Talkie App | app | archiviert | mehr-ki | 2026-04-16 | Wird nicht weitergeführt. Client und Server in Python, Demo-Video und Homepage vorhanden | `WalkiTalki App` |
