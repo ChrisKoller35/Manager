@@ -1,41 +1,27 @@
 {
   "schema": "ideenkarte-projekt/1",
   "id": "youtube-geschichten",
-  "name": "YouTube-Geschichten (Hörbuch-Videos)",
+  "name": "YouTube-Geschichten",
   "typ": "story",
-  "beschreibung": "Geschichten als Hörbuch-Videos mit Bild und Ton auf YouTube.",
-  "status": "aktiv",
-  "stand": "B17 in 14 Kapitel aufgeteilt (PC-Ordner Kapitel), Prolog gestrichen. Video 1 = Kapitel 1 «Die Rechnung», Stimme «Christian».",
+  "beschreibung": "Geschichten für YouTube.",
+  "status": "archiviert",
+  "stand": "Eingestellt am 17.10.2026 (wird nicht weiterverfolgt). Aus der Ideenkarte genommen, nichts gelöscht.",
   "markierung": "mehr-ki",
   "markierungGeprueft": true,
-  "zuletztGeaendert": "2026-10-16",
+  "zuletztGeaendert": "2026-10-08",
   "ordner": {
     "haupt": "C:\\Users\\chris\\Documents\\Youtub Geschichte 01",
     "weitere": []
   },
-  "regeln": [
-    "Ab der nächsten Geschichte: immer nur ein Kapitel schreiben, fertig machen, als Video hochladen, erst dann das nächste",
-    "Keine Riesendateien: ein Kapitel = eine Datei = ein Video"
-  ],
+  "regeln": [],
   "repo": "https://github.com/ChrisKoller35/youtub-geschichten",
   "technik": [
     "Word"
   ],
   "start": null,
-  "einstiegsdateien": [
-    "PLAN.md"
-  ],
+  "einstiegsdateien": [],
   "struktur": [],
-  "naechsteAufgaben": [
-    {
-      "text": "Video 1 fertig machen (Bild, Ton, Schnitt)",
-      "wer": "ki"
-    },
-    {
-      "text": "Video 1 prüfen und hochladen",
-      "wer": "ich"
-    }
-  ],
+  "naechsteAufgaben": [],
   "aktualisiert": "2026-10-17",
   "aktualisiertVon": "claude"
 }
