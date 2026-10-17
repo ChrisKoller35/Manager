@@ -26,6 +26,9 @@ jobs:
           - projekt: TAEHRON
             url: https://izsrqvzitxnlxktgjzkc.supabase.co
             tabelle: entitlements
+          - projekt: TRAILMATE
+            url: https://ozknzgidgvdybzcfiuuy.supabase.co
+            tabelle: badges
     steps:
       - name: Datenbank anstupsen (${{ matrix.projekt }})
         env:
