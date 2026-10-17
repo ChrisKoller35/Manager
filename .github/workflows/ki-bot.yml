@@ -110,4 +110,11 @@ jobs:
         if: always()
         run: |
           git add budget.json
-          git diff --cached --quiet || { git commit -m "Budget nachführen"; git push; }
+          git diff --cached --quiet && exit 0
+          git commit -m "Budget nachführen"
+          # main kann sich während des Laufs ändern (Manager, Threads): vor dem Push neu holen.
+          for i in 1 2 3; do
+            git pull --rebase origin main && git push && exit 0
+            sleep 5
+          done
+          exit 1
