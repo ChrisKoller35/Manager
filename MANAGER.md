@@ -10,7 +10,6 @@ Diese Datei ist das Regelwerk für den Morgen-Manager und den KI-Bot. Beide lese
 | **Christoph** | Entscheidet, was gebaut wird, merged PRs, macht alles, was seinen PC oder seine Konten braucht. |
 | **Manager** (Claude im Projekt «Manager Claude») | Plant und verteilt Aufgaben, berichtet Christoph, pflegt Inventar und dieses Regelwerk. |
 | **KI-Bot** (GitHub Actions mit API-Guthaben) | Arbeitet nachts die `ki-bot`-Aufgaben ab, jede als eigener PR. |
-| **Threads im Projekt** | Arbeit, bei der Christoph mitredet (Ideenkarte-Etappen, Lowland-Morgensession, Content). |
 
 ## Threads und Agents im Projekt
 
