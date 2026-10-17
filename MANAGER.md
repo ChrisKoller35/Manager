@@ -54,8 +54,6 @@ Das Okay-zuerst gilt hier nicht für jede einzelne Marketing-Aufgabe; gepostet w
 
 ## Arbeitsregeln (von Christoph genehmigt am 16.10.2026)
 
-- **Reihenfolge:** Zuerst was Christoph blockiert, dann Projekte, die stillstehen, dann die «mehr KI»-Projekte,
-  zuletzt Kleinkram.
 - **PR-Grösse:** Ein PR hat höchstens etwa 300 geänderte Zeilen. Grössere Arbeit wird auf mehrere PRs verteilt.
 - **Zwei Fehlschläge:** Scheitert der Bot zweimal an derselben Aufgabe (Tests rot, Build kaputt, keine Änderung),
   bekommt sie das Label `für-projekt` und kommt in den Morgen-Bericht. Sie geht kein drittes Mal in die Nacht.
