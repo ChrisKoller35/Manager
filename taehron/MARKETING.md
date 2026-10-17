@@ -26,8 +26,9 @@ Messgrössen, die der Morgen-Manager im Bericht führt:
 | Datum | App-Besucher (Woche) | Instagram | TikTok | YouTube | Quelle |
 |---|---|---|---|---|---|
 | 13.10.2026 | 94 Besucher (6.–13.10., viele Bots) | ? | ? | ? | Logbuch, Netlify |
+| 17.10.2026 | 132 Besucher, ca. 230 echte Aufrufe (10.–17.10.) | 2 Follower, 24 Aufrufe/Woche | 0 Follower, 1151 Aufrufe, 8 Likes | 0 Abos, 49 Aufrufe/28 Tage | Screenshots `taehron/screenshots/` |
 
-Follower-Zahlen fehlen noch: am Samstag bei Christoph erfragen und hier nachtragen.
+Ausgangswert für die Wochenziele ist der Stand vom 17.10.
 
 ## Rhythmus (Thread «TAEHRON-Routinen» im Projekt Manager Claude)
 
@@ -166,6 +167,19 @@ steigen**, weil das die einzige Zahl ist, die echte Leute aus Social Media von B
 - 13.10.: Kanäle waren in den Zahlen nicht unterscheidbar (alles «Direkt»). Darum eigene Kurzadressen pro
   Kanal; Bio-Links müssen noch umgestellt werden.
 - 13.10.: Erster Content-Montag brachte keinen sichtbaren Besucher-Sprung. Ein Grossteil der Zugriffe sind Bots.
+- 17.10. (erste Wochenauswertung):
+  - **TikTok ist der stärkste Kanal** (1151 Aufrufe gegen 24 Insta, 49 YouTube), bringt aber 0 Follower und
+    nur 8 Likes: die Leute schauen und wischen weiter. TikTok wird Hauptkanal.
+  - **Insta: nur Reels werden ausgespielt** (Reels 13 und 11 Aufrufe, Bild-Beiträge je 0). Keine Bild-Beiträge
+    mehr, nur Reels. 0 Profilaufrufe.
+  - **YouTube: durchschnittlich 0:05 geschaut (ca. 20 %)**, die Shorts verlieren die Leute in den ersten
+    Sekunden. Short 12.10. «Leeres Zauberbuch?» 40 Aufrufe, Short 15.10. «FEUERBALL!» 9.
+  - **Haken in den ersten 2 Sekunden** und **klarer Aufruf am Schluss** («Folg für mehr», «Link in Bio») fehlen.
+  - **Webseite → App fast null:** taehron.com hatte ca. 150 echte Aufrufe (DE 73, CH 46, FR 36), aber nur
+    7 Besucher kamen von dort in die App. Vorschlag Webseite: grosser Knopf «Jetzt App öffnen».
+  - **App-Nutzer vor allem Schweiz** (65 von ca. 230 echten Aufrufen), Deutschland nur 6.
+  - Bots: Webseite 399 Anfragen auf /wp-admin, App 191 auf robots.txt/sitemap.xml; USA-Zahlen meist Bots.
+  - Ohne neue Posts sinkt die App ab 16.10. auf 8-11 Besucher/Tag: regelmässig posten ist der Hebel.
 - 13.10.: Lob von Testern darf anonym als Zitat verwendet werden («Ich finde die Seite genial», «Schönes design»).
 
 ## Inputs und Ideen (laufend ergänzen)
