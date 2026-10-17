@@ -88,10 +88,10 @@ Ein neues Repo kommt erst nach Christophs Okay dazu.
   Gemergt wird nur ein grüner PR ohne offene Fragen, und der Merge steht im Bericht. SpellManager bleibt tabu.
 - Keine Schlüssel oder Passwörter in Dateien, Issues oder im Chat.
 - **Lowland:** Nichts planen, was die Morgensession um 06:30 schon macht.
-- **Lowland:** Schwerpunkt ist jetzt das Aussehen (Christoph, 16.10.2026): Figuren, Zauber-Effekte, Animationen, Landschaft,
-  Häuser, Wiesen, Bäume. Der Plan dazu steht in `docs/GRAFIK.md` im Repo lowland. Kein neuer Content, bis Christoph mit dem
-  Aussehen zufrieden ist. Danach geht es wieder mit Content weiter. Wenn das Aussehen nicht mehr sinnvoll besser werden
-  kann, sagt der Manager oder die Morgensession es Christoph.
+- **Lowland:** Schwerpunkt ist jetzt Look und Grafik (Christoph, 16.10.2026): Das Spiel soll insgesamt besser aussehen,
+  woran genau gearbeitet wird, entscheidet die Session selbst. Ideen sammelt `docs/GRAFIK.md` im Repo lowland. Kein
+  neuer Content, bis Christoph mit dem Aussehen zufrieden ist. Danach geht es wieder mit Content weiter. Wenn das
+  Aussehen nicht mehr sinnvoll besser werden kann, sagt der Manager oder die Morgensession es Christoph.
 - **Moneyprojekt:** Ideen, Planung und Marketing nur mit Claude Fable 5.1 (mindestens Effort mittel). Der Bot macht dort nur klar definierte Umsetzungsschritte.
 
 ## Hilfstools
