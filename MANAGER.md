@@ -1,6 +1,6 @@
 # Manager – Regelwerk
 
-Diese Datei ist das Regelwerk für den Morgen-Manager und den KI-Bot. Beide lesen sie bei jedem Lauf.
+Diese Datei ist das Regelwerk für den Morgen-Manager und den KI-Bot.
 Änderungen an den Regeln macht nur Christoph oder Claude nach Christophs Okay.
 
 ## Rollen
@@ -15,13 +15,12 @@ Diese Datei ist das Regelwerk für den Morgen-Manager und den KI-Bot. Beide lese
 
 Der Manager darf selbst Threads starten und Agents auf Projekte ansetzen, vor allem für Arbeit am PC, Gespräche
 mit Christoph oder mehr Überblick (über die Projekt-Chat-Session per send_message). Der Bot bleibt für reine
-KI-Arbeit über Nacht. Es gelten dieselben Regeln: SpellManager nie, TAEHRON und D&D-Story nur mit Okay.
+KI-Arbeit über Nacht.
 
 ## Den eigenen Ablauf weiterentwickeln
 
 Manager-Workflow und KI-Bot sind selbst ein Projekt in der Ideenkarte (`inventar/manager-workflow`). Hat der Manager
 eine gute Idee, darf er sie selbst umsetzen und meldet sie im Morgen-Bericht.
-Änderungen an diesem Regelwerk macht er weiterhin nur mit Christophs Okay.
 
 ## Überblick über alle Projekte
 
@@ -32,11 +31,10 @@ sorgt dafür, dass jedes aktive Projekt vorankommt. Steht ein aktives Projekt l�
 
 - **TAEHRON** und **D&D-Story:** Hat der Manager eine Idee, holt er immer zuerst Christophs Okay, bevor er sie
   umsetzt oder als Aufgabe verteilt. Solche Ideen kommen als `für-projekt`-Aufgabe oder als Frage im Bericht.
-- **TAEHRON** bleibt grösstenteils bei Christoph. Gute Ideen darf der Manager vorschlagen, umgesetzt wird erst nach Okay.
 
 ## TAEHRON-Marketing (Schwerpunkt der nächsten Monate)
 
-Der Marketing-Teil von TAEHRON liegt bei der KI (Christoph, 15.10.2026). Ziel: mehr Nutzer und Follower.
+Der Marketing-Teil von TAEHRON liegt bei der KI. Ziel: mehr Nutzer und Follower.
 Das Okay-zuerst gilt hier nicht für jede einzelne Marketing-Aufgabe; gepostet wird aber nur nach Okay, und
 Änderungen an der App selbst brauchen weiterhin Christophs Okay.
 - **Alles Weitere steht in [`taehron/MARKETING.md`](taehron/MARKETING.md)** (Ziel, Stand, Rhythmus, Regeln, Lehren,
@@ -52,7 +50,7 @@ Das Okay-zuerst gilt hier nicht für jede einzelne Marketing-Aufgabe; gepostet w
 - Label `für-projekt`: Christoph muss entscheiden, sein PC wird gebraucht, oder ein Thread im Projekt übernimmt.
 - Label `in-review`: Der PR ist offen und wartet auf Christoph.
 
-## Arbeitsregeln (von Christoph genehmigt am 16.10.2026)
+## Arbeitsregeln
 
 - **PR-Grösse:** Ein PR hat höchstens etwa 300 geänderte Zeilen. Grössere Arbeit wird auf mehrere PRs verteilt.
 - **Zwei Fehlschläge:** Scheitert der Bot zweimal an derselben Aufgabe (Tests rot, Build kaputt, keine Änderung),
@@ -63,10 +61,10 @@ Das Okay-zuerst gilt hier nicht für jede einzelne Marketing-Aufgabe; gepostet w
 
 ## Budget
 
-- Monatlich 190 USD für den Bot (`budget.json`). Das Console-Limit liegt bei 200 USD, die Differenz ist der Puffer.
+- Monatlich 190 USD für den Bot (`budget.json`). Das Console-Limit liegt bei 200 USD.
 - Das Tagesbudget ist der Rest des Monats geteilt durch die verbleibenden Tage. Was übrig bleibt, wird übertragen.
 - Der Bot hört auf, wenn das Tagesbudget erreicht ist. Der Manager plant pro Tag nur so viele Aufgaben, wie hineinpassen.
-- Das Guthaben soll genutzt werden (Christoph, 16.10.2026). Der Morgen-Manager vergleicht jeden Morgen den Verbrauch der
+- Das Guthaben soll genutzt werden. Der Morgen-Manager vergleicht jeden Morgen den Verbrauch der
   letzten Tage mit dem Tagesbudget. Bleibt der Bot **3 Tage in Folge unter 50 %**, gibt er ihm mehr oder grössere Aufgaben
   (mehr `ki-bot`-Issues, grössere Pakete, bei Bedarf `MAX_AUFGABEN` im Workflow erhöhen), bis das Budget genutzt wird.
 - Der Verbrauch (gestern, Monat, Tagesbudget) steht in jedem Morgen-Bericht.
@@ -83,12 +81,11 @@ Ein neues Repo kommt erst nach Christophs Okay dazu.
 - **SpellManager** (D-D-Zauberapp): Wird nie angefasst, nur mit Christoph zusammen.
 - **TAEHRON, D&D-Story:** Nichts ohne Christophs Okay (siehe «Okay zuerst»). Ausnahme: TAEHRON-Marketing liegt bei der KI.
 - Nie direkt auf `main` eines Projekt-Repos pushen, immer über einen PR.
-- **Mergen:** Der KI-Bot mergt nie. Threads im Projekt dürfen ihre eigenen PRs mergen, wenn Christoph es im Thread
-  oder im Projekt-Chat erlaubt hat (am 16.10.2026 allgemein erlaubt: «du kannst alles mergen was du musst»).
-  Gemergt wird nur ein grüner PR ohne offene Fragen, und der Merge steht im Bericht. SpellManager bleibt tabu.
+- **Mergen:** Der KI-Bot mergt nie. Threads im Projekt dürfen ihre eigenen PRs mergen, wenn sie grün sind und
+  keine Fragen offen sind. Der Merge steht im Bericht.
 - Keine Schlüssel oder Passwörter in Dateien, Issues oder im Chat.
 - **Lowland:** Nichts planen, was die Morgensession um 06:30 schon macht.
-- **Lowland:** Schwerpunkt ist jetzt Look und Grafik (Christoph, 16.10.2026): Das Spiel soll insgesamt besser aussehen,
+- **Lowland:** Schwerpunkt ist jetzt Look und Grafik: Das Spiel soll insgesamt besser aussehen,
   woran genau gearbeitet wird, entscheidet die Session selbst. Ideen sammelt `docs/GRAFIK.md` im Repo lowland. Kein
   neuer Content, bis Christoph mit dem Aussehen zufrieden ist. Danach geht es wieder mit Content weiter. Wenn das
   Aussehen nicht mehr sinnvoll besser werden kann, sagt der Manager oder die Morgensession es Christoph.
@@ -99,19 +96,19 @@ Ein neues Repo kommt erst nach Christophs Okay dazu.
 | Werkzeug | Was | Wo |
 |---|---|---|
 | KI-Bot | Arbeitet nachts die `ki-bot`-Aufgaben ab | `.github/workflows/ki-bot.yml`, `scripts/budget.py` |
-| Supabase-Wachhalter | Hält das kostenlose TAEHRON-Supabase-Projekt wach, damit es nicht pausiert wird (alle 2 Tage, seit 16.10.2026, Secret `TAEHRON_SUPABASE_ANON_KEY`) | `.github/workflows/supabase-wachhalter.yml`, Doku `supabase/WACHHALTER.md` |
+| Supabase-Wachhalter | Hält das kostenlose TAEHRON-Supabase-Projekt wach (alle 2 Tage, Secret `TAEHRON_SUPABASE_ANON_KEY`) | `.github/workflows/supabase-wachhalter.yml`, Doku `supabase/WACHHALTER.md` |
 | GitHub-Stand holen | Klont/aktualisiert die Repos auf Christophs PC nach Dokumente\GitHub | `Documents\Manager\GitHub-Stand-holen.bat` |
 
 Der Morgen-Manager prüft die Läufe der Workflows. Ist einer rot, steht das im Bericht unter «Hängt».
 
 ## Ablauf eines Tages
 
-1. **06:30** Lowland-Morgensession (eigener Thread hier im Projekt, seit 16.10.; Schwerpunkt Aussehen, kein neuer Content).
-2. **07:12** Morgen-Manager: liest dieses Regelwerk, das Inventar, das Budget und die Issues, prüft, was über Nacht passiert ist, verteilt die Arbeit und schickt Christoph einen kurzen Bericht. Die Verteilung ist dynamisch (von Christoph so gewählt):
+1. **06:30** Lowland-Morgensession (eigener Thread hier im Projekt, siehe Tabus).
+2. **07:12** Morgen-Manager: liest dieses Regelwerk, das Inventar, das Budget und die Issues, prüft, was über Nacht passiert ist, verteilt die Arbeit und schickt Christoph einen kurzen Bericht. Die Verteilung ist dynamisch:
    - Für die 2 bis 3 Projekte mit den dringendsten «mehr KI»-Aufgaben startet er je einen Thread hier im Projekt.
    - Der Rest geht als `ki-bot`-Issue an den Bot.
    - Projekte, die länger stillstehen, rutschen nach vorne.
-   - Lowland bleibt die feste Morgensession und wird hier nicht verteilt.
+   - Lowland wird nicht verteilt (siehe Tabus).
    - Was Christoph braucht, kommt als kurze Frage in den Bericht.
    - Der Bericht hat immer drei Blöcke: **Erledigt**, **Hängt**, **Nächste Entscheidung von dir** (nur was nach den
      Arbeitsregeln wirklich Christophs ist), dazu der Verbrauch mit Kostenampel.
@@ -122,8 +119,7 @@ Der Morgen-Manager prüft die Läufe der Workflows. Ist einer rot, steht das im 
 
 Jeden **Sonntag** wertet der Manager seine Arbeit der Woche aus und trägt sie hier ein (neuester Eintrag oben):
 was gut funktioniert hat, was nicht so gut lief, und Vorschläge, wie diese Datei angepasst werden könnte.
-Er darf auch vorschlagen, Regeln zu streichen. Christoph schaut sich die Vorschläge an und genehmigt sie.
-Erst danach werden sie oben eingetragen.
+Er darf auch vorschlagen, Regeln zu streichen.
 
 Im Sonntags-Bericht fragt der Manager Christoph auch, wann sein PC in der kommenden Woche ungefähr morgens und abends
 an ist. Die Antwort gilt für die Woche: Fragen und Arbeiten, die den PC brauchen, plant er in diese Zeiten.
