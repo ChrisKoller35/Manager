@@ -180,6 +180,10 @@ steigen**, weil das die einzige Zahl ist, die echte Leute aus Social Media von B
   - **App-Nutzer vor allem Schweiz** (65 von ca. 230 echten Aufrufen), Deutschland nur 6.
   - Bots: Webseite 399 Anfragen auf /wp-admin, App 191 auf robots.txt/sitemap.xml; USA-Zahlen meist Bots.
   - Ohne neue Posts sinkt die App ab 16.10. auf 8-11 Besucher/Tag: regelmässig posten ist der Hebel.
+- 18.10. (Sonntags-Entwürfe): Lehren vom 17.10. umgesetzt: Format «Regel-Tipp in 20 s» als Serie gestartet
+  (Short 3 kurze Rast/Hexenmeister, Short 4 lange Rast/Kleriker), Frage als Hook ab Bild 1, Outro mit «Folg für mehr
+  Regel-Tipps», Insta-Feed als Reel («Das sagen Tester») statt Bild, Hashtags 5. Am 24.10. prüfen: Ø Wiedergabe > 5 s?
+  Erste Follower auf TikTok?
 - 13.10.: Lob von Testern darf anonym als Zitat verwendet werden («Ich finde die Seite genial», «Schönes design»).
 
 ## Inputs und Ideen (laufend ergänzen)
