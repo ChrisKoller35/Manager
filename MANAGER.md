@@ -7,7 +7,7 @@ Diese Datei ist das Regelwerk für den Morgen-Manager und den KI-Bot.
 
 | Wer | Was |
 |---|---|
-| **Christoph** | Entscheidet, was gebaut wird, merged PRs, macht alles, was seinen PC oder seine Konten braucht. |
+| **Christoph** | Entscheidet, was gebaut wird, macht alles, was seinen PC oder seine Konten braucht. Bekommt PRs nur bei offenen Fragen. |
 | **Manager** (Claude im Projekt «Manager Claude») | Plant und verteilt Aufgaben, berichtet Christoph, pflegt Inventar und dieses Regelwerk. |
 | **KI-Bot** (GitHub Actions mit API-Guthaben) | Arbeitet nachts die `ki-bot`-Aufgaben ab, jede als eigener PR. |
 
@@ -48,7 +48,8 @@ Das Okay-zuerst gilt hier nicht für jede einzelne Marketing-Aufgabe; gepostet w
 - Erste Zeile im Text: `Repo: ChrisKoller35/<name>`.
 - Label `ki-bot`: Der Bot kann die Aufgabe allein lösen. Sie ist klar umrissen, testbar und passt in einen PR.
 - Label `für-projekt`: Christoph muss entscheiden, sein PC wird gebraucht, oder ein Thread im Projekt übernimmt.
-- Label `in-review`: Der PR ist offen und wartet auf Christoph.
+- Label `in-review`: Der PR ist offen und wartet auf Prüfung. Bot-PRs prüft und merged am Morgen ein Thread im
+  Projekt (seit 18.10.2026). Christoph bekommt einen PR nur bei offenen Fragen.
 
 ## Arbeitsregeln
 
@@ -67,6 +68,8 @@ Das Okay-zuerst gilt hier nicht für jede einzelne Marketing-Aufgabe; gepostet w
 - Das Guthaben soll genutzt werden. Der Morgen-Manager vergleicht jeden Morgen den Verbrauch der
   letzten Tage mit dem Tagesbudget. Bleibt der Bot **3 Tage in Folge unter 50 %**, gibt er ihm mehr oder grössere Aufgaben
   (mehr `ki-bot`-Issues, grössere Pakete, bei Bedarf `MAX_AUFGABEN` im Workflow erhöhen), bis das Budget genutzt wird.
+- **Bot-Vorrat** (seit 18.10.2026): Der Morgen-Manager sorgt dafür, dass für die Nacht mindestens 6 `ki-bot`-Issues
+  bereit sind. Issues, die auf einen PR warten, bekommen das Label erst nach dem Merge.
 - Der Verbrauch (gestern, Monat, Tagesbudget) steht in jedem Morgen-Bericht.
 - **Kostenampel:** Ab 70 % des Monatsbudgets ist der Bericht gelb, und der Bot bekommt nur noch kleine Aufgaben.
   Ab 90 % ist er rot, und der Bot stoppt bis zum Monatswechsel (keine neuen `ki-bot`-Issues).
@@ -97,7 +100,7 @@ Ein neues Repo kommt erst nach Christophs Okay dazu.
 |---|---|---|
 | KI-Bot | Arbeitet nachts die `ki-bot`-Aufgaben ab | `.github/workflows/ki-bot.yml`, `scripts/budget.py` |
 | Supabase-Wachhalter | Hält das kostenlose TAEHRON-Supabase-Projekt wach (alle 2 Tage, Secret `TAEHRON_SUPABASE_ANON_KEY`) | `.github/workflows/supabase-wachhalter.yml`, Doku `supabase/WACHHALTER.md` |
-| GitHub-Stand holen | Klont/aktualisiert die Repos auf Christophs PC nach Dokumente\GitHub | `Documents\Manager\GitHub-Stand-holen.bat` |
+| GitHub-Stand holen | Verbindet die bestehenden Projektordner auf Christophs PC mit GitHub und holt den Stand (klont nicht neu) | `Documents\Manager\GitHub-Stand-holen.bat` |
 
 Der Morgen-Manager prüft die Läufe der Workflows. Ist einer rot, steht das im Bericht unter «Hängt».
 
@@ -112,7 +115,7 @@ Der Morgen-Manager prüft die Läufe der Workflows. Ist einer rot, steht das im 
    - Was Christoph braucht, kommt als kurze Frage in den Bericht.
    - Der Bericht hat immer drei Blöcke: **Erledigt**, **Hängt**, **Nächste Entscheidung von dir** (nur was nach den
      Arbeitsregeln wirklich Christophs ist), dazu der Verbrauch mit Kostenampel.
-3. **Tagsüber:** Christoph merged PRs, beantwortet Fragen und arbeitet in den Threads.
+3. **Tagsüber:** Threads prüfen und mergen die Bot-PRs. Christoph beantwortet Fragen und arbeitet in den Threads.
 4. **23:00 und 03:00** KI-Bot: arbeitet die `ki-bot`-Aufgaben im Rahmen des Budgets ab.
 
 ## Wöchentlicher Rückblick
@@ -144,6 +147,8 @@ an ist. Die Antwort gilt für die Woche: Fragen und Arbeiten, die den PC brauche
      Thread. Christoph bekommt einen PR nur bei offenen Fragen. Label `in-review` heisst dann «wartet auf Prüfung».
   3. **Hilfstools:** Die Zeile «GitHub-Stand holen» korrigieren. Die .bat verbindet die bestehenden Ordner mit
      GitHub, sie klont nicht nach Dokumente\GitHub.
+- Christoph 18.10.: Alle drei Vorschläge genehmigt und oben eingetragen. PC diese Woche an: morgens ca. 08:00,
+  abends ca. 21:00-22:00.
 
 <!-- Vorlage:
 ### Woche vom JJJJ-MM-TT
