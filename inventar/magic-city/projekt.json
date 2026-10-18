@@ -5,7 +5,7 @@
   "typ": "game",
   "beschreibung": "Fantasy-Aufbauspiel im Browser (City Builder + RPG-Expeditionen). Dient als Vorlage für das Third-Person-Game Lowland.",
   "status": "aktiv",
-  "stand": "17.10.2026: PC-Stand (April) auf GitHub übernommen, Bestandsaufnahme in docs/BESTAND.md. Läuft im Browser; Crafting hängt nicht mehr an Gebäuden, Expeditionen geben keinen Fortschritt. KI-Bot arbeitet die Fehler ab, Gebäude-Konzept wartet auf Christophs Entscheidung (docs/GEBAEUDE-IDEEN.md). Dient weiter als Vorlage für Lowland.",
+  "stand": "18.10.2026: Gebäude-Idee B+C entschieden (Freischalt-Baum mit Werkstätten, Baupläne aus Dungeons). Nacht 17./18.10.: 5 Bot-PRs (#4-#8: Crafting, Expedition, Speichern, Freischalt-Reihenfolge, Baupläne), ein Thread prüft und mergt sie heute. Dient weiter als Vorlage für Lowland.",
   "markierung": "mehr-ki",
   "markierungGeprueft": true,
   "zuletztGeaendert": "2026-03-31",
@@ -46,26 +46,18 @@
   ],
   "naechsteAufgaben": [
     {
-      "text": "Crafting wieder an Gebäude koppeln (Manager #18)",
+      "text": "Bot-PRs #4-#8 prüfen und mergen",
       "wer": "ki"
     },
     {
-      "text": "Sackgassen im Expeditionsablauf beheben (Manager #19)",
+      "text": "Expeditions-Fortschritt, Werkstatt-Fenster, Balancing (Manager #21, #22, #23, #27)",
       "wer": "ki"
     },
     {
-      "text": "Speichern/Laden, Testgerüst, kleine Fehler (Manager #20)",
-      "wer": "ki"
-    },
-    {
-      "text": "Expeditionen geben Fortschritt, danach Balancing (Manager #21-#23)",
-      "wer": "ki"
-    },
-    {
-      "text": "Gebäude-Idee wählen (docs/GEBAEUDE-IDEEN.md)",
+      "text": "Altes Repo Aufbauspiel archivieren (GitHub, Settings ganz unten)",
       "wer": "ich"
     }
   ],
-  "aktualisiert": "2026-10-17",
+  "aktualisiert": "2026-10-18",
   "aktualisiertVon": "claude"
 }

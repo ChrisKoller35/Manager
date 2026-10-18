@@ -5,7 +5,7 @@
   "typ": "app",
   "beschreibung": "Wander-App mit Karten, GPS-Tracking, Social-Feed und Wanderpartner-Matching.",
   "status": "aktiv",
-  "stand": "PR #1-#8 gemergt (README, Tests, Wetter-Fixes, docs/STAND.md, Lint/Typen, 2 Sicherheits-Fixes), main 97 Tests grün. Offen bei Christoph: Supabase-Projekt und Entwicklerkonten.",
+  "stand": "PR #1-#13 auf main (u. a. Wetter, Sicherheit, Migrationen auf echtem Supabase, Feed und Medien). Supabase-Projekt läuft. Bot-PRs #9 (Lint) und #10 (Tests) werden heute geprüft.",
   "markierung": "mehr-ki",
   "markierungGeprueft": true,
   "zuletztGeaendert": "2026-10-16",
@@ -30,22 +30,18 @@
   "struktur": [],
   "naechsteAufgaben": [
     {
-      "text": "Kostenloses Supabase-Projekt für TrailMate anlegen",
-      "wer": "ich"
+      "text": "Bot-PRs #9 und #10 prüfen und mergen",
+      "wer": "ki"
+    },
+    {
+      "text": "RLS-Fehler aus docs/ist-soll 06 beheben",
+      "wer": "ki"
     },
     {
       "text": "Apple- und Google-Entwicklerkonto anlegen",
       "wer": "ich"
-    },
-    {
-      "text": "Lint-Warnungen abbauen (Manager #6)",
-      "wer": "ki"
-    },
-    {
-      "text": "Tests für Hilfsfunktionen (Manager #7)",
-      "wer": "ki"
     }
   ],
-  "aktualisiert": "2026-10-17",
+  "aktualisiert": "2026-10-18",
   "aktualisiertVon": "claude"
 }

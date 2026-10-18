@@ -124,6 +124,27 @@ Er darf auch vorschlagen, Regeln zu streichen.
 Im Sonntags-Bericht fragt der Manager Christoph auch, wann sein PC in der kommenden Woche ungefähr morgens und abends
 an ist. Die Antwort gilt für die Woche: Fragen und Arbeiten, die den PC brauchen, plant er in diese Zeiten.
 
+### Woche vom 2026-10-15 (erste Woche, 15.-18.10.)
+- Erledigt: Morgen-Manager, KI-Bot und Supabase-Wachhalter laufen. Lowland: rund 30 Grafik-PRs (#11-#42) und
+  der Baumodus. TrailMate: PR #1-#13, Supabase-Projekt läuft. Ideenkarte: Etappe 2, MD-Liste, Version 0.2.1.
+  Magic City wieder aktiv, Gebäude-Idee B+C entschieden, erste 5 Bot-PRs. TAEHRON: Marketing-Plan und erste
+  Wochenauswertung. Moneyprojekt: Pino-Linie und erste Erwachsenen-Kurzgeschichte mit 5 Shorts.
+  YouTube-Geschichten eingestellt.
+- Kosten: 12.44 USD von 190 USD (Bot), Threads über das Max-Abo.
+- Gut gelaufen: Threads liefern viel und mergen selbst; seit dem Fix vom 17.10. laufen die Bot-Läufe sauber durch.
+- Nicht gut gelaufen: Der Bot lag drei Tage weit unter dem Budget, weil zu wenige Issues bereit waren.
+  Der Lauf vom 16.10. war rot (Budget-Push). Der PC war zweimal morgens aus. Ich habe einmal nach dem Mergen
+  von PRs gefragt, die schon gemergt waren. Der Wachhalter erreichte TAEHRON am 17.10. abends nicht.
+- Nächste Woche anders: Jeden Morgen genug `ki-bot`-Issues bereitstellen, dass beide Nachtläufe voll werden.
+  Vor jeder Frage an Christoph den Stand frisch prüfen.
+- Vorschläge an Christoph (ändern oder streichen):
+  1. **Bot-Vorrat:** Neue Regel unter Budget: «Der Morgen-Manager sorgt dafür, dass für die Nacht mindestens
+     6 `ki-bot`-Issues bereit sind. Issues, die auf einen PR warten, bekommen das Label erst nach dem Merge.»
+  2. **Wer merged:** In «Rollen» bei Christoph «merged PRs» streichen. Bot-PRs prüft und merged am Morgen ein
+     Thread. Christoph bekommt einen PR nur bei offenen Fragen. Label `in-review` heisst dann «wartet auf Prüfung».
+  3. **Hilfstools:** Die Zeile «GitHub-Stand holen» korrigieren. Die .bat verbindet die bestehenden Ordner mit
+     GitHub, sie klont nicht nach Dokumente\GitHub.
+
 <!-- Vorlage:
 ### Woche vom JJJJ-MM-TT
 - Erledigt: …

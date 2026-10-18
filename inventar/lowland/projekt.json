@@ -5,7 +5,7 @@
   "typ": "game",
   "beschreibung": "Third-Person-Fantasy-Game, aufgebaut auf der Vorlage Magic City.",
   "status": "aktiv",
-  "stand": "Grafik-Phase: seit 16.10. PR #11-#25 gemergt (Mauerwerk, Fachwerk, Licht, Wasser, Sterne, Schwert-Animation, Wegränder). Morgensession 06:30 läuft im Projekt weiter.",
+  "stand": "Grafik-Phase: seit 16.10. PR #11-#42 gemergt (u. a. Mauerwerk, Licht, Wasser, Rüstung, Umrisslinien, Vignette, Fackel-Licht, Boss-Saum). Bonus 17.10.: Baumodus (PR #33). Morgensession 06:30 läuft.",
   "markierung": "mehr-ki",
   "markierungGeprueft": true,
   "zuletztGeaendert": "2026-10-17",
@@ -31,14 +31,14 @@
   "struktur": [],
   "naechsteAufgaben": [
     {
-      "text": "Grafik nach docs/GRAFIK.md weiter verbessern (Figuren, Gesichter, Gegner-Lesbarkeit, Fackeln)",
+      "text": "Grafik weiter verbessern (Morgensession entscheidet)",
       "wer": "ki"
     },
     {
-      "text": "Bilder anschauen und sagen, ob Regen seltener sein soll",
+      "text": "Am PC anschauen: Bildrate mit Gras, Esc-Test",
       "wer": "ich"
     }
   ],
-  "aktualisiert": "2026-10-17",
+  "aktualisiert": "2026-10-18",
   "aktualisiertVon": "claude"
 }
