@@ -48,6 +48,7 @@ mark('card');
 await tapEl(p.getByText(new RegExp('^'+CARD)).first()); await p.waitForTimeout(3200);
 mark('back');
 await tapEl(p.getByRole('button',{name:/Zurück/}).last()); await p.waitForTimeout(700);
+mark('list'); await p.waitForTimeout(+(process.env.LISTPAUSE||0));
 await scrollTo(p.getByText('Fähigkeiten').first(), 70); await p.waitForTimeout(500);
 mark('slots');
 const s = await slots(); console.log('slots', JSON.stringify(s));
