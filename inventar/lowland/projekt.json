@@ -5,7 +5,7 @@
   "typ": "game",
   "beschreibung": "Third-Person-Fantasy-Game, aufgebaut auf der Vorlage Magic City.",
   "status": "aktiv",
-  "stand": "Grafik-Phase: seit 16.10. PR #11-#42 gemergt (u. a. Mauerwerk, Licht, Wasser, Rüstung, Umrisslinien, Vignette, Fackel-Licht, Boss-Saum). Bonus 17.10.: Baumodus (PR #33). Morgensession 06:30 läuft.",
+  "stand": "Grafik-Phase: seit 16.10. PR #11-#55 gemergt (u. a. Licht, Wasser, Rüstung, Umrisse, Vignette, Gesichter, Kaminrauch). Morgensession 06:30 läuft.",
   "markierung": "mehr-ki",
   "markierungGeprueft": true,
   "zuletztGeaendert": "2026-10-17",
@@ -39,6 +39,6 @@
       "wer": "ich"
     }
   ],
-  "aktualisiert": "2026-10-18",
+  "aktualisiert": "2026-10-19",
   "aktualisiertVon": "claude"
 }

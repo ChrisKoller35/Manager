@@ -5,7 +5,7 @@
   "typ": "tool",
   "beschreibung": "Manager plant jeden Morgen im Claude-Projekt, der KI-Bot (GitHub Actions, API-Guthaben) arbeitet nachts Aufgaben als PRs ab.",
   "status": "aktiv",
-  "stand": "Läuft. Bot seit 17.10. 23:50 mit 5 Aufgaben je Lauf, Nacht 17./18.10. 8 PRs. Verbrauch bis 18.10.: 12.44 von 190 USD. Erster Wochenrückblick 18.10. in MANAGER.md.",
+  "stand": "Läuft. Bot seit 18.10. ausgelastet (18.10.: 11.93 von 13.21 USD). Monat bis 19.10.: 20.50 von 190 USD. Rückblick-Regeln vom 18.10. eingetragen. Bot-Token fehlt Schreibrecht für Ideenkarte.",
   "markierung": "mehr-ki",
   "markierungGeprueft": true,
   "zuletztGeaendert": "2026-10-15",
@@ -30,14 +30,14 @@
   "struktur": [],
   "naechsteAufgaben": [
     {
-      "text": "Rückblick-Vorschläge vom 18.10. genehmigen oder ablehnen",
+      "text": "Bot-Token: bei Ideenkarte Contents und Pull requests auf Read and write",
       "wer": "ich"
     },
     {
-      "text": "Bot jede Nacht mit genug freigegebenen Issues füttern",
+      "text": "Jeden Morgen mindestens 6 Bot-Aufgaben bereitstellen",
       "wer": "ki"
     }
   ],
-  "aktualisiert": "2026-10-18",
+  "aktualisiert": "2026-10-19",
   "aktualisiertVon": "claude"
 }

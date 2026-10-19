@@ -5,7 +5,7 @@
   "typ": "game",
   "beschreibung": "Fantasy-Aufbauspiel im Browser (City Builder + RPG-Expeditionen). Dient als Vorlage für das Third-Person-Game Lowland.",
   "status": "aktiv",
-  "stand": "18.10.2026: Gebäude-Idee B+C entschieden (Freischalt-Baum mit Werkstätten, Baupläne aus Dungeons). Nacht 17./18.10.: 5 Bot-PRs (#4-#8: Crafting, Expedition, Speichern, Freischalt-Reihenfolge, Baupläne), ein Thread prüft und mergt sie heute. Dient weiter als Vorlage für Lowland.",
+  "stand": "19.10.2026: Bot-PRs #4-#8 gemergt (Crafting, Expedition, Speichern, Freischalt-Reihenfolge, Baupläne). 18.10. mit Christoph: Gebäude-Seite als Mindmap mit Ausbau-Stufen und «Der Weg zur Magischen Stadt» (7 Stadtstufen). Bot-PRs #15-#17 (Fortschritt, Zutaten, Werkstatt-Fenster) werden heute geprüft.",
   "markierung": "mehr-ki",
   "markierungGeprueft": true,
   "zuletztGeaendert": "2026-03-31",
@@ -46,11 +46,11 @@
   ],
   "naechsteAufgaben": [
     {
-      "text": "Bot-PRs #4-#8 prüfen und mergen",
+      "text": "Bot-PRs #15-#17 prüfen und mergen",
       "wer": "ki"
     },
     {
-      "text": "Expeditions-Fortschritt, Werkstatt-Fenster, Balancing (Manager #21, #22, #23, #27)",
+      "text": "Balancing Startwirtschaft/Helden (Manager #23) und nächste Bot-Aufgaben",
       "wer": "ki"
     },
     {
@@ -58,6 +58,6 @@
       "wer": "ich"
     }
   ],
-  "aktualisiert": "2026-10-18",
+  "aktualisiert": "2026-10-19",
   "aktualisiertVon": "claude"
 }

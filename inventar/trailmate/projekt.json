@@ -5,7 +5,7 @@
   "typ": "app",
   "beschreibung": "Wander-App mit Karten, GPS-Tracking, Social-Feed und Wanderpartner-Matching.",
   "status": "aktiv",
-  "stand": "PR #1-#13 auf main (u. a. Wetter, Sicherheit, Migrationen auf echtem Supabase, Feed und Medien). Supabase-Projekt läuft. Bot-PRs #9 (Lint) und #10 (Tests) werden heute geprüft.",
+  "stand": "PR #1-#13 und Bot-PR #10 auf main. Bot-PRs #14 (Gruppen/Communities serverseitig) und #15 (Missbrauchsschutz) werden heute geprüft.",
   "markierung": "mehr-ki",
   "markierungGeprueft": true,
   "zuletztGeaendert": "2026-10-16",
@@ -30,11 +30,11 @@
   "struktur": [],
   "naechsteAufgaben": [
     {
-      "text": "Bot-PRs #9 und #10 prüfen und mergen",
+      "text": "Bot-PRs #14 und #15 prüfen und mergen",
       "wer": "ki"
     },
     {
-      "text": "RLS-Fehler aus docs/ist-soll 06 beheben",
+      "text": "Weitere Sicherheits- und Ist-Soll-Punkte als Bot-Aufgaben",
       "wer": "ki"
     },
     {
@@ -42,6 +42,6 @@
       "wer": "ich"
     }
   ],
-  "aktualisiert": "2026-10-18",
+  "aktualisiert": "2026-10-19",
   "aktualisiertVon": "claude"
 }
