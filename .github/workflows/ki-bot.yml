@@ -94,7 +94,7 @@ jobs:
                 continue
               fi
               pr=$(cd work && gh pr create -R "$repo" --head "$branch" --title "$titel" \
-                    --body "$(printf 'Aufgabe: %s#%s\n\n%s\n\nKosten: %s USD\n\nGemergt wird nur von Christoph.' \
+                    --body "$(printf 'Aufgabe: %s#%s\n\n%s\n\nKosten: %s USD\n\nGeprüft und gemergt wird von einem Thread im Projekt Manager Claude (Regel seit 18.10.2026).' \
                               "$GITHUB_REPOSITORY" "$nr" "$zusammenfassung" "$kosten")")
               gh issue comment "$nr" -R "$GITHUB_REPOSITORY" --body "PR: $pr (Kosten ${kosten} USD)"
               gh issue edit "$nr" -R "$GITHUB_REPOSITORY" --remove-label ki-bot --add-label in-review
