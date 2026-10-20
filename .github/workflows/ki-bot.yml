@@ -72,12 +72,12 @@ jobs:
               "Du arbeitest an genau dieser Aufgabe im Repo ${repo}:" \
               "Titel: ${titel}" "" "${text}" "" \
               "Regeln: Lies zuerst CLAUDE.md bzw. README. Bleib bei dieser Aufgabe." \
-              "Führe vorhandene Tests und Checks aus. Committe auf dem aktuellen Branch, pushe nicht." \
+              "Führe vorhandene Tests und Checks aus. Committe auf dem aktuellen Branch nach jedem fertigen Teilschritt (nicht erst am Schluss), pushe nicht." \
               "Schreib am Ende eine kurze deutsche Zusammenfassung: was gemacht, was geprüft, was offen ist." \
               > auftrag.txt
 
             # Eingeschränkte Werkzeuge statt freier Shell: Dateien bearbeiten, npm-Skripte, git add/commit.
-            (cd work && claude -p "$(cat ../auftrag.txt)" --output-format json --max-turns 60 \
+            (cd work && claude -p "$(cat ../auftrag.txt)" --output-format json --max-turns 90 \
                 --model claude-opus-5-5 --permission-mode acceptEdits \
                 --allowedTools "Read" "Edit" "Write" "Glob" "Grep" \
                   "Bash(npm install:*)" "Bash(npm ci:*)" "Bash(npx jest:*)" "Bash(npx expo lint:*)" "Bash(npm test:*)" "Bash(npm run:*)" "Bash(npx tsc:*)" \
