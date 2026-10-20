@@ -5,7 +5,7 @@
   "typ": "game",
   "beschreibung": "Fantasy-Aufbauspiel im Browser (City Builder + RPG-Expeditionen). Dient als Vorlage für das Third-Person-Game Lowland.",
   "status": "aktiv",
-  "stand": "19.10.2026: Bot-PRs #4-#8 gemergt (Crafting, Expedition, Speichern, Freischalt-Reihenfolge, Baupläne). 18.10. mit Christoph: Gebäude-Seite als Mindmap mit Ausbau-Stufen und «Der Weg zur Magischen Stadt» (7 Stadtstufen). Bot-PRs #15-#17 (Fortschritt, Zutaten, Werkstatt-Fenster) werden heute geprüft.",
+  "stand": "20.10.2026: Expeditions-Fortschritt, Zutaten und Werkstatt-Fenster gemergt (19.10.), dazu «Die endlose Treppe» Teil 1 und ein Probespiel. Christoph will das Endgame als Dungeon-Karte, die nach oben weitergeht (Umbau offen). Bot-PRs #21/#22 (Handy-Ansichten) werden heute geprüft.",
   "markierung": "mehr-ki",
   "markierungGeprueft": true,
   "zuletztGeaendert": "2026-03-31",
@@ -46,11 +46,15 @@
   ],
   "naechsteAufgaben": [
     {
-      "text": "Bot-PRs #15-#17 prüfen und mergen",
+      "text": "Bot-PRs #21 und #22 prüfen und mergen",
       "wer": "ki"
     },
     {
-      "text": "Balancing Startwirtschaft/Helden (Manager #23) und nächste Bot-Aufgaben",
+      "text": "Balancing in kleinere Bot-Aufgaben aufteilen",
+      "wer": "ki"
+    },
+    {
+      "text": "Endgame als Karte nach oben neu planen",
       "wer": "ki"
     },
     {
@@ -58,6 +62,6 @@
       "wer": "ich"
     }
   ],
-  "aktualisiert": "2026-10-19",
+  "aktualisiert": "2026-10-20",
   "aktualisiertVon": "claude"
 }

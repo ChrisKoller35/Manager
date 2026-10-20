@@ -5,7 +5,7 @@
   "typ": "app",
   "beschreibung": "Wander-App mit Karten, GPS-Tracking, Social-Feed und Wanderpartner-Matching.",
   "status": "aktiv",
-  "stand": "PR #1-#13 und Bot-PR #10 auf main. Bot-PRs #14 (Gruppen/Communities serverseitig) und #15 (Missbrauchsschutz) werden heute geprüft.",
+  "stand": "PR #1-#15 auf main (zuletzt Gruppen-Rechte und Missbrauchsschutz). Bot-PRs #16-#18 (Block-Filter, Post-Postfach, Follower blockieren) werden heute geprüft.",
   "markierung": "mehr-ki",
   "markierungGeprueft": true,
   "zuletztGeaendert": "2026-10-16",
@@ -30,7 +30,7 @@
   "struktur": [],
   "naechsteAufgaben": [
     {
-      "text": "Bot-PRs #14 und #15 prüfen und mergen",
+      "text": "Bot-PRs #16-#18 prüfen und mergen",
       "wer": "ki"
     },
     {
@@ -42,6 +42,6 @@
       "wer": "ich"
     }
   ],
-  "aktualisiert": "2026-10-19",
+  "aktualisiert": "2026-10-20",
   "aktualisiertVon": "claude"
 }

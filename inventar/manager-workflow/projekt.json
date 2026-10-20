@@ -5,7 +5,7 @@
   "typ": "tool",
   "beschreibung": "Manager plant jeden Morgen im Claude-Projekt, der KI-Bot (GitHub Actions, API-Guthaben) arbeitet nachts Aufgaben als PRs ab.",
   "status": "aktiv",
-  "stand": "Läuft. Bot seit 18.10. ausgelastet (18.10.: 11.93 von 13.21 USD). Monat bis 19.10.: 20.50 von 190 USD. Rückblick-Regeln vom 18.10. eingetragen. Bot-Token fehlt Schreibrecht für Ideenkarte.",
+  "stand": "Läuft. Bot ausgelastet (18.10. 11.93, 19.10. 10.00 USD von ca. 13). Monat bis 20.10.: 27.85 von 190 USD. Bot jetzt mit 90 Schritten und frühen Commits. Bot-Token fehlt Schreibrecht für Ideenkarte.",
   "markierung": "mehr-ki",
   "markierungGeprueft": true,
   "zuletztGeaendert": "2026-10-15",
@@ -38,6 +38,6 @@
       "wer": "ki"
     }
   ],
-  "aktualisiert": "2026-10-19",
+  "aktualisiert": "2026-10-20",
   "aktualisiertVon": "claude"
 }
