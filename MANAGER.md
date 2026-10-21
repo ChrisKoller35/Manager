@@ -88,10 +88,11 @@ Ein neues Repo kommt erst nach Christophs Okay dazu.
   keine Fragen offen sind. Der Merge steht im Bericht.
 - Keine Schlüssel oder Passwörter in Dateien, Issues oder im Chat.
 - **Lowland:** Nichts planen, was die Morgensession um 06:30 schon macht.
-- **Lowland:** Schwerpunkt ist jetzt Look und Grafik: Das Spiel soll insgesamt besser aussehen,
-  woran genau gearbeitet wird, entscheidet die Session selbst. Ideen sammelt `docs/GRAFIK.md` im Repo lowland. Kein
-  neuer Content, bis Christoph mit dem Aussehen zufrieden ist. Danach geht es wieder mit Content weiter. Wenn das
-  Aussehen nicht mehr sinnvoll besser werden kann, sagt der Manager oder die Morgensession es Christoph.
+- **Lowland:** Schwerpunkt ist jetzt Leistung und lesbare Kämpfe (Christoph, 21.10.2026): Das Spiel soll flüssig
+  laufen (Bildrate), und Gegner, ihre Angriffe, Zauber und die eigenen Schläge sollen gut erkennbar sein, auch wenn es
+  schnell geht. Notfalls wird das Kampftempo langsamer. Keine weitere Grafik-Politur, das Aussehen gefällt Christoph.
+  Woran genau gearbeitet wird, entscheidet die Session selbst. Neuer Content erst, wenn Christoph es sagt. Wenn
+  Leistung und Kämpfe nicht mehr sinnvoll besser werden können, sagt der Manager oder die Morgensession es Christoph.
 - **Moneyprojekt:** Ideen, Planung und Marketing nur mit Claude Fable 5.1 (mindestens Effort mittel). Der Bot macht dort nur klar definierte Umsetzungsschritte.
 
 ## Hilfstools
