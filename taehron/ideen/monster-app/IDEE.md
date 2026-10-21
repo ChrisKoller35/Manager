@@ -1,6 +1,7 @@
 # Monster-App für Spielleiter
 
-**Stand:** Idee, nicht begonnen. Aufgeschrieben am 21.10.2026 nach Christophs Nachricht.
+**Stand:** Idee, nicht begonnen. Aufgeschrieben am 21.10.2026 nach Christophs Nachricht, am selben Tag mit
+seinen ersten Antworten ergänzt.
 **Gehört zu:** TAEHRON, aber als eigenes Produkt neben der Zauber-App. Kann später als Ergänzung dazukommen.
 **Entscheidet:** Christoph. Gebaut wird erst nach seinem Okay.
 
@@ -99,23 +100,26 @@ Nur Ideen für später, nichts davon ist entschieden.
 - Beim Vorbereiten grob anzeigen, wie schwer der Kampf für die Gruppe wird (nach Anzahl und Stufe der Spieler).
 - Ereignisse nach Abenteuer oder Spielabend ordnen.
 
+## Schon geklärt (Christoph, 21.10.2026)
+
+- **Welche Monster:** Im Moment reichen die offiziellen Monster aus dem SRD. Eigene Monster anlegen oder
+  abändern ist vorerst nicht nötig und kann später dazukommen. Monster, die nicht im SRD stehen (zum Beispiel aus
+  dem Monsterhandbuch), dürfen wir ohnehin nicht mitliefern, gleiche Regel wie bei TAEHRON: nur SRD.
+- **Gerät am Tisch:** Tablet wäre cool, Christoph hat ein iPad. Darum zuerst fürs Tablet planen, mit Platz für
+  mehrere Karten nebeneinander.
+
 ## Offene Fragen
 
-1. **Woher kommen die Monster?** Die Monster aus dem SRD dürfen frei genutzt werden, auch in einem Produkt, das
+1. **Welche Fassung des SRD?** Die Monster aus dem SRD dürfen frei genutzt werden, auch in einem Produkt, das
    Geld kostet (Lizenz CC BY 4.0, mit Quellenangabe). Laut Websuche vom 21.10.2026 gibt es das SRD offiziell auf
    Deutsch: Fassung 5.1 (Regeln von 2014) seit 2023 und Fassung 5.2.1 (Regeln von 2024) seit dem 8.12.2025.
-   Welche Fassung? Am besten dieselbe wie bei den Zaubern in TAEHRON. Vor dem Start Lizenz und Texte nochmals
-   genau prüfen.
-2. **Eigene oder offizielle Monster?** Monster, die nicht im SRD stehen (zum Beispiel aus dem Monsterhandbuch),
-   dürfen wir nicht mitliefern, gleiche Regel wie bei TAEHRON: nur SRD. Soll man eigene Monster anlegen oder
-   SRD-Monster abändern können (zum Beispiel einen stärkeren Goblin-Anführer)?
-3. **Wie hängt sie mit der TAEHRON-App zusammen?** Ein eigener Bereich in der TAEHRON-App, eine eigene App unter
+   Am besten dieselbe Fassung wie bei den Zaubern in TAEHRON. Vor dem Start Lizenz und Texte nochmals genau
+   prüfen.
+2. **Wie hängt sie mit der TAEHRON-App zusammen?** Ein eigener Bereich in der TAEHRON-App, eine eigene App unter
    taehron.com, oder zuerst ganz eigenständig? Gleiches Konto, gleicher Kauf? Mehr dazu im nächsten Abschnitt.
-4. **Welches Gerät am Tisch?** Handy, Tablet oder Laptop. Davon hängt ab, ob die Karten nebeneinander oder
-   untereinander liegen.
-5. **Reihenfolge im Kampf:** Tippt der Spielleiter selbst an, wer dran ist (so ist es beschrieben), oder soll die
+3. **Reihenfolge im Kampf:** Tippt der Spielleiter selbst an, wer dran ist (so ist es beschrieben), oder soll die
    App später auch die Reihenfolge (Initiative) führen, zusammen mit den Spielern?
-6. **Würfeln:** Zeigt die App nur, was zu würfeln ist (echte Würfel am Tisch), oder würfelt sie auch selbst?
+4. **Würfeln:** Zeigt die App nur, was zu würfeln ist (echte Würfel am Tisch), oder würfelt sie auch selbst?
 
 ## Mögliche Verbindung zu TAEHRON
 
