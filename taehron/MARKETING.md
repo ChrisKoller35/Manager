@@ -208,6 +208,8 @@ Wenn eine Idee umgesetzt ist, wandert das Ergebnis nach «Lehren».
 - 16.10. (Wachstumsplan): Vorstellung im Discord «deutschsprachige D&D5-Community» (14 000 Mitglieder), vorher Mods fragen.
 - 16.10. (Wachstumsplan): Idee für später: QR-Karte für den Spieltisch / lokale Stammtische.
 - 16.10. (Wachstumsplan): Reddit erst mit englischer Version, vorher kein Werbe-Post.
+- 21.10. (Christoph), **Produkt-Idee, nicht beauftragt, Christoph entscheidet:** Monster-App für Spielleiter als
+  Ergänzung zu TAEHRON. Beschreibung in `taehron/ideen/monster-app/IDEE.md`.
 
 ## Offene Fragen an Christoph
 
@@ -221,3 +223,5 @@ Wenn eine Idee umgesetzt ist, wandert das Ergebnis nach «Lehren».
 - Video-Werkzeuge (seit 16.10. hier): `taehron/werkzeug/` im Repo Manager und `/mnt/project-files/taehron/werkzeug/`
   (rec*.mjs nehmen die App im Handy-Format auf, compose*.py schneiden den Short mit Outro, beitrag-2-bild.py
   macht Feed-Bilder als PNG; Anleitung in LIESMICH.md). PC-Kopie: `Documents\TAEHRON\werkzeug`.
+- Produkt-Ideen neben der App (seit 21.10.): `taehron/ideen/` im Repo Manager, `README.md` dort listet sie.
+  Kopien der `IDEE.md` in `/mnt/project-files/taehron/ideen/`.
