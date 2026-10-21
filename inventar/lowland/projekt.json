@@ -5,7 +5,7 @@
   "typ": "game",
   "beschreibung": "Third-Person-Fantasy-Game, aufgebaut auf der Vorlage Magic City.",
   "status": "aktiv",
-  "stand": "Grafik-Phase: seit 16.10. PR #11-#60 gemergt (u. a. Licht, Wasser, Umrisse, Gesichter, Kaminrauch, Schmetterlinge und Vögel, fallende Blätter, Lichtstrahlen). Morgensession 06:30 läuft.",
+  "stand": "Seit 16.10. PR #11-#72 gemergt: Grafik (Licht, Wasser, Umrisse, Gesichter, Tiere, Wald-Effekte) und jetzt Kämpfe lesbar und flüssig (ruhigere Kamera, Einstellung Kamerawackeln). Morgensession 06:30 läuft.",
   "markierung": "mehr-ki",
   "markierungGeprueft": true,
   "zuletztGeaendert": "2026-10-17",
@@ -39,6 +39,6 @@
       "wer": "ich"
     }
   ],
-  "aktualisiert": "2026-10-20",
+  "aktualisiert": "2026-10-21",
   "aktualisiertVon": "claude"
 }

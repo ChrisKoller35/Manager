@@ -5,7 +5,7 @@
   "typ": "game",
   "beschreibung": "Fantasy-Aufbauspiel im Browser (City Builder + RPG-Expeditionen). Dient als Vorlage für das Third-Person-Game Lowland.",
   "status": "aktiv",
-  "stand": "20.10.2026: Expeditions-Fortschritt, Zutaten und Werkstatt-Fenster gemergt (19.10.), dazu «Die endlose Treppe» Teil 1 und ein Probespiel. Christoph will das Endgame als Dungeon-Karte, die nach oben weitergeht (Umbau offen). Bot-PRs #21/#22 (Handy-Ansichten) werden heute geprüft.",
+  "stand": "21.10.2026: Endgame umgebaut: die Karte wächst nach oben mit neuen Dungeons (Drachenhort, Himmelsarchiv), endlose Treppe entfernt. Neu: Dungeon-Sets, Helden-Spezialisierung ab Stufe 10, Handy-Ansichten. Bot-PRs der Nacht (Belagerung, Startklassen, Brot, Helden-Boni) gemergt. PR #29 (Dungeon-Geschichten, Rivalen-Rangliste, Sternen-Dungeons) wartet auf Christophs Okay zu den Texten.",
   "markierung": "mehr-ki",
   "markierungGeprueft": true,
   "zuletztGeaendert": "2026-03-31",
@@ -46,15 +46,11 @@
   ],
   "naechsteAufgaben": [
     {
-      "text": "Bot-PRs #21 und #22 prüfen und mergen",
-      "wer": "ki"
+      "text": "Texte in PR #29 anschauen und Okay geben",
+      "wer": "ich"
     },
     {
-      "text": "Balancing in kleinere Bot-Aufgaben aufteilen",
-      "wer": "ki"
-    },
-    {
-      "text": "Endgame als Karte nach oben neu planen",
+      "text": "Neue Bot-Aufgaben für Magic City",
       "wer": "ki"
     },
     {
@@ -62,6 +58,6 @@
       "wer": "ich"
     }
   ],
-  "aktualisiert": "2026-10-20",
+  "aktualisiert": "2026-10-21",
   "aktualisiertVon": "claude"
 }
