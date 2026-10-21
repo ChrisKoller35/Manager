@@ -84,8 +84,8 @@ Werte aus dem SRD 5.1 (Regeln von 2014), nur zur Veranschaulichung, noch kein En
   kann man auch zerstören (Rüstungsklasse 10, 5 Lebenspunkte; Feuer macht doppelten Schaden, Wucht-, Gift- und
   psychischer Schaden wirken nicht).
 
-**Immer aktiv** (kein Wurf): Klettert an Wänden und Decken. Spürt jede Bewegung im eigenen Netz. Wird von
-Netzen nicht gebremst.
+**Immer aktiv** (kein Wurf): Klettert an Wänden und Decken. Weiss genau, wo jemand ist, der dasselbe Netz
+berührt wie sie. Wird von Netzen nicht gebremst.
 
 ## Naheliegende Ergänzungen (Vorschläge, nicht von Christoph)
 
