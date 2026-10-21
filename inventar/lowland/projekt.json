@@ -16,8 +16,8 @@
     ]
   },
   "regeln": [
-    "Schwerpunkt Aussehen (docs/GRAFIK.md), kein neuer Content, bis Christoph zufrieden ist; danach wieder Content (Christoph, 16.10.2026)",
-    "Christoph merged PRs selbst",
+    "Schwerpunkt Leistung und lesbare Kämpfe: flüssige Bildrate, Gegner, Angriffe, Zauber und Schläge gut erkennbar, notfalls langsamer; keine Grafik-Politur; neuer Content erst, wenn Christoph es sagt (Christoph, 21.10.2026)",
+    "Threads dürfen eigene grüne PRs mergen (Christoph, 16.10.2026)",
     "PC-Kopie nur mit seinem Ok anfassen",
     "KI-Bot nachts erlaubt, nicht im selben Bereich wie die Morgen-Session"
   ],
@@ -31,11 +31,11 @@
   "struktur": [],
   "naechsteAufgaben": [
     {
-      "text": "Grafik weiter verbessern (Morgensession entscheidet)",
+      "text": "Kämpfe flüssig und lesbar machen nach docs/KAMPF.md (Morgensession und Kampf-Thread)",
       "wer": "ki"
     },
     {
-      "text": "Am PC anschauen: Bildrate mit Gras, Esc-Test",
+      "text": "Am PC Kämpfe testen: noch zu schwer? Dazu Esc-Test",
       "wer": "ich"
     }
   ],
