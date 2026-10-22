@@ -5,7 +5,7 @@
   "typ": "game",
   "beschreibung": "Fantasy-Aufbauspiel im Browser (City Builder + RPG-Expeditionen). Dient als Vorlage für das Third-Person-Game Lowland.",
   "status": "aktiv",
-  "stand": "21.10.2026: Endgame umgebaut: die Karte wächst nach oben mit neuen Dungeons (Drachenhort, Himmelsarchiv), endlose Treppe entfernt. Neu: Dungeon-Sets, Helden-Spezialisierung ab Stufe 10, Handy-Ansichten. Bot-PRs der Nacht (Belagerung, Startklassen, Brot, Helden-Boni) gemergt. PR #29 (Dungeon-Geschichten, Rivalen-Rangliste, Sternen-Dungeons) wartet auf Christophs Okay zu den Texten.",
+  "stand": "22.10.2026: Bot-PRs der Nacht gemergt (Erfolge erreichbar, Spielstand sichern und laden, Marktplatz mit Handel, Tagesbilanz der Stadt) und im offenen PR #29 nachgebessert. PR #29 enthält jetzt auch das Gildenhaus mit Auftragsbrett und Trophäensaal und wartet auf Christophs Okay zu den Geschichten-Texten.",
   "markierung": "mehr-ki",
   "markierungGeprueft": true,
   "zuletztGeaendert": "2026-03-31",
@@ -50,7 +50,7 @@
       "wer": "ich"
     },
     {
-      "text": "Neue Bot-Aufgaben für Magic City",
+      "text": "Neue Bot-Aufgaben für Magic City (5 je Nacht)",
       "wer": "ki"
     },
     {
@@ -58,6 +58,6 @@
       "wer": "ich"
     }
   ],
-  "aktualisiert": "2026-10-21",
+  "aktualisiert": "2026-10-22",
   "aktualisiertVon": "claude"
 }

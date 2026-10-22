@@ -5,7 +5,7 @@
   "typ": "game",
   "beschreibung": "Third-Person-Fantasy-Game, aufgebaut auf der Vorlage Magic City.",
   "status": "aktiv",
-  "stand": "Seit 16.10. PR #11-#72 gemergt: Grafik (Licht, Wasser, Umrisse, Gesichter, Tiere, Wald-Effekte) und jetzt Kämpfe lesbar und flüssig (ruhigere Kamera, Einstellung Kamerawackeln). Morgensession 06:30 läuft.",
+  "stand": "Version 0.31.0 auf main (PR bis #87): Beute mit Seltenheit und Sets, eigene Gegner im Turm, Start mit Stufe 1, roter Treffer-Bogen am Bildrand zeigt, woher ein Treffer kommt. Schwerpunkt Leistung und lesbare Kämpfe, Morgensession 06:30 läuft. PC noch auf 0.29.0.",
   "markierung": "mehr-ki",
   "markierungGeprueft": true,
   "zuletztGeaendert": "2026-10-17",
@@ -35,10 +35,14 @@
       "wer": "ki"
     },
     {
-      "text": "Am PC Kämpfe testen: noch zu schwer? Dazu Esc-Test",
+      "text": "PC auf 0.31.0 bringen: im Turm-Thread «Du darfst den Server beenden» schreiben",
+      "wer": "ich"
+    },
+    {
+      "text": "Am PC testen: Kämpfe noch zu schwer? Elite-Gegner und Beute passend? Dazu Esc-Test",
       "wer": "ich"
     }
   ],
-  "aktualisiert": "2026-10-21",
+  "aktualisiert": "2026-10-22",
   "aktualisiertVon": "claude"
 }
