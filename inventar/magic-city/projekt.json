@@ -5,7 +5,7 @@
   "typ": "game",
   "beschreibung": "Fantasy-Aufbauspiel im Browser (City Builder + RPG-Expeditionen). Dient als Vorlage für das Third-Person-Game Lowland.",
   "status": "aktiv",
-  "stand": "22.10.2026: Bot-PRs der Nacht gemergt (Erfolge erreichbar, Spielstand sichern und laden, Marktplatz mit Handel, Tagesbilanz der Stadt) und im offenen PR #29 nachgebessert. PR #29 enthält jetzt auch das Gildenhaus mit Auftragsbrett und Trophäensaal und wartet auf Christophs Okay zu den Geschichten-Texten.",
+  "stand": "22.10.2026: PR #29 gemergt: Dungeon-Geschichten, Rangliste mit Rivalen, Schmiede für die Sets, zwei Sternen-Dungeons, Wege der Helden, Werkstätten auf Auftrag und das Gildenhaus mit Auftragsbrett und Trophäensaal. Dazu die Bot-PRs der Nacht (Erfolge, Spielstand sichern und laden, Marktplatz, Tagesbilanz). Heute im Bau: zwei neue Dungeons (Mondhof, Morgentor). 5 Bot-Aufgaben für die Nacht (Monsterbuch, Fundbuch, Helden-Ausbildung, Kriegsrat, Klang).",
   "markierung": "mehr-ki",
   "markierungGeprueft": true,
   "zuletztGeaendert": "2026-03-31",
@@ -46,11 +46,11 @@
   ],
   "naechsteAufgaben": [
     {
-      "text": "Texte in PR #29 anschauen und Okay geben",
-      "wer": "ich"
+      "text": "Zwei neue Dungeons Mondhof und Morgentor bauen (Magic-City-Thread)",
+      "wer": "ki"
     },
     {
-      "text": "Neue Bot-Aufgaben für Magic City (5 je Nacht)",
+      "text": "Bot-Pakete der Nacht prüfen und mergen (Monsterbuch, Fundbuch, Helden-Ausbildung, Kriegsrat, Klang)",
       "wer": "ki"
     },
     {
