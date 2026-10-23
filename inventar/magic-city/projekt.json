@@ -5,7 +5,7 @@
   "typ": "game",
   "beschreibung": "Fantasy-Aufbauspiel im Browser (City Builder + RPG-Expeditionen). Dient als Vorlage für das Third-Person-Game Lowland.",
   "status": "aktiv",
-  "stand": "22.10.2026: PR #29 gemergt: Dungeon-Geschichten, Rangliste mit Rivalen, Schmiede für die Sets, zwei Sternen-Dungeons, Wege der Helden, Werkstätten auf Auftrag und das Gildenhaus mit Auftragsbrett und Trophäensaal. Dazu die Bot-PRs der Nacht (Erfolge, Spielstand sichern und laden, Marktplatz, Tagesbilanz). Heute im Bau: zwei neue Dungeons (Mondhof, Morgentor). 5 Bot-Aufgaben für die Nacht (Monsterbuch, Fundbuch, Helden-Ausbildung, Kriegsrat, Klang).",
+  "stand": "23.10.2026: Gildenstadt-Umbau gemergt (PR #39): sechs Gebäude (Gildenhaus, Händler, Schmiede, Kräuterküche, Arkanschmiede, Kriegsmaschinen-Werkstatt), Holz, Brunnen, Mühle, Bank, Bewohner und Steuern sind weg. Zwei neue Dungeons ganz oben (Mondhof, Morgentor, PR #38). Bot-PRs #40-#42 (Monsterbuch, Fundbuch, Helden-Ausbildung) werden heute geprüft; Kriegsrat und Klang laufen in der Nacht auf den 24.10.",
   "markierung": "mehr-ki",
   "markierungGeprueft": true,
   "zuletztGeaendert": "2026-03-31",
@@ -46,18 +46,18 @@
   ],
   "naechsteAufgaben": [
     {
-      "text": "Zwei neue Dungeons Mondhof und Morgentor bauen (Magic-City-Thread)",
+      "text": "Bot-PRs #40-#42 prüfen und mergen; Kriegsrat und Klang an die Gildenstadt anpassen",
       "wer": "ki"
     },
     {
-      "text": "Bot-Pakete der Nacht prüfen und mergen (Monsterbuch, Fundbuch, Helden-Ausbildung, Kriegsrat, Klang)",
-      "wer": "ki"
+      "text": "Gildenstadt am PC anschauen; Bilder für die neuen Dungeons: 1, 2 oder 3 im Magic-City-Thread",
+      "wer": "ich"
     },
     {
       "text": "Altes Repo Aufbauspiel archivieren (GitHub, Settings ganz unten)",
       "wer": "ich"
     }
   ],
-  "aktualisiert": "2026-10-22",
+  "aktualisiert": "2026-10-23",
   "aktualisiertVon": "claude"
 }

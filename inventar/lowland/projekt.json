@@ -5,7 +5,7 @@
   "typ": "game",
   "beschreibung": "Third-Person-Fantasy-Game, aufgebaut auf der Vorlage Magic City.",
   "status": "aktiv",
-  "stand": "Version 0.31.0 auf main (PR bis #87): Beute mit Seltenheit und Sets, eigene Gegner im Turm, Start mit Stufe 1, roter Treffer-Bogen am Bildrand zeigt, woher ein Treffer kommt. Schwerpunkt Leistung und lesbare Kämpfe, Morgensession 06:30 läuft. PC noch auf 0.29.0.",
+  "stand": "Version 0.34.1 auf main (PR bis #94). Neu seit 22.10.: Startgebiet mit Gutshof, fünf Geheimräume mit Rätseln und Truhen, Umbau für Agents mit automatischer Prüfung je PR, und das Bild wird nur noch einmal geglättet (spart Rechenarbeit bei gleichem Aussehen). Schwerpunkt Leistung und lesbare Kämpfe, Morgensession 06:30. PC auf 0.34.0.",
   "markierung": "mehr-ki",
   "markierungGeprueft": true,
   "zuletztGeaendert": "2026-10-17",
@@ -35,14 +35,14 @@
       "wer": "ki"
     },
     {
-      "text": "PC auf 0.31.0 bringen: im Turm-Thread «Du darfst den Server beenden» schreiben",
+      "text": "Am PC starten und anschauen: Startgebiet, Geheimräume, Kämpfe (Win+R %TEMP%\\lowland-start.cmd)",
       "wer": "ich"
     },
     {
-      "text": "Am PC testen: Kämpfe noch zu schwer? Elite-Gegner und Beute passend? Dazu Esc-Test",
+      "text": "Rückmeldung: Elite-Gegner und Beute passend? Rätsel zu schwer? Dazu Esc-Test",
       "wer": "ich"
     }
   ],
-  "aktualisiert": "2026-10-22",
+  "aktualisiert": "2026-10-23",
   "aktualisiertVon": "claude"
 }
