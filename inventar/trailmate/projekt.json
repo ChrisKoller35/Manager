@@ -5,7 +5,7 @@
   "typ": "app",
   "beschreibung": "Wander-App mit Karten, GPS-Tracking, Social-Feed und Wanderpartner-Matching.",
   "status": "aktiv",
-  "stand": "PR #1-#34 auf main. Bot-PRs #35-#37 («Hilfreich» nur einmal pro Person, Follow-Vorschläge im Onboarding, Gehzeit ohne Stillstand) werden heute geprüft. Datenbank-Regeln 012-021 warten darauf, am PC eingespielt zu werden.",
+  "stand": "PR #1-#38 auf main (neu 24.10.: «Hilfreich» nur einmal pro Person, Follow-Vorschläge im Onboarding, Gehzeit ohne Stillstand). Datenbank-Regeln 012-022 warten darauf, am PC eingespielt zu werden (online erst bis 011). 5 kleine Bot-Aufgaben für die Nacht, darunter Standort aus Fotos entfernen und Abzeichen absichern.",
   "markierung": "mehr-ki",
   "markierungGeprueft": true,
   "zuletztGeaendert": "2026-10-16",
@@ -30,11 +30,11 @@
   "struktur": [],
   "naechsteAufgaben": [
     {
-      "text": "Im TrailMate-Thread den vorbereiteten Text abschicken, wenn der PC an ist (spielt die Datenbank-Regeln 012-021 ein)",
+      "text": "Im TrailMate-Thread den vorbereiteten Text abschicken, wenn der PC an ist (spielt alle neuen Datenbank-Regeln ein)",
       "wer": "ich"
     },
     {
-      "text": "Bot-PRs #35-#37 prüfen und mergen, 5 neue kleine Bot-Aufgaben",
+      "text": "Bot-Pakete der Nacht prüfen und mergen (Fotos ohne Standort, Benutzername, Abzeichen absichern, Route zuordnen, Reporter-Abzeichen)",
       "wer": "ki"
     },
     {
