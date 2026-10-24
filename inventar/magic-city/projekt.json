@@ -5,7 +5,7 @@
   "typ": "game",
   "beschreibung": "Fantasy-Aufbauspiel im Browser (City Builder + RPG-Expeditionen). Dient als Vorlage für das Third-Person-Game Lowland.",
   "status": "aktiv",
-  "stand": "23.10.2026: Gildenstadt mit sechs Gebäuden, zwei neue Dungeons ganz oben (Mondhof, Morgentor). Neu aus der Bot-Nacht: Monsterbuch, Fundbuch, Helden-Ausbildung (PR #40-#42). Christophs eigene Änderung (Werkstätten ohne Baupläne, Startgold 200, Mindmap ohne Linien) ist damit zusammengeführt (PR #43, 537 Tests grün). Kriegsrat und Klang laufen gekürzt in der Nacht auf den 24.10.",
+  "stand": "24.10.2026: Nachbesserung der Bot-PRs mit neuer Eichung der späten Dungeons gemergt (PR #44). Bot-PRs #45 Kriegsrat (20 Probeläufe vor dem Aufbruch) und #46 Klang (Musik und Geräusche mit Lautstärke) werden heute geprüft. Drin sind schon: Gildenstadt ohne Baupläne, Monsterbuch, Fundbuch, Helden-Ausbildung, zwei neue Dungeons ganz oben.",
   "markierung": "mehr-ki",
   "markierungGeprueft": true,
   "zuletztGeaendert": "2026-03-31",
@@ -46,7 +46,7 @@
   ],
   "naechsteAufgaben": [
     {
-      "text": "Schwächen der Bot-PRs nachbessern (Eichung der späten Dungeons neu messen), danach PC-Ordner nachziehen",
+      "text": "Bot-PRs #45 und #46 prüfen und mergen, 5 neue kleine Bot-Aufgaben",
       "wer": "ki"
     },
     {
@@ -58,6 +58,6 @@
       "wer": "ich"
     }
   ],
-  "aktualisiert": "2026-10-23",
+  "aktualisiert": "2026-10-24",
   "aktualisiertVon": "claude"
 }

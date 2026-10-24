@@ -5,7 +5,7 @@
   "typ": "app",
   "beschreibung": "Wander-App mit Karten, GPS-Tracking, Social-Feed und Wanderpartner-Matching.",
   "status": "aktiv",
-  "stand": "PR #1-#34 auf main (neu 23.10.: Personensuche, Tour im Feed teilen, Gruppenbeiträge, Live-Tracking, Ortssuche; dazu behoben, dass sich Aufzeichnungen nicht speichern liessen). Datenbank-Regeln 012-021 warten darauf, am PC eingespielt zu werden. 3 kleine Bot-Aufgaben für die Nacht («Hilfreich» nur einmal, Follow-Vorschläge, Gehzeit ohne Stillstand).",
+  "stand": "PR #1-#34 auf main. Bot-PRs #35-#37 («Hilfreich» nur einmal pro Person, Follow-Vorschläge im Onboarding, Gehzeit ohne Stillstand) werden heute geprüft. Datenbank-Regeln 012-021 warten darauf, am PC eingespielt zu werden.",
   "markierung": "mehr-ki",
   "markierungGeprueft": true,
   "zuletztGeaendert": "2026-10-16",
@@ -34,7 +34,7 @@
       "wer": "ich"
     },
     {
-      "text": "Bot-Pakete der Nacht prüfen und mergen («Hilfreich» nur einmal, Follow-Vorschläge, Gehzeit)",
+      "text": "Bot-PRs #35-#37 prüfen und mergen, 5 neue kleine Bot-Aufgaben",
       "wer": "ki"
     },
     {
@@ -42,6 +42,6 @@
       "wer": "ich"
     }
   ],
-  "aktualisiert": "2026-10-23",
+  "aktualisiert": "2026-10-24",
   "aktualisiertVon": "claude"
 }

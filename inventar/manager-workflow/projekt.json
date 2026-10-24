@@ -5,7 +5,7 @@
   "typ": "tool",
   "beschreibung": "Manager plant jeden Morgen im Claude-Projekt, der KI-Bot (GitHub Actions, API-Guthaben) arbeitet nachts Aufgaben als PRs ab.",
   "status": "aktiv",
-  "stand": "Läuft. Bot-Verbrauch 21.-23.10.: 8.25 / 11.90 / 13.92 USD (Tagesbudget ca. 15), das Tagesbudget ist jetzt voll genutzt. Monat bis 23.10.: 66.97 von 190 USD. Bot-PRs waren zu gross (650-1500 statt höchstens 300 Zeilen), ab 23.10. wieder kleinere Aufgaben. Bot-Token fehlt Schreibrecht für Ideenkarte. Supabase-Wachhalter rot, solange TAEHRON pausiert ist.",
+  "stand": "Läuft. Bot-Verbrauch 22.-24.10.: 11.90 / 13.92 / bisher 4.68 USD (Tagesbudget ca. 15). Seit 23.10. wieder kleine Bot-Aufgaben (je höchstens 300 Zeilen, ca. 0.6-1.3 USD). Monat bis 24.10.: 71.65 von 190 USD. Bot-Token fehlt Schreibrecht für Ideenkarte. Supabase-Wachhalter rot, solange TAEHRON pausiert ist.",
   "markierung": "mehr-ki",
   "markierungGeprueft": true,
   "zuletztGeaendert": "2026-10-15",
@@ -38,6 +38,6 @@
       "wer": "ki"
     }
   ],
-  "aktualisiert": "2026-10-23",
+  "aktualisiert": "2026-10-24",
   "aktualisiertVon": "claude"
 }
