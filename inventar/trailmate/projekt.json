@@ -5,7 +5,7 @@
   "typ": "app",
   "beschreibung": "Wander-App mit Karten, GPS-Tracking, Social-Feed und Wanderpartner-Matching.",
   "status": "aktiv",
-  "stand": "PR #1-#38 auf main. #39-#43 vom Bot (Fotos ohne Standort, Benutzername selbst wählen, Abzeichen absichern, Aufzeichnung der Route zuordnen, Reporter-Abzeichen) werden am 25.10. geprüft. Datenbank-Regeln 012-025 warten darauf, eingespielt zu werden (online erst bis 011). Für die Nacht 25./26.10. legt der Thread 6 neue kleine Bot-Aufgaben an.",
+  "stand": "PR #1-#44 auf main. Am 25.10. geprüft und übernommen: Fotos ohne Standort (#39), Benutzername selbst wählen (#40), Abzeichen und Challenges abgesichert (#41), Aufzeichnung der Route zuordnen (#42), Reporter-Abzeichen (#43), kleiner Fix im Benutzernamen-Schritt (#44). Datenbank-Regeln 012-025 warten darauf, eingespielt zu werden (online erst bis 011). Nacht 25./26.10.: 6 Bot-Aufgaben ohne Datenbank-Änderung (Manager #75-#80: Route speichern, Entdecken-Filter, Aufnahme, Abzeichen-Anzeige, ÖV ab morgen, Touren verstecken).",
   "markierung": "mehr-ki",
   "markierungGeprueft": true,
   "zuletztGeaendert": "2026-10-16",
@@ -30,11 +30,11 @@
   "struktur": [],
   "naechsteAufgaben": [
     {
-      "text": "Im TrailMate-Thread den vorbereiteten Text abschicken, wenn der PC an ist (spielt alle neuen Datenbank-Regeln ein)",
+      "text": "Im TrailMate-Thread den vorbereiteten Text abschicken, wenn der PC an ist (spielt die Datenbank-Regeln 012-025 ein)",
       "wer": "ich"
     },
     {
-      "text": "Bot-PRs #39-#43 prüfen und mergen, 6 neue kleine Bot-Aufgaben",
+      "text": "Bot-PRs aus Manager #75-#80 prüfen und mergen",
       "wer": "ki"
     },
     {
