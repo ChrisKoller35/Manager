@@ -5,7 +5,7 @@
   "typ": "game",
   "beschreibung": "Fantasy-Aufbauspiel im Browser (City Builder + RPG-Expeditionen). Dient als Vorlage für das Third-Person-Game Lowland.",
   "status": "aktiv",
-  "stand": "24.10.2026: Nachbesserung der Bot-PRs mit neuer Eichung der späten Dungeons gemergt (PR #44). Bot-PRs #45 Kriegsrat (20 Probeläufe vor dem Aufbruch) und #46 Klang (Musik und Geräusche mit Lautstärke) werden heute geprüft. Drin sind schon: Gildenstadt ohne Baupläne, Monsterbuch, Fundbuch, Helden-Ausbildung, zwei neue Dungeons ganz oben.",
+  "stand": "25.10.2026: Bot-PRs #45 Kriegsrat (20 Probeläufe vor dem Aufbruch) und #46 Klang (Musik und Geräusche mit Lautstärke) warten auf Prüfung, weil der Thread seit 24.10. 07:15 auf eine Erlaubnis am PC wartet (alte Dateien ersetzen fürs PC-Update). Drin sind schon: Gildenstadt ohne Baupläne, Monsterbuch, Fundbuch, Helden-Ausbildung, zwei neue Dungeons ganz oben, Neueichung (PR #44).",
   "markierung": "mehr-ki",
   "markierungGeprueft": true,
   "zuletztGeaendert": "2026-03-31",
@@ -46,7 +46,11 @@
   ],
   "naechsteAufgaben": [
     {
-      "text": "Bot-PRs #45 und #46 prüfen und mergen, 5 neue kleine Bot-Aufgaben",
+      "text": "Im Magic-City-Thread die Erlaubnis-Frage beantworten (Dateien ersetzen fürs PC-Update)",
+      "wer": "ich"
+    },
+    {
+      "text": "Bot-PRs #45 und #46 prüfen und mergen, neue kleine Bot-Aufgaben",
       "wer": "ki"
     },
     {
@@ -58,6 +62,6 @@
       "wer": "ich"
     }
   ],
-  "aktualisiert": "2026-10-24",
+  "aktualisiert": "2026-10-25",
   "aktualisiertVon": "claude"
 }

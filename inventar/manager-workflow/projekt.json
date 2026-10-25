@@ -5,7 +5,7 @@
   "typ": "tool",
   "beschreibung": "Manager plant jeden Morgen im Claude-Projekt, der KI-Bot (GitHub Actions, API-Guthaben) arbeitet nachts Aufgaben als PRs ab.",
   "status": "aktiv",
-  "stand": "Läuft. Bot-Verbrauch 22.-24.10.: 11.90 / 13.92 / bisher 4.68 USD (Tagesbudget ca. 15). Seit 23.10. wieder kleine Bot-Aufgaben (je höchstens 300 Zeilen, ca. 0.6-1.3 USD). Monat bis 24.10.: 71.65 von 190 USD. Bot-Token fehlt Schreibrecht für Ideenkarte. Supabase-Wachhalter rot, solange TAEHRON pausiert ist.",
+  "stand": "Läuft. Bot-Verbrauch 22.-24.10.: 11.90 / 13.92 / 8.19 USD (Tagesbudget ca. 15-16); in der Nacht auf den 25.10. waren nur 5 Aufgaben bereit (Magic City fehlte), der 03:00-Lauf blieb leer. Monat bis 24.10.: 75.16 von 190 USD. Seit 25.10. läuft der Bot auch im Winter um 23:00 und 03:00. Wochenrückblick 19.-25.10. mit 2 Vorschlägen in MANAGER.md. Bot-Token fehlt Schreibrecht für Ideenkarte. Supabase-Wachhalter rot, solange TAEHRON pausiert ist.",
   "markierung": "mehr-ki",
   "markierungGeprueft": true,
   "zuletztGeaendert": "2026-10-15",
@@ -30,14 +30,18 @@
   "struktur": [],
   "naechsteAufgaben": [
     {
+      "text": "Vorschläge aus dem Wochenrückblick: Okay oder nicht (Projektkarte nur im Inventar, TrailMate-Datenbank über GitHub)",
+      "wer": "ich"
+    },
+    {
       "text": "Bot-Token: bei Ideenkarte Contents und Pull requests auf Read and write",
       "wer": "ich"
     },
     {
-      "text": "Jeden Morgen genug Bot-Aufgaben bereitstellen, je höchstens 300 Zeilen (Ziel 10)",
+      "text": "Jeden Morgen genug Bot-Aufgaben bereitstellen, je höchstens 300 Zeilen (mindestens 6, Ziel 10), und prüfen, ob ein Thread hängt",
       "wer": "ki"
     }
   ],
-  "aktualisiert": "2026-10-24",
+  "aktualisiert": "2026-10-25",
   "aktualisiertVon": "claude"
 }

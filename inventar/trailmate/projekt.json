@@ -5,7 +5,7 @@
   "typ": "app",
   "beschreibung": "Wander-App mit Karten, GPS-Tracking, Social-Feed und Wanderpartner-Matching.",
   "status": "aktiv",
-  "stand": "PR #1-#38 auf main (neu 24.10.: «Hilfreich» nur einmal pro Person, Follow-Vorschläge im Onboarding, Gehzeit ohne Stillstand). Datenbank-Regeln 012-022 warten darauf, am PC eingespielt zu werden (online erst bis 011). 5 kleine Bot-Aufgaben für die Nacht, darunter Standort aus Fotos entfernen und Abzeichen absichern.",
+  "stand": "PR #1-#38 auf main. #39-#43 vom Bot (Fotos ohne Standort, Benutzername selbst wählen, Abzeichen absichern, Aufzeichnung der Route zuordnen, Reporter-Abzeichen) werden am 25.10. geprüft. Datenbank-Regeln 012-025 warten darauf, eingespielt zu werden (online erst bis 011). Für die Nacht 25./26.10. legt der Thread 6 neue kleine Bot-Aufgaben an.",
   "markierung": "mehr-ki",
   "markierungGeprueft": true,
   "zuletztGeaendert": "2026-10-16",
@@ -34,7 +34,7 @@
       "wer": "ich"
     },
     {
-      "text": "Bot-Pakete der Nacht prüfen und mergen (Fotos ohne Standort, Benutzername, Abzeichen absichern, Route zuordnen, Reporter-Abzeichen)",
+      "text": "Bot-PRs #39-#43 prüfen und mergen, 6 neue kleine Bot-Aufgaben",
       "wer": "ki"
     },
     {
@@ -42,6 +42,6 @@
       "wer": "ich"
     }
   ],
-  "aktualisiert": "2026-10-24",
+  "aktualisiert": "2026-10-25",
   "aktualisiertVon": "claude"
 }
