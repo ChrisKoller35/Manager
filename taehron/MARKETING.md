@@ -186,6 +186,11 @@ steigen**, weil das die einzige Zahl ist, die echte Leute aus Social Media von B
   Erste Follower auf TikTok?
 - 13.10.: Lob von Testern darf anonym als Zitat verwendet werden («Ich finde die Seite genial», «Schönes design»).
 
+- 25.10. (Sonntags-Entwürfe, Woche 2): Samstags-Zahlen vom 24.10. standen noch aus, Short 4 (Kleriker, Do 22.10.)
+  ohne Okay. Entwürfe trotzdem gemacht: Short 5 Paladin (Klassen-Serie, Hook «kann der zaubern?!»), Short 6 Regel-Tipp
+  «Kurze Rast: kommen Zauberplätze zurück?» (erster reiner Regel-Short, Ziel Woche 2) und Reel «3 Klassen, 3 Looks»
+  (Karussell-Idee als Reel, mit Frage «Welche Klasse als Nächstes?» für Kommentare). Neue Werkzeuge im Logbuch.
+
 ## Inputs und Ideen (laufend ergänzen)
 
 Neue Ideen von Christoph, aus Feedback oder aus der Auswertung kommen hierher, mit Datum und Quelle.
@@ -225,3 +230,6 @@ Wenn eine Idee umgesetzt ist, wandert das Ergebnis nach «Lehren».
   macht Feed-Bilder als PNG; Anleitung in LIESMICH.md). PC-Kopie: `Documents\TAEHRON\werkzeug`.
 - Produkt-Ideen neben der App (seit 21.10.): `taehron/ideen/` im Repo Manager, `README.md` dort listet sie.
   Kopien der `IDEE.md` in `/mnt/project-files/taehron/ideen/`.
+- 25.10. (KI, beim Short-Entwurf aufgefallen, **Lizenz prüfen, Christoph entscheidet**): In der App steht beim Paladin
+  «Donnerwoge – Niederstreckung» (Thunderous Smite). Dieser Zauber ist nach meinem Stand nicht im SRD 5.1 (dort nur
+  Branding Smite). Im Short 5 nicht gezeigt. Bitte in `src/data/class-spells.js` und `spells.js` gegen das SRD prüfen.
