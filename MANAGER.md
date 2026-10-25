@@ -128,6 +128,42 @@ Er darf auch vorschlagen, Regeln zu streichen.
 Im Sonntags-Bericht fragt der Manager Christoph auch, wann sein PC in der kommenden Woche ungefähr morgens und abends
 an ist. Die Antwort gilt für die Woche: Fragen und Arbeiten, die den PC brauchen, plant er in diese Zeiten.
 
+### Woche vom 2026-10-19 (19.-25.10.)
+- Erledigt: Lowland mit Schwerpunkt Leistung und lesbare Kämpfe (seit 21.10.) von 0.29 auf 0.36.1: Loot-Sets,
+  Turm-Gegner, Startgebiet, Geheimräume mit Truhen, Agents nach Thema mit Prüfung je PR, rote Schweife an
+  Gegner-Geschossen, Vorwärmen gegen Ruckler beim ersten Effekt. Magic City, 30 PRs (#15-#44): Karte nach oben
+  mit vier neuen Dungeons, Geschichten, Rivalen, Schmiede und Gildenhaus (#29), Umbau zur Gildenstadt (#39),
+  Christophs Umbau ohne Baupläne (#43) mit Neueichung (#44), dazu Monsterbuch, Fundbuch und Helden-Ausbildung vom
+  Bot. TrailMate, 25 PRs (#14-#38) auf main (u. a. Benachrichtigungen, Profile, Personensuche, Touren teilen,
+  Live-Standort, Sicherheit), #39-#43 in Prüfung. Zwergen-Mine Version 5, Der Abstieg bis Version 28 (seit 21.10.
+  Pause). Ideenkarte stand still (Bot-Token ohne Schreibrecht). Threads laufen auf Opus mit Leistung max.
+  Bot-Zeitplan seit 25.10. sommer- und winterzeitfest.
+- Kosten: 58.20 USD von 190 USD (Bot, 42 Aufgaben: Magic City 17 für 34.20, TrailMate 25 für 24.00). Monat bis
+  24.10.: 75.16 USD, Ampel grün. Threads über das Max-Abo.
+- Gut gelaufen: Der Bot war gut ausgelastet (22.-24.10. 80, 91 und 53 % des Tagesbudgets). Die Threads prüfen und
+  mergen seine PRs selbst und finden die Fehler vor dem Merge (Magic City 56 Befunde in #40-#42, TrailMate ein
+  Testfehler in #35). Die Lowland-Morgensession arbeitet den Kampf-Plan Schritt für Schritt ab. PC-Updates ohne
+  Remote Control (per Bundle) haben funktioniert.
+- Nicht gut gelaufen: Mein Auftrag «gern grössere Aufgaben» (21./22.10.) gab Bot-PRs mit 650-1500 Zeilen statt
+  höchstens 300; schwer zu prüfen, und am 23.10. blieb der 23:00-Lauf leer. Seit 23.10. wieder klein. Der
+  Magic-City-Thread hängt seit Sa 24.10. 07:15 an einer Lösch-Erlaubnis am PC: #45/#46 ungeprüft, keine neuen
+  Magic-City-Aufgaben, in der Nacht 24./25.10. nur 5 Aufgaben statt mindestens 6. Gemerkt habe ich es erst am
+  Sonntag. Seit dem Ende der Sommerzeit lief der Bot eine Stunde zu früh. Vieles wartet auf Christoph:
+  TrailMate-Datenbankregeln 012-025 (seit 22.10.), TAEHRON «Restore project» (Wachhalter rot seit 17.10.),
+  Ideenkarte-Token, Zahlen zu Magic-City-Bildern, Lowland und Zwergen-Mine.
+- Nächste Woche anders: Jeden Morgen prüfen, ob ein Thread hängt (offene Erlaubnis-Frage, Fehler), und es sofort
+  melden. Erlaubnis-Fragen am PC nur in Christophs PC-Zeiten stellen; bleibt eine bis zum Ende der PC-Zeit offen,
+  wird sie abgebrochen, und der Thread arbeitet ohne PC weiter. Fällt ein Projekt als Lieferant aus, füllt ein
+  anderer Thread die Nacht auf mindestens 6 Aufgaben auf.
+- Vorschläge an Christoph (ändern oder streichen):
+  1. **Projektkarte nur noch im Inventar:** projekt.json liegt auch in den Repos Aufbauspiel-New, Trailmate und
+     Ideenkarte. Weil der Manager sie jeden Morgen auf dem PC auffrischt, sieht es dort aus, als hätte Christoph
+     etwas geändert, und PC-Updates stocken. Vorschlag: In diesen Repos die Datei aus Git nehmen und ignorieren;
+     die Karte lebt im Manager-Repo (`inventar/`) und als Kopie im Projektordner, die Ideenkarte liest sie wie bisher.
+  2. **TrailMate-Datenbank über GitHub:** Neue Datenbankregeln spielt nach dem Merge eine GitHub Action ins
+     Supabase-Projekt ein (wie der Wachhalter), statt auf einen Text am PC zu warten. Christoph trägt dafür einmal
+     ein Geheimnis im Repo Trailmate ein; der TrailMate-Thread baut die Action und erklärt die Schritte.
+
 ### Woche vom 2026-10-15 (erste Woche, 15.-18.10.)
 - Erledigt: Morgen-Manager, KI-Bot und Supabase-Wachhalter laufen. Lowland: rund 30 Grafik-PRs (#11-#42) und
   der Baumodus. TrailMate: PR #1-#13, Supabase-Projekt läuft. Ideenkarte: Etappe 2, MD-Liste, Version 0.2.1.
