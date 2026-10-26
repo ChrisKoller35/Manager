@@ -5,7 +5,7 @@
   "typ": "tool",
   "beschreibung": "Desktop-App als visuelle Übersicht aller Projekte.",
   "status": "aktiv",
-  "stand": "Etappe 2 fertig: Projekt-Karten aus projekt.json, Filter, Installer 0.2.1 mit Auto-Update. Seit 17.10. Stillstand (Bot darf nicht schreiben); am 26.10. einen Thread für die Tests von Ordnerbaum und Dateizugriff bestellt (Manager #8).",
+  "stand": "Etappe 2 fertig: Projekt-Karten aus projekt.json, Filter, Installer 0.2.1 mit Auto-Update. 26.10.: 23 neue Tests für Ordnerbaum und Dateizugriff (PR #6), dabei behoben: Projekte direkt auf einem Laufwerk (z. B. D:\\) liessen sich nicht öffnen; kommt mit dem nächsten Installer. Als Nächstes: Verknüpfungen beim Lesen prüfen und automatische Prüfung bei PRs.",
   "markierung": "mehr-ki",
   "markierungGeprueft": true,
   "zuletztGeaendert": "2026-10-15",
@@ -33,8 +33,12 @@
       "wer": "ich"
     },
     {
-      "text": "Tests für Ordnerbaum und Dateizugriff (Manager #8, Thread ab 26.10.)",
+      "text": "Verknüpfungen beim Lesen prüfen und Prüfung bei jedem PR (Windows) einrichten",
       "wer": "ki"
+    },
+    {
+      "text": "Neuen Installer bauen lassen (GitHub Actions «Installer bauen»), wenn du die Korrektur willst",
+      "wer": "ich"
     },
     {
       "text": "Detailwünsche umsetzen",
