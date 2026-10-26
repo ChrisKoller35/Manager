@@ -5,7 +5,7 @@
   "typ": "game",
   "beschreibung": "Fantasy-Aufbauspiel im Browser (City Builder + RPG-Expeditionen). Dient als Vorlage für das Third-Person-Game Lowland.",
   "status": "aktiv",
-  "stand": "25.10.2026: Bot-PRs #45 Kriegsrat (20 Probeläufe vor dem Aufbruch) und #46 Klang (Musik und Geräusche mit Lautstärke) warten auf Prüfung, weil der Thread seit 24.10. 07:15 auf eine Erlaubnis am PC wartet (alte Dateien ersetzen fürs PC-Update). Drin sind schon: Gildenstadt ohne Baupläne, Monsterbuch, Fundbuch, Helden-Ausbildung, zwei neue Dungeons ganz oben, Neueichung (PR #44).",
+  "stand": "26.10.2026: Kriegsrat (20 Probeläufe vor dem Aufbruch) und Klang (Musik und Geräusche mit Lautstärke) sind drin (PR #47). Bot-PRs der Nacht werden heute geprüft: Härtegrade (Schwer und Albtraum), Beutevergleich, Gipfel-Taten, Kriegsrat-Vorschau (#48-#51). Heute Nacht: Rivalen-Stimmen und 4 weitere kleine Aufgaben.",
   "markierung": "mehr-ki",
   "markierungGeprueft": true,
   "zuletztGeaendert": "2026-03-31",
@@ -46,15 +46,15 @@
   ],
   "naechsteAufgaben": [
     {
-      "text": "Im Magic-City-Thread die Erlaubnis-Frage beantworten (Dateien ersetzen fürs PC-Update)",
+      "text": "Im Magic-City-Thread antworten: PC-Update ja/nein, Krit über 100 %, leise Effekte, Bilder (je 1/2/3)",
       "wer": "ich"
     },
     {
-      "text": "Bot-PRs #45 und #46 prüfen und mergen, neue kleine Bot-Aufgaben",
+      "text": "Bot-PRs #48-#51 prüfen und mergen, 4 neue kleine Bot-Aufgaben",
       "wer": "ki"
     },
     {
-      "text": "Gildenstadt am PC anschauen; Bilder für die neuen Dungeons: 1, 2 oder 3 im Magic-City-Thread",
+      "text": "Gildenstadt am PC anschauen",
       "wer": "ich"
     },
     {
@@ -62,6 +62,6 @@
       "wer": "ich"
     }
   ],
-  "aktualisiert": "2026-10-25",
+  "aktualisiert": "2026-10-26",
   "aktualisiertVon": "claude"
 }

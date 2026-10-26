@@ -5,7 +5,7 @@
   "typ": "tool",
   "beschreibung": "Desktop-App als visuelle Übersicht aller Projekte.",
   "status": "aktiv",
-  "stand": "Etappe 2 fertig: Projekt-Karten aus projekt.json, Filter, Installer 0.2.1 mit Auto-Update",
+  "stand": "Etappe 2 fertig: Projekt-Karten aus projekt.json, Filter, Installer 0.2.1 mit Auto-Update. Seit 17.10. Stillstand (Bot darf nicht schreiben); am 26.10. einen Thread für die Tests von Ordnerbaum und Dateizugriff bestellt (Manager #8).",
   "markierung": "mehr-ki",
   "markierungGeprueft": true,
   "zuletztGeaendert": "2026-10-15",
@@ -33,7 +33,7 @@
       "wer": "ich"
     },
     {
-      "text": "Tests für Ordnerbaum und Dateizugriff (Manager #8)",
+      "text": "Tests für Ordnerbaum und Dateizugriff (Manager #8, Thread ab 26.10.)",
       "wer": "ki"
     },
     {
@@ -41,6 +41,6 @@
       "wer": "ki"
     }
   ],
-  "aktualisiert": "2026-10-17",
+  "aktualisiert": "2026-10-26",
   "aktualisiertVon": "claude"
 }
