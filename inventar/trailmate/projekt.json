@@ -5,7 +5,7 @@
   "typ": "app",
   "beschreibung": "Wander-App mit Karten, GPS-Tracking, Social-Feed und Wanderpartner-Matching.",
   "status": "aktiv",
-  "stand": "PR #1-#44 auf main. Bot-PRs der Nacht werden am 26.10. geprüft: Route speichern auf der Karte, Entdecken mit kuratierten Routen, Aufnahme fragt Standort erst beim Start, Abzeichen nach der Tour, ÖV ab morgen und Meldungen ohne Netz, Touren verstecken (#45-#50). Datenbank-Regeln 012-025 warten darauf, eingespielt zu werden (online erst bis 011). Heute Nacht 5 neue kleine Bot-Aufgaben.",
+  "stand": "PR #1-#51 auf main. Am 26.10. übernommen: Route speichern auf der Karte, Entdecken mit kuratierten Routen, Aufnahme fragt Standort erst beim Start, Abzeichen nach der Tour, ÖV ab morgen und Meldungen ohne Netz, Touren verstecken, dazu eine Nachbesserung. Datenbank-Regeln 012-025 warten darauf, eingespielt zu werden (online erst bis 011). Heute Nacht 5 Bot-Aufgaben: Aufnahme ohne Sprünge, Route auf der Karte zeigen, Tour-Detail mit Löschen, Heimatregion aus dem Standort, Anmeldung härten.",
   "markierung": "mehr-ki",
   "markierungGeprueft": true,
   "zuletztGeaendert": "2026-10-16",
@@ -34,7 +34,7 @@
       "wer": "ich"
     },
     {
-      "text": "Bot-PRs #45-#50 prüfen und mergen, 5 neue kleine Bot-Aufgaben",
+      "text": "Bot-PRs der Nacht 26./27.10. prüfen und mergen (Manager #86-#90)",
       "wer": "ki"
     },
     {
