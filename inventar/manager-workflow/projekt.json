@@ -5,7 +5,7 @@
   "typ": "tool",
   "beschreibung": "Manager plant jeden Morgen im Claude-Projekt, der KI-Bot (GitHub Actions, API-Guthaben) arbeitet nachts Aufgaben als PRs ab.",
   "status": "aktiv",
-  "stand": "Läuft. Bot-Zeitplan seit 25.10. sommer- und winterzeitfest (geprüft: 23:11 und 03:30 gearbeitet). Nacht 25./26.10.: 10 Aufgaben für 9.30 USD (TrailMate 6, Magic City 4). Verbrauch 24.10. 8.19, 25.10. 3.88 USD (Tagesbudget 16-18). Monat bis 26.10. früh: 84.46 von 190 USD. Wochenrückblick 19.-25.10. mit 2 Vorschlägen wartet auf Christophs Okay. Bot-Token fehlt Schreibrecht für Ideenkarte. Supabase-Wachhalter rot, solange TAEHRON pausiert ist.",
+  "stand": "Läuft. Bot-Zeitplan seit 25.10. sommer- und winterzeitfest (geprüft: 23:11 und 03:30 gearbeitet). Nacht 25./26.10.: 10 Aufgaben für 9.30 USD (TrailMate 6, Magic City 4). Verbrauch 24.10. 8.19, 25.10. 3.88 USD (Tagesbudget 16-18). Monat bis 26.10. früh: 84.46 von 190 USD. Seit 26.10. weiss der Bot, dass seine Schlusszusammenfassung die PR-Beschreibung wird. Für die Nacht 26./27.10. sind 10 Aufgaben bereit. Wochenrückblick 19.-25.10. mit 2 Vorschlägen wartet auf Christophs Okay. Bot-Token fehlt Schreibrecht für Ideenkarte. Supabase-Wachhalter rot, solange TAEHRON pausiert ist.",
   "markierung": "mehr-ki",
   "markierungGeprueft": true,
   "zuletztGeaendert": "2026-10-15",

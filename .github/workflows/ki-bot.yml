@@ -98,7 +98,8 @@ jobs:
               "Titel: ${titel}" "" "${text}" "" \
               "Regeln: Lies zuerst CLAUDE.md bzw. README. Bleib bei dieser Aufgabe." \
               "Führe vorhandene Tests und Checks aus. Committe auf dem aktuellen Branch nach jedem fertigen Teilschritt (nicht erst am Schluss), pushe nicht." \
-              "Schreib am Ende eine kurze deutsche Zusammenfassung: was gemacht, was geprüft, was offen ist." \
+              "Deine Schlusszusammenfassung wird wörtlich die PR-Beschreibung: Der Workflow pusht deinen Branch und öffnet den PR nach deinem Lauf." \
+              "Schreib sie auf Deutsch: was gemacht, was geprüft, was offen ist, dazu alles, was die Aufgabe für die PR-Beschreibung verlangt. Schreib nicht «nicht gepusht» oder «kein PR»." \
               > auftrag.txt
 
             # Eingeschränkte Werkzeuge statt freier Shell: Dateien bearbeiten, npm-Skripte, git add/commit.
