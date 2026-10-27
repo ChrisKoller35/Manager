@@ -5,7 +5,7 @@
   "typ": "app",
   "beschreibung": "Wander-App mit Karten, GPS-Tracking, Social-Feed und Wanderpartner-Matching.",
   "status": "aktiv",
-  "stand": "PR #1-#57 auf main (27.10. gemergt: Aufnahme ohne Sprünge, Route auf der Karte zeigen, Tour-Detail mit Löschen, Heimatregion aus dem Standort, Anmeldung härten, dazu die Nachbesserung #57). Datenbank-Regeln 012-025 warten darauf, eingespielt zu werden (online erst bis 011). Heute Nacht 7 Bot-Aufgaben (Manager #95-#101): Tour nach Absturz fortsetzen, Passwort zurücksetzen, Höhenprofil in Metern, Datenschutz-Seite, Tour als Route veröffentlichen, Highlight-Touren wählen, Touren-Karte.",
+  "stand": "Pause diese Woche (27.10.), die Bot-PRs der Nacht prüft der Thread danach. PR #1-#57 auf main (27.10. gemergt: Aufnahme ohne Sprünge, Route auf der Karte zeigen, Tour-Detail mit Löschen, Heimatregion aus dem Standort, Anmeldung härten, dazu die Nachbesserung #57). Datenbank-Regeln 012-025 warten darauf, eingespielt zu werden (online erst bis 011). Heute Nacht 7 Bot-Aufgaben (Manager #95-#101): Tour nach Absturz fortsetzen, Passwort zurücksetzen, Höhenprofil in Metern, Datenschutz-Seite, Tour als Route veröffentlichen, Highlight-Touren wählen, Touren-Karte.",
   "markierung": "mehr-ki",
   "markierungGeprueft": true,
   "zuletztGeaendert": "2026-10-16",
@@ -34,7 +34,7 @@
       "wer": "ich"
     },
     {
-      "text": "Bot-PRs der Nacht 27./28.10. (Manager #95-#101) prüfen und mergen",
+      "text": "Nach der Pause: Bot-PRs der Nacht 27./28.10. (Manager #95-#101) prüfen und mergen",
       "wer": "ki"
     },
     {

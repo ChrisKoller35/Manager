@@ -5,7 +5,7 @@
   "typ": "game",
   "beschreibung": "Third-Person-Fantasy-Game, aufgebaut auf der Vorlage Magic City.",
   "status": "aktiv",
-  "stand": "27.10.: Morgensession Schritt 19 «Wer greift wen an»: Marken über den Köpfen zeigen, wen ein Gegner gerade angreift, und das Ziel steht an der Boss-Leiste (PR #104, Prüfung grün). Davor 0.37.0 (PR #103): Warnbogen am Bildrand bei Angriffen von hinten oder ausserhalb des Bildes, Gegner von allen Seiten hörbar. Schwerpunkt Leistung und lesbare Kämpfe, Morgensession 06:30. PC auf 0.35.1.",
+  "stand": "Pause diese Woche (27.10., Morgensession angehalten). 27.10.: Version 0.38.0 (PR #104): Gegner, die dich gerade angreifen dürfen, tragen ein rotes Dreieck über dem Kopf, wartende ein blasses; als Tank siehst du graue Dreiecke über Gegnern, die Mitspieler angreifen, und die Boss-Leiste zeigt, auf wen der Boss geht. Davor 0.37.0: Warnbogen am Bildrand bei Angriffen von hinten, Gegner von allen Seiten hörbar. Schwerpunkt Leistung und lesbare Kämpfe. PC auf 0.35.1.",
   "markierung": "mehr-ki",
   "markierungGeprueft": true,
   "zuletztGeaendert": "2026-10-17",
@@ -31,7 +31,7 @@
   "struktur": [],
   "naechsteAufgaben": [
     {
-      "text": "Kämpfe flüssig und lesbar machen nach docs/KAMPF.md (Kampf-Thread plant den nächsten Schritt, Morgensession misst)",
+      "text": "Nach der Pause: Kämpfe flüssig und lesbar machen nach docs/KAMPF.md (nächste Morgensession misst, ob neue Gegnerarten beim ersten Auftauchen ruckeln)",
       "wer": "ki"
     },
     {

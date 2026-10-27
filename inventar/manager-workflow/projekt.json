@@ -5,7 +5,7 @@
   "typ": "tool",
   "beschreibung": "Manager plant jeden Morgen im Claude-Projekt, der KI-Bot (GitHub Actions, API-Guthaben) arbeitet nachts Aufgaben als PRs ab.",
   "status": "aktiv",
-  "stand": "Läuft. Ab 27.10. nimmt der Bot 7 statt 5 Aufgaben je Lauf (bis 14 pro Nacht), weil er zuletzt nur rund die Hälfte des Tagesbudgets brauchte; ein Lauf mit 5 Aufgaben dauert gut 20 Minuten. Nacht 26./27.10.: 10 Aufgaben für 10.74 USD (TrailMate 5, Magic City 5), alle als PR. Verbrauch 25.10. 3.88, 26.10. 9.61 USD (Tagesbudget 18-20). Monat bis 27.10. früh: 95.21 von 190 USD. Seit 26.10. wird die Schlusszusammenfassung des Bots die PR-Beschreibung. Zeitplan sommer- und winterzeitfest. Wochenrückblick 19.-25.10. mit 2 Vorschlägen wartet auf Christophs Okay. Bot-Token fehlt Schreibrecht für Ideenkarte. Supabase-Wachhalter rot, solange TAEHRON pausiert ist.",
+  "stand": "PAUSE ab 27.10. für diese Woche (Christoph braucht die Kapazität für ein anderes Projekt): Morgen-Planung, Lowland-Morgensession und TAEHRON-Routinen sind angehalten, nicht gelöscht; am Samstag 31.10. fragt der Manager, ob es weitergeht. Der API-Bot läuft vorerst weiter (eigenes API-Guthaben, nicht das Abo): heute Nacht die 7 TrailMate-Aufgaben, neue werden keine verteilt. Davor: ab 27.10. 7 statt 5 Aufgaben je Lauf (bis 14 pro Nacht), weil der Bot zuletzt nur rund die Hälfte des Tagesbudgets brauchte. Nacht 26./27.10.: 10 Aufgaben für 10.74 USD, alle als PR. Monat bis 27.10. früh: 95.21 von 190 USD. Wochenrückblick 19.-25.10. mit 2 Vorschlägen wartet auf Christophs Okay. Bot-Token fehlt Schreibrecht für Ideenkarte. Supabase-Wachhalter rot, solange TAEHRON pausiert ist.",
   "markierung": "mehr-ki",
   "markierungGeprueft": true,
   "zuletztGeaendert": "2026-10-15",
@@ -38,7 +38,7 @@
       "wer": "ich"
     },
     {
-      "text": "Jeden Morgen genug Bot-Aufgaben bereitstellen, je höchstens 300 Zeilen (mindestens 6, Ziel 10), und prüfen, ob ein Thread hängt",
+      "text": "Nach der Pause wieder jeden Morgen planen und genug Bot-Aufgaben bereitstellen (je höchstens 300 Zeilen, mindestens 6, Ziel 14) und prüfen, ob ein Thread hängt",
       "wer": "ki"
     }
   ],

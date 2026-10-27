@@ -5,7 +5,7 @@
   "typ": "app",
   "beschreibung": "Zauber-App für Rollenspiele (5e, nur SRD), 12 Klassen-Apps plus Homepage, dazu Instagram/TikTok/YouTube.",
   "status": "aktiv",
-  "stand": "Live auf taehron.netlify.app, offene PRs, Social-Media-Content läuft",
+  "stand": "27.10.: Routinen (App-Feedback, Posten-Erinnerung, Sonntags-Entwürfe, Samstags-Auswertung) diese Woche pausiert. Live auf taehron.netlify.app, offene PRs, Social-Media-Content läuft",
   "markierung": "gemischt",
   "markierungGeprueft": true,
   "zuletztGeaendert": "2026-10-14",
@@ -71,6 +71,6 @@
       "wer": "ki"
     }
   ],
-  "aktualisiert": "2026-10-15",
+  "aktualisiert": "2026-10-27",
   "aktualisiertVon": "claude"
 }
