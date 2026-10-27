@@ -5,7 +5,7 @@
   "typ": "game",
   "beschreibung": "Fantasy-Aufbauspiel im Browser (City Builder + RPG-Expeditionen). Dient als Vorlage für das Third-Person-Game Lowland.",
   "status": "aktiv",
-  "stand": "26.10.2026: Härtegrade (bezwungene Dungeons auf Schwer und Albtraum), Beutevergleich, Gipfel-Taten und Kriegsrat-Vorschau sind drin, mit Nachbesserungen (PR #52, master b9f8308); 21 Gegenstände ohne Bild haben Leihbilder. Davor Kriegsrat und Klang (PR #47). Heute Nacht: Rivalen-Stimmen, Härtegrade Teil 2, Kriegsrat mit Härtegrad, versteckte Erfolge, Beutevergleich im Heldenfenster.",
+  "stand": "27.10.2026: Die 5 Bot-PRs der Nacht (#53-#57: Rivalen-Stimmen, Härtegrade Teil 2, Kriegsrat mit Härtegrad, versteckte Erfolge, Beutevergleich im Heldenfenster) liegen bereit, der Magic-City-Thread prüft und mergt sie heute. Auf master: Härtegrade, Beutevergleich, Gipfel-Taten und Kriegsrat-Vorschau (PR #52, b9f8308); 21 Gegenstände ohne Bild haben Leihbilder. Heute Nacht bis zu 7 neue Bot-Aufgaben.",
   "markierung": "mehr-ki",
   "markierungGeprueft": true,
   "zuletztGeaendert": "2026-03-31",
@@ -50,7 +50,7 @@
       "wer": "ich"
     },
     {
-      "text": "Bot-PRs der Nacht 26./27.10. prüfen und mergen (Manager #85, #91-#94)",
+      "text": "Bot-PRs #53-#57 prüfen und mergen, 7 Bot-Aufgaben für die Nacht 27./28.10. anlegen",
       "wer": "ki"
     },
     {
@@ -62,6 +62,6 @@
       "wer": "ich"
     }
   ],
-  "aktualisiert": "2026-10-26",
+  "aktualisiert": "2026-10-27",
   "aktualisiertVon": "claude"
 }

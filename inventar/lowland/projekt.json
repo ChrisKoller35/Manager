@@ -5,7 +5,7 @@
   "typ": "game",
   "beschreibung": "Third-Person-Fantasy-Game, aufgebaut auf der Vorlage Magic City.",
   "status": "aktiv",
-  "stand": "26.10.: Version 0.37.0 (PR #103): Angriffe von hinten oder ausserhalb des Bildes zeigt ein Warnbogen am Bildrand, und Gegner sind von links, rechts und hinten zu hören. Davor 0.36.1: Effekte werden beim Betreten der Welt vorgewärmt (kein Ruckler beim ersten Zauber), 0.36.0: rote Schweife an Gegner-Geschossen. Schwerpunkt Leistung und lesbare Kämpfe, Morgensession 06:30. PC auf 0.35.1.",
+  "stand": "27.10.: Morgensession Schritt 19 «Wer greift wen an»: Marken über den Köpfen zeigen, wen ein Gegner gerade angreift, und das Ziel steht an der Boss-Leiste (PR #104, Prüfung grün). Davor 0.37.0 (PR #103): Warnbogen am Bildrand bei Angriffen von hinten oder ausserhalb des Bildes, Gegner von allen Seiten hörbar. Schwerpunkt Leistung und lesbare Kämpfe, Morgensession 06:30. PC auf 0.35.1.",
   "markierung": "mehr-ki",
   "markierungGeprueft": true,
   "zuletztGeaendert": "2026-10-17",
@@ -43,6 +43,6 @@
       "wer": "ich"
     }
   ],
-  "aktualisiert": "2026-10-26",
+  "aktualisiert": "2026-10-27",
   "aktualisiertVon": "claude"
 }

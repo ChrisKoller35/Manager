@@ -5,7 +5,7 @@
   "typ": "app",
   "beschreibung": "Wander-App mit Karten, GPS-Tracking, Social-Feed und Wanderpartner-Matching.",
   "status": "aktiv",
-  "stand": "PR #1-#51 auf main. Am 26.10. übernommen: Route speichern auf der Karte, Entdecken mit kuratierten Routen, Aufnahme fragt Standort erst beim Start, Abzeichen nach der Tour, ÖV ab morgen und Meldungen ohne Netz, Touren verstecken, dazu eine Nachbesserung. Datenbank-Regeln 012-025 warten darauf, eingespielt zu werden (online erst bis 011). Heute Nacht 5 Bot-Aufgaben: Aufnahme ohne Sprünge, Route auf der Karte zeigen, Tour-Detail mit Löschen, Heimatregion aus dem Standort, Anmeldung härten.",
+  "stand": "PR #1-#51 auf main. Die 5 Bot-PRs der Nacht 26./27.10. (#52-#56: Aufnahme ohne Sprünge, Route auf der Karte zeigen, Tour-Detail mit Löschen, Heimatregion aus dem Standort, Anmeldung härten) liegen bereit, der TrailMate-Thread prüft und mergt sie heute. Datenbank-Regeln 012-025 warten darauf, eingespielt zu werden (online erst bis 011). Heute Nacht bis zu 7 neue Bot-Aufgaben.",
   "markierung": "mehr-ki",
   "markierungGeprueft": true,
   "zuletztGeaendert": "2026-10-16",
@@ -34,7 +34,7 @@
       "wer": "ich"
     },
     {
-      "text": "Bot-PRs der Nacht 26./27.10. prüfen und mergen (Manager #86-#90)",
+      "text": "Bot-PRs #52-#56 prüfen und mergen, 7 Bot-Aufgaben für die Nacht 27./28.10. anlegen",
       "wer": "ki"
     },
     {
@@ -42,6 +42,6 @@
       "wer": "ich"
     }
   ],
-  "aktualisiert": "2026-10-26",
+  "aktualisiert": "2026-10-27",
   "aktualisiertVon": "claude"
 }
