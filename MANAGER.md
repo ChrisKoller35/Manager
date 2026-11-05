@@ -62,7 +62,11 @@ Das Okay-zuerst gilt hier nicht für jede einzelne Marketing-Aufgabe; gepostet w
 
 ## Budget
 
-- Monatlich 190 USD für den Bot (`budget.json`). Das Console-Limit liegt bei 200 USD.
+- Monatlich 195 USD für den Bot (`budget.json`, bis 4.11.2026 waren es 190). Das Console-Limit liegt bei 200 USD.
+  Der Monat ist der Kalendermonat (das Console-Limit beginnt am 1. neu).
+- **Alles aufbrauchen** (Christoph, 5.11.2026): Bis Monatsende soll das Guthaben ganz genutzt sein. Was in einer
+  Nacht liegen bleibt, verteilt das Tagesbudget automatisch auf die restlichen Tage; dafür braucht es jeden Tag genug
+  Aufträge.
 - Das Tagesbudget ist der Rest des Monats geteilt durch die verbleibenden Tage. Was übrig bleibt, wird übertragen.
 - Der Bot hört auf, wenn das Tagesbudget erreicht ist. Der Manager plant pro Tag nur so viele Aufgaben, wie hineinpassen.
 - Das Guthaben soll genutzt werden. Der Morgen-Manager vergleicht jeden Morgen den Verbrauch der
@@ -71,8 +75,28 @@ Das Okay-zuerst gilt hier nicht für jede einzelne Marketing-Aufgabe; gepostet w
 - **Bot-Vorrat** (seit 18.10.2026): Der Morgen-Manager sorgt dafür, dass für die Nacht mindestens 6 `ki-bot`-Issues
   bereit sind. Issues, die auf einen PR warten, bekommen das Label erst nach dem Merge.
 - Der Verbrauch (gestern, Monat, Tagesbudget) steht in jedem Morgen-Bericht.
-- **Kostenampel:** Ab 70 % des Monatsbudgets ist der Bericht gelb, und der Bot bekommt nur noch kleine Aufgaben.
-  Ab 90 % ist er rot, und der Bot stoppt bis zum Monatswechsel (keine neuen `ki-bot`-Issues).
+- **Kostenampel:** Die Ampel misst den Verbrauch gegen den Plan bis heute (Monatsbudget × vergangene Tage ÷ Tage
+  im Monat), nicht gegen das ganze Monatsbudget. Grün: im Plan. Gelb: mehr als 10 % über dem Plan, der Bot bekommt nur
+  noch kleine Aufgaben. Rot: Monatsbudget erreicht, keine neuen `ki-bot`-Issues bis zum Monatswechsel. (Bis 4.11.2026
+  stoppte der Bot schon bei 90 %; das passte nicht mehr zu «alles aufbrauchen».)
+
+## Bot-Schwerpunkt (seit 5.11.2026)
+
+Christoph, 5.11.2026: Der Bot arbeitet an **Der Abstieg**, an der **Zwergen-Mine** («Maulwurf-Game», beide im Repo
+MoneyProjekttry unter `spiele/`) und an **Magic City** (Repo Aufbauspiel-New). Andere Projekte bekommen bis auf
+Weiteres keine `ki-bot`-Issues; offene TrailMate-PRs prüft weiterhin der TrailMate-Thread.
+
+- Pro Tag rund 6 Aufträge, je Spiel etwa 2 (Magic City-Aufträge kosten etwa 1.5 USD, die anderen etwa 1 USD).
+  Die Reihenfolge der Issues abwechseln (Magic City, Abstieg, Mine, …), weil der Bot die ältesten zuerst nimmt.
+- Abstieg und Mine: Aufträge werden mit Claude Fable 5.1 geplant (Regel Moneyprojekt). Nur abgegrenzte
+  Zusatzinhalte in bestehenden Systemen, keine grossen Richtungen, die Christoph noch entscheidet. Abstieg nur
+  Retro-Grafik aus Code, Spielstand `abstieg.v2`/`abstieg.meta.v1` nie brechen. Mine: Grafik aus Code, Formeln im
+  Block FORMELN nicht ändern. Der Bot kann dort keine Browser-Tests laufen lassen (nur `npm run build --prefix
+  spiele/abstieg`); die Browser-Prüfung macht der Thread vor dem Merge und erneuert danach das Artifact unter
+  derselben Adresse.
+- Magic City: Aufträge aus dem Recherche-Vorrat unter `/mnt/project-files/magic-city/pruefung-2710/recherche/`
+  und neue Dungeons oben auf der Karte (alle paar Tage 1-2); nichts, woran der Magic-City-Thread gerade selbst baut.
+- Prüfen und mergen: Magic-City-Thread, Abstieg-Thread und Moneyprojekt-Thread (Mine), jeweils am nächsten Tag.
 
 ## Erlaubte Repos für den Bot
 

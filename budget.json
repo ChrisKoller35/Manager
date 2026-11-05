@@ -1,6 +1,6 @@
 {
-  "monatsbudget_usd": 190,
-  "hinweis": "Console-Limit 200 USD; 10 USD Puffer, weil ein laufender Auftrag das Tagesbudget leicht überschreiten kann.",
+  "monatsbudget_usd": 195,
+  "hinweis": "Console-Limit 200 USD; 5 USD Puffer, weil ein laufender Auftrag das Tagesbudget leicht überschreiten kann. Seit 5.11.2026 195 statt 190 (Christoph: Guthaben bis Monatsende ganz aufbrauchen).",
   "reserve_usd": 0.5,
   "ausgaben": [
     {
