@@ -5,7 +5,7 @@
   "typ": "game",
   "beschreibung": "Third-Person-Fantasy-Game, aufgebaut auf der Vorlage Magic City.",
   "status": "aktiv",
-  "stand": "Morgensession seit 27.10. angehalten; Christoph will zuerst einen 1-Stunden-Plan bestätigen (5.11.). Stand 27.10.: Version 0.38.0 (PR #104): Gegner, die dich gerade angreifen dürfen, tragen ein rotes Dreieck über dem Kopf, wartende ein blasses; als Tank graue Dreiecke über Gegnern, die Mitspieler angreifen; die Boss-Leiste zeigt, auf wen der Boss geht. Schwerpunkt Leistung und lesbare Kämpfe. PC auf 0.35.1.",
+  "stand": "Version 0.53.0 (6.11., zwei 2-h-Sessions im Repo): Welt meist einfach mit Elite-Lagern und Weltbossen, Turm-Bosse, Beet, Angeln, Kochstelle (Rühren), Bett mit Truhe, Werkbank, Hühnerstall, Weizen und Pfannkuchen, Markttag im Lindenhof, Meldungen über dem Chat, Hildes Auftrag «Goldene Ähren». Spielstand 17, Protokoll 41. Am PC nichts davon gespielt, PC auf 0.35.1. Tägliche Morgensession seit 27.10. pausiert.",
   "markierung": "mehr-ki",
   "markierungGeprueft": true,
   "zuletztGeaendert": "2026-10-17",
@@ -31,16 +31,16 @@
   "struktur": [],
   "naechsteAufgaben": [
     {
-      "text": "1-Stunden-Plan für Lowland im Projekt-Chat bestätigen, dann startet die Morgensession wieder",
+      "text": "Am PC auf 0.53.0 bringen (Wort im Turm-Thread) und anschauen: Hof, Beet, Kochstelle, Markttag (Win+R %TEMP%\\lowland-start.cmd)",
       "wer": "ich"
     },
     {
-      "text": "Nach dem Okay: Kämpfe flüssig und lesbar machen nach docs/KAMPF.md",
+      "text": "Sagen, ob die tägliche Morgensession wieder laufen soll",
+      "wer": "ich"
+    },
+    {
+      "text": "Ideen für später: Bestellungen am Brett mit Hof-Ruf, Fischbuch, Bienenstock",
       "wer": "ki"
-    },
-    {
-      "text": "Am PC starten und anschauen: Startgebiet, Geheimräume, Kämpfe (Win+R %TEMP%\\lowland-start.cmd)",
-      "wer": "ich"
     }
   ],
   "aktualisiert": "2026-11-06",
