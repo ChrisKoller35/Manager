@@ -98,6 +98,14 @@ Weiteres keine `ki-bot`-Issues; offene TrailMate-PRs prüft weiterhin der TrailM
   und neue Dungeons oben auf der Karte (alle paar Tage 1-2); nichts, woran der Magic-City-Thread gerade selbst baut.
 - Prüfen und mergen: Magic-City-Thread, Abstieg-Thread und Moneyprojekt-Thread (Mine), jeweils am nächsten Tag.
 
+Ergänzung Christoph, 6.11.2026 (Pause-Regel): Nach dem PC-Abgleich vom 6.11. ruhen alle selbständigen Arbeiten in
+den Threads, bis Christoph wieder «go» sagt. Ausnahme ist der Nacht-Bot: er arbeitet weiter an **Lowland**, Der
+Abstieg, Magic City und der Zwergen-Mine. Lowland-Aufträge: nur kleine, abgegrenzte Stücke im Repo lowland
+(vor dem Merge gelten die Lowland-Pflichten: main holen, `npm run nachfuehren`, `npm run check`); prüft der
+Lowland-Kampf-Thread am nächsten Tag. Weiterhin rund 6 Aufträge pro Nacht, jetzt über vier Spiele verteilt.
+Die Morgen-Planung fordert während der Pause keine neuen Threads und keine 1/2/3-Vorschläge an, sondern fasst
+die Bot-Ergebnisse in einer Zeile zusammen und lässt die Bot-PRs prüfen.
+
 ## Erlaubte Repos für den Bot
 
 Trailmate, lowland, MoneyProjekttry, Ideenkarte, Aufbauspiel-New (Magic City, seit 17.10.) (Liste `ERLAUBTE_REPOS` in `.github/workflows/ki-bot.yml`).
