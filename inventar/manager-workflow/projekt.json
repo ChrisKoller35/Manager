@@ -5,7 +5,7 @@
   "typ": "tool",
   "beschreibung": "Manager plant jeden Morgen im Claude-Projekt, der KI-Bot (GitHub Actions, API-Guthaben) arbeitet nachts Aufgaben als PRs ab.",
   "status": "aktiv",
-  "stand": "PAUSE ab 27.10. für diese Woche (Christoph braucht die Kapazität für ein anderes Projekt): Morgen-Planung, Lowland-Morgensession und TAEHRON-Routinen sind angehalten, nicht gelöscht; am Samstag 31.10. fragt der Manager, ob es weitergeht. Der API-Bot läuft vorerst weiter (eigenes API-Guthaben, nicht das Abo): heute Nacht die 7 TrailMate-Aufgaben, neue werden keine verteilt. Davor: ab 27.10. 7 statt 5 Aufgaben je Lauf (bis 14 pro Nacht), weil der Bot zuletzt nur rund die Hälfte des Tagesbudgets brauchte. Nacht 26./27.10.: 10 Aufgaben für 10.74 USD, alle als PR. Monat bis 27.10. früh: 95.21 von 190 USD. Wochenrückblick 19.-25.10. mit 2 Vorschlägen wartet auf Christophs Okay. Bot-Token fehlt Schreibrecht für Ideenkarte. Supabase-Wachhalter rot, solange TAEHRON pausiert ist.",
+  "stand": "Pause vorbei (5.11.). Neuer Bot-Schwerpunkt laut Christoph: nur noch Der Abstieg, Zwergen-Mine und Magic City, Budget 195 USD bis 30.11. ganz aufbrauchen (ca. 7.50 USD je Tag, rund 6 Aufträge je Nacht, 2 je Spiel; Regeln in MANAGER.md, PR #102). Nacht 5./6.11.: 10 Aufgaben für 14.57 USD, alle als PR; Monat 14.57 von 195 USD. Für die Nacht 6./7.11. liegen 6 Aufgaben bereit. Morgen-Planung läuft wieder täglich 07:12. TAEHRON-Routinen bis Mo 9.11. aus, Lowland-Morgensession bleibt aus, bis Christoph den 1-h-Plan bestätigt. Wochenrückblick 19.-25.10. mit 2 Vorschlägen wartet weiter auf Christophs Okay. Bot-Token fehlt Schreibrecht für Ideenkarte. Supabase-Wachhalter rot, solange TAEHRON pausiert ist.",
   "markierung": "mehr-ki",
   "markierungGeprueft": true,
   "zuletztGeaendert": "2026-10-15",
@@ -38,10 +38,10 @@
       "wer": "ich"
     },
     {
-      "text": "Nach der Pause wieder jeden Morgen planen und genug Bot-Aufgaben bereitstellen (je höchstens 300 Zeilen, mindestens 6, Ziel 14) und prüfen, ob ein Thread hängt",
+      "text": "Jeden Morgen rund 6 Bot-Aufgaben für Abstieg, Mine und Magic City bereitstellen (je höchstens 300 Zeilen) und prüfen, ob ein Thread hängt",
       "wer": "ki"
     }
   ],
-  "aktualisiert": "2026-10-27",
+  "aktualisiert": "2026-11-06",
   "aktualisiertVon": "claude"
 }

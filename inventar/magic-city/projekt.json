@@ -5,7 +5,7 @@
   "typ": "game",
   "beschreibung": "Fantasy-Aufbauspiel im Browser (City Builder + RPG-Expeditionen). Dient als Vorlage für das Third-Person-Game Lowland.",
   "status": "aktiv",
-  "stand": "Pause diese Woche (27.10.). 27.10.: Rivalen-Stimmen, Härtegrade Teil 2, Kriegsrat mit Härtegrad, versteckte Erfolge und Beutevergleich im Heldenfenster sind drin, mit Nachbesserungen (PR #58, master 9c45204, 743 Tests grün). Keine offenen Bot-Aufträge. 21 Gegenstände ohne Bild haben Leihbilder.",
+  "stand": "6.11.2026: Raid «Über dem Tag» gegen Zenit, das Uhrwerk, für 4 bis 10 Helden (PR #64), zwei neue Dungeons ganz oben (#61), Wiedergeburt bei jedem Sturz (#62); aus der Bot-Nacht: Beute aus der Truhe gleich anlegen, Vorräte im Kampf am Handy, bessere Lesbarkeit, Lager-Kacheln antippbar (#60/#63/#65/#66, 860 Tests grün). Der Thread baut Lehrlinge und Raid-Stufe II (bis 15 Helden). Heute Nacht 2 Bot-Aufgaben: Erfolge zahlen Kristallsplitter aus, aktive Tränke mit Restdauer. Bot-Schwerpunkt seit 5.11.: etwa 2 Aufträge je Nacht.",
   "markierung": "mehr-ki",
   "markierungGeprueft": true,
   "zuletztGeaendert": "2026-03-31",
@@ -46,22 +46,22 @@
   ],
   "naechsteAufgaben": [
     {
-      "text": "Im Magic-City-Thread antworten: PC-Update ja/nein, Krit über 100 %, leise Effekte, Bilder (je 1/2/3)",
+      "text": "Im Magic-City-Thread antworten: Zweitbesetzung bauen (1, Empfehlung) oder bei 10 Helden bleiben (2); PC-Ordner nachziehen ja/nein",
       "wer": "ich"
     },
     {
-      "text": "Gildenstadt am PC anschauen",
+      "text": "Bot-PRs der Nacht 6./7.11. prüfen und mergen (Manager #115, #118)",
+      "wer": "ki"
+    },
+    {
+      "text": "Gildenstadt und Raid am PC anschauen",
       "wer": "ich"
     },
     {
       "text": "Altes Repo Aufbauspiel archivieren (GitHub, Settings ganz unten)",
       "wer": "ich"
-    },
-    {
-      "text": "Nach der Pause: neue Bot-Aufgaben anlegen",
-      "wer": "ki"
     }
   ],
-  "aktualisiert": "2026-10-27",
+  "aktualisiert": "2026-11-06",
   "aktualisiertVon": "claude"
 }

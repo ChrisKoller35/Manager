@@ -5,7 +5,7 @@
   "typ": "game",
   "beschreibung": "Third-Person-Fantasy-Game, aufgebaut auf der Vorlage Magic City.",
   "status": "aktiv",
-  "stand": "Pause diese Woche (27.10., Morgensession angehalten). 27.10.: Version 0.38.0 (PR #104): Gegner, die dich gerade angreifen dürfen, tragen ein rotes Dreieck über dem Kopf, wartende ein blasses; als Tank siehst du graue Dreiecke über Gegnern, die Mitspieler angreifen, und die Boss-Leiste zeigt, auf wen der Boss geht. Davor 0.37.0: Warnbogen am Bildrand bei Angriffen von hinten, Gegner von allen Seiten hörbar. Schwerpunkt Leistung und lesbare Kämpfe. PC auf 0.35.1.",
+  "stand": "Morgensession seit 27.10. angehalten; Christoph will zuerst einen 1-Stunden-Plan bestätigen (5.11.). Stand 27.10.: Version 0.38.0 (PR #104): Gegner, die dich gerade angreifen dürfen, tragen ein rotes Dreieck über dem Kopf, wartende ein blasses; als Tank graue Dreiecke über Gegnern, die Mitspieler angreifen; die Boss-Leiste zeigt, auf wen der Boss geht. Schwerpunkt Leistung und lesbare Kämpfe. PC auf 0.35.1.",
   "markierung": "mehr-ki",
   "markierungGeprueft": true,
   "zuletztGeaendert": "2026-10-17",
@@ -31,18 +31,18 @@
   "struktur": [],
   "naechsteAufgaben": [
     {
-      "text": "Nach der Pause: Kämpfe flüssig und lesbar machen nach docs/KAMPF.md (nächste Morgensession misst, ob neue Gegnerarten beim ersten Auftauchen ruckeln)",
+      "text": "1-Stunden-Plan für Lowland im Projekt-Chat bestätigen, dann startet die Morgensession wieder",
+      "wer": "ich"
+    },
+    {
+      "text": "Nach dem Okay: Kämpfe flüssig und lesbar machen nach docs/KAMPF.md",
       "wer": "ki"
     },
     {
       "text": "Am PC starten und anschauen: Startgebiet, Geheimräume, Kämpfe (Win+R %TEMP%\\lowland-start.cmd)",
       "wer": "ich"
-    },
-    {
-      "text": "Rückmeldung: Elite-Gegner und Beute passend? Rätsel zu schwer? Dazu Esc-Test",
-      "wer": "ich"
     }
   ],
-  "aktualisiert": "2026-10-27",
+  "aktualisiert": "2026-11-06",
   "aktualisiertVon": "claude"
 }

@@ -5,7 +5,7 @@
   "typ": "business",
   "beschreibung": "Online Geld verdienen, nur mit digitalen Produkten, die Claude selbst herstellen kann. Zwei Projekte laufen parallel, für jedes schlägt Claude 5 Ideen vor und Christoph wählt aus.",
   "status": "aktiv",
-  "stand": "Kinderlinie mit Figur Pino gewählt: Plan, Figurenblatt, 5 Geschichten, Referenzbild (PR #1-#4 gemergt).",
+  "stand": "Neustart 18.10.: kleine Browser-Spiele für Portale (Repo MoneyProjekttry, spiele/). Der Abstieg: Version 36 (6.11., Pakte am Altar), davor Schicksalspunkte, Welten mit Eigenheiten, Hauptleute, Build-Anzeige; Bot-PRs der Nacht (8 Kombos, 3 Begleiter, 6 Gegner) sind drin; der Thread baut Krüge, Mimik-Truhe und Goldwicht. Zwergen-Mine: Version 6 (5.11.) mit Endboss auf Tiefe 150, Kronen, Fördertürmen und Karte mit Vulkan (Christophs Block-Idee, Runde 1); 3 Bot-PRs (besondere Felsen, frecher Maulwurf, Fundstücke) warten auf die Prüfung. Heute Nacht 4 Bot-Aufgaben: Abstieg Ereignisse und Einzelstücke, Mine Schicht-Looks und Tagesziele.",
   "markierung": "mehr-ki",
   "markierungGeprueft": true,
   "zuletztGeaendert": "2026-10-16",
@@ -27,14 +27,22 @@
   "struktur": [],
   "naechsteAufgaben": [
     {
-      "text": "15 Geschichtenbilder mit dem Referenzbild erzeugen",
+      "text": "Zwergen-Mine Version 6 spielen (Kronen, Vulkan) und sagen, ob Runde 2 (Gletscher, Grotte, Kronen-Laden) starten soll",
+      "wer": "ich"
+    },
+    {
+      "text": "Zwergen-Mine: Bot-PRs #48/#51/#53 prüfen und mergen, Version 7 bereitstellen",
       "wer": "ki"
     },
     {
-      "text": "Vertonung nach dem B17-Ablauf",
+      "text": "Der Abstieg: Bot-PRs der Nacht 6./7.11. prüfen und mergen (Manager #113, #116)",
       "wer": "ki"
+    },
+    {
+      "text": "Zwergen-Mine bei CrazyGames einreichen",
+      "wer": "ich"
     }
   ],
-  "aktualisiert": "2026-10-17",
+  "aktualisiert": "2026-11-06",
   "aktualisiertVon": "claude"
 }
