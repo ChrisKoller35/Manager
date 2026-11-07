@@ -5,7 +5,7 @@
   "typ": "game",
   "beschreibung": "Fantasy-Aufbauspiel im Browser (City Builder + RPG-Expeditionen). Dient als Vorlage für das Third-Person-Game Lowland.",
   "status": "aktiv",
-  "stand": "6.11.2026: Raid «Über dem Tag» gegen Zenit, das Uhrwerk, für 4 bis 10 Helden (PR #64), zwei neue Dungeons ganz oben (#61), Wiedergeburt bei jedem Sturz (#62); aus der Bot-Nacht: Beute aus der Truhe gleich anlegen, Vorräte im Kampf am Handy, bessere Lesbarkeit, Lager-Kacheln antippbar (#60/#63/#65/#66, 860 Tests grün). Der Thread baut Lehrlinge und Raid-Stufe II (bis 15 Helden). Heute Nacht 2 Bot-Aufgaben: Erfolge zahlen Kristallsplitter aus, aktive Tränke mit Restdauer. Bot-Schwerpunkt seit 5.11.: etwa 2 Aufträge je Nacht.",
+  "stand": "6.11.2026 (PR #74, 986 Tests, PC nachgezogen): Raid I «Über dem Tag» (4-10 Helden), Raid II «Die dreizehnte Stunde» (10-15), Raid III «Das Kuckucksei» (15-20, der Kuckuck pickt den Schwächsten), Lehrlinge und Gesellen ab Stufe 15, zwei neue Dungeons ganz oben, Wiedergeburt bei jedem Sturz, Feineichung, Tastatur und Handy, Alrunas Liste; aus den Bot-Nächten: Truhen-Beute gleich anlegen, Vorräte im Kampf, Lesbarkeit, Lager-Kacheln. Seit 6.11. abends PAUSE: Christoph testet, keine neuen Arbeiten bis «go». Nacht 6./7.11. vom Bot: Erfolge zahlen Kristallsplitter aus (PR #75), aktive Tränke mit Restdauer (PR #76), Prüfung durch den Thread.",
   "markierung": "mehr-ki",
   "markierungGeprueft": true,
   "zuletztGeaendert": "2026-03-31",
@@ -46,22 +46,22 @@
   ],
   "naechsteAufgaben": [
     {
-      "text": "Im Magic-City-Thread antworten: Zweitbesetzung bauen (1, Empfehlung) oder bei 10 Helden bleiben (2); PC-Ordner nachziehen ja/nein",
+      "text": "Am PC spielen: Gildenstadt, Raid I-III, Lehrlinge; Rückmeldung und «go»",
       "wer": "ich"
     },
     {
-      "text": "Bot-PRs der Nacht 6./7.11. prüfen und mergen (Manager #115, #118)",
+      "text": "Antworten: Zahlenformat (1 Schweizer 15'250, Empf. / 2 deutsch / 3 lassen), Lehrling-Bilder 10 Stk. ca. 0.60 USD (1 ja / 2 nein), Dungeon-Bilder (1 alle 14 ca. 0.85 USD, Empf. / 2 nur 4 / 3 keine)",
+      "wer": "ich"
+    },
+    {
+      "text": "Bot-PRs #75/#76 prüfen und mergen (Manager #115, #118)",
       "wer": "ki"
-    },
-    {
-      "text": "Gildenstadt und Raid am PC anschauen",
-      "wer": "ich"
     },
     {
       "text": "Altes Repo Aufbauspiel archivieren (GitHub, Settings ganz unten)",
       "wer": "ich"
     }
   ],
-  "aktualisiert": "2026-11-06",
+  "aktualisiert": "2026-11-07",
   "aktualisiertVon": "claude"
 }

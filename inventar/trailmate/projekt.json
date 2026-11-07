@@ -5,7 +5,7 @@
   "typ": "app",
   "beschreibung": "Wander-App mit Karten, GPS-Tracking, Social-Feed und Wanderpartner-Matching.",
   "status": "aktiv",
-  "stand": "PR #1-#57 auf main. Die 7 Bot-PRs der Nacht 27./28.10. (#58-#64: Tour nach Absturz fortsetzen, Passwort zurücksetzen, Höhenprofil in Metern, Datenschutz-Übersicht, Tour als Route veröffentlichen, Highlight-Touren, Touren-Karte) warten seit der Pause auf die Prüfung; der TrailMate-Thread ist am 6.11. darum gebeten. Seit 5.11. keine neuen Bot-Aufträge für TrailMate (Bot-Schwerpunkt Abstieg, Mine, Magic City). Datenbank-Regeln 012-025 warten darauf, eingespielt zu werden (online erst bis 011).",
+  "stand": "PR #1-#65 auf main (6.11. gemergt: Tour nach Absturz fortsetzen, Passwort zurücksetzen, Höhenprofil in Metern, Datenschutz-Seite, Tour als Route veröffentlichen, Highlight-Touren wählen, Touren-Karte in der Statistik). Datenbank-Regeln 012-025 warten darauf, eingespielt zu werden (online erst bis 011). Vorerst keine neuen Bot-Aufgaben für TrailMate.",
   "markierung": "mehr-ki",
   "markierungGeprueft": true,
   "zuletztGeaendert": "2026-10-16",
@@ -34,8 +34,8 @@
       "wer": "ich"
     },
     {
-      "text": "Bot-PRs #58-#64 prüfen und mergen (Manager #95-#101)",
-      "wer": "ki"
+      "text": "Im Supabase-Dashboard die zwei Redirect-URLs für «Passwort zurücksetzen» eintragen (steht im TrailMate-Thread)",
+      "wer": "ich"
     },
     {
       "text": "Apple- und Google-Entwicklerkonto anlegen",
