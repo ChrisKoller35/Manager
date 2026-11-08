@@ -5,7 +5,7 @@
   "typ": "game",
   "beschreibung": "Third-Person-Fantasy-Game, aufgebaut auf der Vorlage Magic City.",
   "status": "aktiv",
-  "stand": "Version 0.67.0 (6.11., alles im Repo und auf dem PC): Hof-Leben ausgebaut mit Hühnerstall, Markttag, Rühren, Weizen und Pfannkuchen, Hildes «Goldene Ähren», Fischbuch, Bienenstock, Bestellungen mit Dorf-Ruf, Laterne, Sense, Botengänge, Kochbuch, Schatzsuche, Metfass, Apfelbäumchen, Siebzehn bei Bruno, Sprüche der Dorfleute, Vogelscheuche und Schindel-/Turmdächer. Protokoll 53, Spielstand 23, 452 Tests. PC auf 0.67.0 (Sicherung saves\\welt.vor-0.67.db). Seit 6.11. abends PAUSE: Christoph testet, keine neuen Arbeiten bis «go». Nacht-Bot darf ab 7.11. kleine Lowland-Aufträge bauen.",
+  "stand": "Version 0.67.0 (6.11., alles im Repo und auf dem PC): Hof-Leben ausgebaut mit Hühnerstall, Markttag, Rühren, Weizen und Pfannkuchen, Hildes «Goldene Ähren», Fischbuch, Bienenstock, Bestellungen mit Dorf-Ruf, Laterne, Sense, Botengänge, Kochbuch, Schatzsuche, Metfass, Apfelbäumchen, Siebzehn bei Bruno, Sprüche der Dorfleute, Vogelscheuche und Schindel-/Turmdächer. Protokoll 53, Spielstand 23, 452 Tests. PC auf 0.67.0 (Sicherung saves\\welt.vor-0.67.db). Seit 6.11. abends PAUSE: Christoph testet, keine neuen Arbeiten bis «go». Nacht-Bot baut seit 7.11. kleine Lowland-Aufträge: Bratapfel und Pilzomelett (PR #143, Version 0.68.0) in Prüfung.",
   "markierung": "mehr-ki",
   "markierungGeprueft": true,
   "zuletztGeaendert": "2026-10-17",
@@ -43,6 +43,6 @@
       "wer": "ki"
     }
   ],
-  "aktualisiert": "2026-11-07",
+  "aktualisiert": "2026-11-08",
   "aktualisiertVon": "claude"
 }

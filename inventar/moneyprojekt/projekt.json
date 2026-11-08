@@ -5,7 +5,7 @@
   "typ": "business",
   "beschreibung": "Online Geld verdienen, nur mit digitalen Produkten, die Claude selbst herstellen kann. Zwei Projekte laufen parallel, für jedes schlägt Claude 5 Ideen vor und Christoph wählt aus.",
   "status": "aktiv",
-  "stand": "Kleine Browser-Spiele für Portale (Repo MoneyProjekttry, spiele/). Der Abstieg: Version 45 (6.11., PC nachgezogen): Schicksalspunkte, Pakte, Krüge/Mimik/Goldwicht, «Der Ausgang» (Sieg auf Ebene 24, Grade 1-10), Tiere auf Reise, Zuschauer und Gönner, Tageswunsch, Tageswelt; dazu Bot-Nächte mit Kombos, Begleitern, Gegnern. Zwergen-Mine: Version 8 (6.11.): Endboss «Herz des Berges» auf Tiefe 150, Kronen, Fördertürme, Karte mit Vulkan, Runde 2 mit Gletscher, Grotte und Kronen-Laden; Bot-Nächte: Felsen, Maulwurf, Fundstücke. Seit 6.11. abends PAUSE: Christoph testet, keine neuen Arbeiten bis «go». Nacht 6./7.11. vom Bot: Abstieg Ereignisse (PR #66) und Einzelstücke (PR #68), Mine Schicht-Looks (PR #67) und Tagesziele (PR #69), Prüfung durch die Threads.",
+  "stand": "Kleine Browser-Spiele für Portale (Repo MoneyProjekttry, spiele/). Der Abstieg: Version 47 (7.11.; PC auf Version 45): Schicksalspunkte, Pakte, Krüge/Mimik/Goldwicht, «Der Ausgang» (Sieg auf Ebene 24, Grade 1-10), Tiere auf Reise, Zuschauer und Gönner, Tageswunsch, Tageswelt; dazu Bot-Nächte mit Kombos, Begleitern, Gegnern. Zwergen-Mine: Version 9 (7.11.; PC auf Version 8): Endboss «Herz des Berges» auf Tiefe 150, Kronen, Fördertürme, Karte mit Vulkan, Runde 2 mit Gletscher, Grotte und Kronen-Laden; Bot-Nächte: Felsen, Maulwurf, Fundstücke. Seit 6.11. abends PAUSE: Christoph testet, keine neuen Arbeiten bis «go». Bot-Nacht 6./7.11. ist eingebaut (Ereignisse, Einzelstücke, Schicht-Looks, Tagesziele). Nacht 7./8.11.: Abstieg Ebenen-Aufgaben (PR #72) und Gönner (PR #74), Mine Zwergen-Sprüche (PR #73), in Prüfung.",
   "markierung": "mehr-ki",
   "markierungGeprueft": true,
   "zuletztGeaendert": "2026-10-16",
@@ -27,11 +27,11 @@
   "struktur": [],
   "naechsteAufgaben": [
     {
-      "text": "Der Abstieg Version 45 und Zwergen-Mine Version 8 spielen (Artifact-Links im Thread), Rückmeldung und «go»",
+      "text": "Der Abstieg Version 47 und Zwergen-Mine Version 9 spielen (Artifact-Links im Thread), Rückmeldung und «go»",
       "wer": "ich"
     },
     {
-      "text": "Bot-PRs #66/#68 (Abstieg) und #67/#69 (Mine) prüfen, mergen, Artifacts erneuern",
+      "text": "Bot-PRs #72/#74 (Abstieg) und #73 (Mine) prüfen, mergen, Artifacts erneuern",
       "wer": "ki"
     },
     {
@@ -39,6 +39,6 @@
       "wer": "ich"
     }
   ],
-  "aktualisiert": "2026-11-07",
+  "aktualisiert": "2026-11-08",
   "aktualisiertVon": "claude"
 }

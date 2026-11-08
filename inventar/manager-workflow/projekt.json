@@ -5,7 +5,7 @@
   "typ": "tool",
   "beschreibung": "Manager plant jeden Morgen im Claude-Projekt, der KI-Bot (GitHub Actions, API-Guthaben) arbeitet nachts Aufgaben als PRs ab.",
   "status": "aktiv",
-  "stand": "Seit 6.11. abends PAUSE (Christoph): keine selbständigen Arbeiten in den Threads bis «go»; er testet alles am PC. Nur der Nacht-Bot läuft weiter, ab 7.11. an vier Spielen (Lowland, Der Abstieg, Magic City, Zwergen-Mine), rund 6 Aufträge je Nacht, Budget 195 USD bis 30.11. ganz aufbrauchen (ca. 7.50 USD je Tag). Nacht 6./7.11.: 6 Aufträge für 5.49 USD, Monat 20.06 von 195 USD. Morgen-Planung täglich 07:12 fasst nur noch die Bot-Nacht zusammen und lässt die PRs prüfen. TAEHRON-Routinen bis Mo 9.11. aus. Supabase-Wachhalter schlägt seit 31.10. fehl (TAEHRON und TrailMate antworten nicht). Wochenrückblick 19.-25.10. mit 2 Vorschlägen wartet auf Christophs Okay.",
+  "stand": "Seit 6.11. abends PAUSE (Christoph): keine selbständigen Arbeiten in den Threads bis «go»; er testet alles am PC. Nur der Nacht-Bot läuft weiter, ab 7.11. an vier Spielen (Lowland, Der Abstieg, Magic City, Zwergen-Mine), rund 6 Aufträge je Nacht, Budget 195 USD bis 30.11. ganz aufbrauchen (ca. 7.50 USD je Tag). Nächte 6./7. und 7./8.11.: je 6 Aufträge für rund 5.50 USD, alle vom 6./7. schon eingebaut; Monat 25.54 von 195 USD. Wochenrückblick 2.-8.11. in MANAGER.md mit 2 neuen Vorschlägen (Daten-Korrekturen beim Prüfen, Wachhalter-Meldung). Morgen-Planung täglich 07:12 fasst nur noch die Bot-Nacht zusammen und lässt die PRs prüfen. TAEHRON-Routinen bis Mo 9.11. aus. Supabase-Wachhalter schlägt seit 31.10. fehl (TAEHRON und TrailMate antworten nicht). Wochenrückblick 19.-25.10. mit 2 Vorschlägen wartet auf Christophs Okay.",
   "markierung": "mehr-ki",
   "markierungGeprueft": true,
   "zuletztGeaendert": "2026-10-15",
@@ -38,7 +38,7 @@
       "wer": "ich"
     },
     {
-      "text": "Vorschläge aus dem Wochenrückblick: Okay oder nicht (Projektkarte nur im Inventar, TrailMate-Datenbankregeln automatisch)",
+      "text": "Vorschläge aus den Wochenrückblicken: Okay oder nicht (Projektkarte nur im Inventar, TrailMate-Datenbank über GitHub, Daten-Korrekturen beim Prüfen, Wachhalter-Meldung)",
       "wer": "ich"
     },
     {
@@ -50,6 +50,6 @@
       "wer": "ki"
     }
   ],
-  "aktualisiert": "2026-11-07",
+  "aktualisiert": "2026-11-08",
   "aktualisiertVon": "claude"
 }

@@ -5,7 +5,7 @@
   "typ": "game",
   "beschreibung": "Fantasy-Aufbauspiel im Browser (City Builder + RPG-Expeditionen). Dient als Vorlage für das Third-Person-Game Lowland.",
   "status": "aktiv",
-  "stand": "6.11.2026 (PR #74, 986 Tests, PC nachgezogen): Raid I «Über dem Tag» (4-10 Helden), Raid II «Die dreizehnte Stunde» (10-15), Raid III «Das Kuckucksei» (15-20, der Kuckuck pickt den Schwächsten), Lehrlinge und Gesellen ab Stufe 15, zwei neue Dungeons ganz oben, Wiedergeburt bei jedem Sturz, Feineichung, Tastatur und Handy, Alrunas Liste; aus den Bot-Nächten: Truhen-Beute gleich anlegen, Vorräte im Kampf, Lesbarkeit, Lager-Kacheln. Seit 6.11. abends PAUSE: Christoph testet, keine neuen Arbeiten bis «go». Nacht 6./7.11. vom Bot: Erfolge zahlen Kristallsplitter aus (PR #75), aktive Tränke mit Restdauer (PR #76), Prüfung durch den Thread.",
+  "stand": "6.11.2026 (PR #74, 986 Tests, PC nachgezogen): Raid I «Über dem Tag» (4-10 Helden), Raid II «Die dreizehnte Stunde» (10-15), Raid III «Das Kuckucksei» (15-20, der Kuckuck pickt den Schwächsten), Lehrlinge und Gesellen ab Stufe 15, zwei neue Dungeons ganz oben, Wiedergeburt bei jedem Sturz, Feineichung, Tastatur und Handy, Alrunas Liste; aus den Bot-Nächten: Truhen-Beute gleich anlegen, Vorräte im Kampf, Lesbarkeit, Lager-Kacheln. Seit 6.11. abends PAUSE: Christoph testet, keine neuen Arbeiten bis «go». Eingebaut 7.11.: Erfolge zahlen Kristallsplitter aus, aktive Tränke mit Restdauer (995 Tests). Nacht 7./8.11.: Kopfhinweise immer sichtbar (PR #77) und Ebene 13 «Das Nichts da oben» (PR #78), in Prüfung.",
   "markierung": "mehr-ki",
   "markierungGeprueft": true,
   "zuletztGeaendert": "2026-03-31",
@@ -54,7 +54,7 @@
       "wer": "ich"
     },
     {
-      "text": "Bot-PRs #75/#76 prüfen und mergen (Manager #115, #118)",
+      "text": "Bot-PRs #77/#78 prüfen und mergen (Manager #121, #124)",
       "wer": "ki"
     },
     {
@@ -62,6 +62,6 @@
       "wer": "ich"
     }
   ],
-  "aktualisiert": "2026-11-07",
+  "aktualisiert": "2026-11-08",
   "aktualisiertVon": "claude"
 }
