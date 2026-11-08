@@ -160,6 +160,33 @@ Er darf auch vorschlagen, Regeln zu streichen.
 Im Sonntags-Bericht fragt der Manager Christoph auch, wann sein PC in der kommenden Woche ungefähr morgens und abends
 an ist. Die Antwort gilt für die Woche: Fragen und Arbeiten, die den PC brauchen, plant er in diese Zeiten.
 
+### Woche vom 2026-11-02 (2.-8.11., Neustart am 5.11.)
+- Erledigt: Bis 4.11. Pause (Christophs Wunsch vom 27.10.), Neustart am 5.11. mit neuem Schwerpunkt (Abstieg,
+  Zwergen-Mine, Magic City, Lowland; PR #102). Drei Bot-Nächte: 5./6.11. 10 Aufträge (14.57 USD), 6./7.11. und 7./8.11.
+  je 6 Aufträge (5.49 und 5.48 USD), alle 22 als PR, 16 davon geprüft und eingebaut, 6 in Prüfung. Threads am 5./6.11.
+  (alles im Repo, auf Christophs Wort ohne Rückfrage gemergt): Magic City #61-#78 (Ebene 11+12, Raid I-III,
+  Lehrlinge, Feineichung), Lowland 0.38 auf 0.67 (#105-#142: Welt easy, Hof-Leben, Minigames, Dächer), Der Abstieg
+  V29 auf V47 (Schicksal, Pakte, Gönner, Tageswelt), Zwergen-Mine V5 auf V9 (Endboss, Kronen, Runde 2), TrailMate
+  #58-#65 geprüft und gemergt. PC-Abgleich am 6.11., seither Pause: Christoph testet, nur der Nacht-Bot arbeitet.
+- Kosten: November bis 8.11. 25.54 von 195 USD (Bot), Plan bis heute 52 USD, Ampel grün. Oktober 100.24 von 190.
+- Gut gelaufen: Der neue Zuschnitt (je 2 kleine Aufträge je Spiel, Entwürfe mit Datei- und Zeilenangaben) gibt
+  saubere PRs von 20-240 Zeilen für 0.3-2 USD; die Prüf-Threads finden die Fehler (Abstieg #68: drei Stücke ohne
+  wirksamen Haken) und bessern Daten selbst nach. Der erste Lowland-Bot-PR (#143) kam mit Prüfhäkchen durch. Die
+  Entwürfe für die Nacht entstehen mit vier parallelen Helfern in rund acht Minuten.
+- Nicht gut gelaufen: In Auftrag #116 standen Zahlen, die im Spiel nicht aufgehen (Leben-Malus verschwindet ab
+  Ebene 2, Glück wirkt nirgends); Lehre: Haken nur mit Werten, die das Spiel wirklich rechnet. Der Supabase-
+  Wachhalter ist seit 31.10. rot (TAEHRON und TrailMate antworten nicht), gemeldet erst am 7.11. Der PC war morgens
+  meist aus, die Karten kommen dann einen Tag später. Alle Spiele sind am PC ungespielt, bis Christoph testet.
+- Nächste Woche anders: Wachhalter-Fehler jeden Morgen prüfen und beim ersten Mal melden. Abstieg-Aufträge nur mit
+  Werten aus `derived`. Während der Pause bleibt die Morgen-Planung bei einer Zeile plus Bot-Prüfung.
+- Vorschläge an Christoph (ändern oder streichen):
+  1. **Daten-Korrekturen beim Prüfen:** Ein Prüf-Thread darf in einem Bot-PR kleine Daten- oder Textfehler (bis etwa
+     10 Zeilen) selbst korrigieren und dann mergen, statt den Bot nochmals zu bemühen oder zu fragen. So lief es am
+     7.11. bei Abstieg #68; als Regel unter «Arbeitsregeln» festhalten.
+  2. **Wachhalter mit Meldung:** Schlägt der Supabase-Wachhalter zweimal hintereinander fehl, steht es automatisch im
+     nächsten Morgen-Bericht unter «Hängt» (Regel unter «Tagesablauf»).
+  3. Die zwei Vorschläge vom 25.10. (Projektkarte nur im Inventar, TrailMate-Datenbank über GitHub) warten weiter.
+
 ### Woche vom 2026-10-19 (19.-25.10.)
 - Erledigt: Lowland mit Schwerpunkt Leistung und lesbare Kämpfe (seit 21.10.) von 0.29 auf 0.36.1: Loot-Sets,
   Turm-Gegner, Startgebiet, Geheimräume mit Truhen, Agents nach Thema mit Prüfung je PR, rote Schweife an
