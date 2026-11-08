@@ -106,6 +106,11 @@ Lowland-Kampf-Thread am nächsten Tag. Weiterhin rund 6 Aufträge pro Nacht, jet
 Die Morgen-Planung fordert während der Pause keine neuen Threads und keine 1/2/3-Vorschläge an, sondern fasst
 die Bot-Ergebnisse in einer Zeile zusammen und lässt die Bot-PRs prüfen.
 
+BOT GESTOPPT seit 8.11.2026 20:20 (Christoph: «du kannst den bot auch mal stopen … melde mich dann»): Die sieben
+vorbereiteten Aufträge #125-#131 haben kein Label `ki-bot` mehr; der Zeitplan läuft weiter, findet aber nichts und
+kostet nichts. Die Morgen-Planung prüft nur, dass nichts gelaufen ist, und legt keine neuen Aufträge an. Wieder
+einschalten: Christoph sagt «Bot wieder an», der Manager setzt das Label `ki-bot` wieder auf die offenen Aufträge.
+
 ## Erlaubte Repos für den Bot
 
 Trailmate, lowland, MoneyProjekttry, Ideenkarte, Aufbauspiel-New (Magic City, seit 17.10.) (Liste `ERLAUBTE_REPOS` in `.github/workflows/ki-bot.yml`).
