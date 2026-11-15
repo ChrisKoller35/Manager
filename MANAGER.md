@@ -165,6 +165,26 @@ Er darf auch vorschlagen, Regeln zu streichen.
 Im Sonntags-Bericht fragt der Manager Christoph auch, wann sein PC in der kommenden Woche ungefähr morgens und abends
 an ist. Die Antwort gilt für die Woche: Fragen und Arbeiten, die den PC brauchen, plant er in diese Zeiten.
 
+### Woche vom 2026-11-09 (9.-15.11., Pause)
+- Erledigt: Ganze Woche Pause auf Christophs Wunsch (8.11.: keine Zeit zum Testen). Nacht-Bot seit 8.11. gestoppt
+  (Aufträge ohne Label, Zeitplan läuft leer), null Läufe mit Arbeit, null Kosten. Einzige Ausnahme: Christophs
+  Zeitfenster am Fr 13.11. 12:30-14:10, in dem die Spiel-Threads die geparkten Aufträge selbst erledigt haben:
+  Der Abstieg V48 auf V52 (Glück wirkt, Einzelstücke, Stufenaufstieg), Magic City Nachbesserungen Kopfhinweise und
+  Ebene 13 plus Dungeonkarte oben (master 59a5db6), Zwergen-Mine V10 auf V22 (Kobold-Krämer und mehr). Übrig:
+  Manager #128 «Brot als Köder» (Lowland). Alle Spiele am PC seit 6.11. nicht nachgezogen.
+- Kosten: November bis 15.11. 25.54 von 195 USD (Bot), Plan bis heute 97.50 USD; Ampel grün, aber das Guthaben
+  bleibt diesen Monat weitgehend ungenutzt, solange der Bot steht (Tagesbudget inzwischen 10.59 USD).
+- Gut gelaufen: Stopp und Pause liessen sich in Minuten umsetzen, ohne etwas abzubauen. Die Threads konnten im
+  Zeitfenster sofort wieder loslegen und haben sechs Bot-Aufträge in zwei Stunden ersetzt.
+- Nicht gut gelaufen: Der Supabase-Wachhalter ist weiter rot (seit 31.10.), beide Datenbanken antworten nicht.
+  Die Vorschläge vom 25.10. und 8.11. sind noch unbeantwortet.
+- Nächste Woche anders: Nichts, solange die Pause gilt. Nach dem «go»: Bot mit Aufträgen gegen den neuen Stand
+  (V52, 59a5db6, V22) neu bestücken, weil die alten Entwürfe veraltet sind.
+- Vorschläge an Christoph (ändern oder streichen):
+  1. **Stopp-Wort im Regelblatt:** Unter «Tagesablauf» festhalten, dass «Bot stoppen» = Label `ki-bot` weg und
+     «Bot wieder an» = Label zurück bedeutet, damit jeder Thread es gleich macht. (Steht heute nur als Vermerk.)
+  2. Die vier Vorschläge vom 25.10. und 8.11. warten weiter.
+
 ### Woche vom 2026-11-02 (2.-8.11., Neustart am 5.11.)
 - Erledigt: Bis 4.11. Pause (Christophs Wunsch vom 27.10.), Neustart am 5.11. mit neuem Schwerpunkt (Abstieg,
   Zwergen-Mine, Magic City, Lowland; PR #102). Drei Bot-Nächte: 5./6.11. 10 Aufträge (14.57 USD), 6./7.11. und 7./8.11.
